@@ -1,5 +1,7 @@
 # westegg
 
+[![CircleCI](https://circleci.com/gh/adrw/westegg.svg?style=svg)](https://circleci.com/gh/adrw/westegg)
+
 ## Projects
 
 - @westegg/cli: CLI tool for managing Gatsby repos
