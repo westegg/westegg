@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Update dependencies
+          name: Updating...
           command: node common/scripts/install-run-rush.js update
       - run:
           name: Checking for inconsistent dependency versions
