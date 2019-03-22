@@ -252,6 +252,11 @@
    */
   "projects": [
     {
+      "packageName": "westegg-photo-blog",
+      "projectFolder": "samples/photo-blog",
+      "shouldPublish": false
+    },
+    {
       "packageName": "cook.adrw.xyz",
       "projectFolder": "sites/cook.adrw.xyz",
       "shouldPublish": false
