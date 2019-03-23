@@ -252,6 +252,16 @@
    */
   "projects": [
     {
+      "packageName": "@westegg/core",
+      "projectFolder": "@westegg/core",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@westegg/dev",
+      "projectFolder": "@westegg/dev",
+      "shouldPublish": false
+    },
+    {
       "packageName": "westegg-city-limits",
       "projectFolder": "samples/westegg-city-limits",
       "shouldPublish": false

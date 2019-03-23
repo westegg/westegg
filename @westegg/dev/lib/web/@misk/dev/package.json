@@ -1,0 +1,45 @@
+{
+  "name": "@westegg/dev",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Westegg Dev Dependencies",
+  "author": "Andrew Alexander (adrw)",
+  "main": "lib/dev.js",
+  "engines": {
+    "yarn": "YARN NO LONGER USED - use npm instead."
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:square/misk-web.git"
+  },
+  "scripts": {
+    "build": "npm run-script lint && npm run-script lib",
+    "clean": "rm -rf lib node_modules package-lock.json",
+    "ci-build": "npm run-script clean && npm run-script lib",
+    "lib": "mkdir -p lib/web/@misk/dev && cp *.json *.js *.md lib/web/@misk/dev",
+    "lint": "prettier --write --config package.json \".{/src/**/,/}*.{md,css,sass,less,json,js,jsx,ts,tsx}\"",
+    "prepare": "npm run-script ci-build"
+  },
+  "dependencies": {
+    "core-js": "^2.0.0",
+    "http-proxy-middleware": "^0.19.1",
+    "netlify-lambda": "^1.4.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.2"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  }
+}
