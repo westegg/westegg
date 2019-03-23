@@ -11,7 +11,9 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
+        <title>
+          {title} | {description}
+        </title>
         <meta name="description" content={description} />
 
         <link
@@ -22,13 +24,13 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="icon"
           type="image/png"
-          href="/img/favicon-32x32.png"
+          href="/img/xyz-hourglass.png"
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href="/img/favicon-16x16.png"
+          href="/img/xyz-hourglass.png"
           sizes="16x16"
         />
 
@@ -45,7 +47,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div style={{ minHeight: "50rem" }}>{children}</div>
       <Footer />
     </div>
   )

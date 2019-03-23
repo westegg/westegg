@@ -6,6 +6,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link, graphql, StaticQuery } from "gatsby"
 import Img from "gatsby-image"
+import { Tags } from "./Tags"
 
 const styles = theme => ({
   root: {
@@ -53,7 +54,12 @@ class BlogRoll extends React.Component {
                 )}
                 <GridListTileBar
                   title={post.frontmatter.title}
-                  subtitle={<span>{post.frontmatter.date}</span>}
+                  subtitle={
+                    <span style={{ height: "2rem" }}>
+                      {post.frontmatter.date} |{" "}
+                      <Tags tags={post.frontmatter.tags} />
+                    </span>
+                  }
                 />
               </Link>
             </GridListTile>
@@ -91,6 +97,7 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                tags
                 date(formatString: "MMMM DD, YYYY")
                 image {
                   childImageSharp {
