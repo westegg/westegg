@@ -262,6 +262,11 @@
       "shouldPublish": false
     },
     {
+      "packageName": "travel.adrw.xyz",
+      "projectFolder": "sites/travel.adrw.xyz",
+      "shouldPublish": false
+    },
+    {
       "packageName": "suziealexander.com",
       "projectFolder": "sites/suziealexander.com",
       "shouldPublish": false
