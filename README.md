@@ -9,11 +9,10 @@
 
 ## Samples
 
-- photo-blog: Gatsby theme featuring photo grid homepage built in Typescript
+- westegg-city-limits: Full theme showcasing all Westegg has to offer
 
 ## Deployed Sites
 
-- adrw.xyz
 - cook.adrw.xyz
 - travel.adrw.xyz
 - suziealexander.com

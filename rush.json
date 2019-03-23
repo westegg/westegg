@@ -252,8 +252,8 @@
    */
   "projects": [
     {
-      "packageName": "westegg-photo-blog",
-      "projectFolder": "samples/photo-blog",
+      "packageName": "westegg-city-limits",
+      "projectFolder": "samples/westegg-city-limits",
       "shouldPublish": false
     },
     {
