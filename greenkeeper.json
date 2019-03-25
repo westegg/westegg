@@ -1,0 +1,16 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "@westegg/core/package.json",
+        "@westegg/dev/lib/package.json",
+        "@westegg/dev/lib/web/@misk/dev/package.json",
+        "@westegg/dev/package.json",
+        "samples/westegg-city-limits/package.json",
+        "sites/cook.adrw.xyz/package.json",
+        "sites/suziealexander.com/package.json",
+        "sites/travel.adrw.xyz/package.json"
+      ]
+    }
+  }
+}
