@@ -24,12 +24,17 @@
     "prepare": "npm run-script ci-build"
   },
   "dependencies": {
-    "core-js": "^3.0.0",
+    "core-js": "^2.0.0",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^1.16.4",
     "rimraf": "^2.6.2"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "core-js"
+    ]
   },
   "prettier": {
     "arrowParens": "avoid",
