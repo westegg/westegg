@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "samples/westegg-city-limits/package.json",
+        "sites/cook.adrw.xyz/package.json",
+        "sites/suziealexander.com/package.json",
+        "sites/travel.adrw.xyz/package.json"
+      ]
+    }
+  }
+}
