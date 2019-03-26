@@ -6,7 +6,7 @@
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "bulma": "^0.7.4",
-    "core-js": "^3.0.0",
+    "core-js": "^2.0.0",
     "gatsby": "^2.2.11",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-netlify": "^2.0.13",
