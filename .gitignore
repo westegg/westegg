@@ -43,9 +43,6 @@ jspm_packages/
 # Optional REPL history
 .node_repl_history
 
-# Output of 'npm pack'
-*.tgz
-
 # Yarn Integrity file
 .yarn-integrity
 
@@ -58,9 +55,17 @@ jspm_packages/
 # Common toolchain intermediate files
 temp
 
-# Rush files
-common/temp/**
+# Rush files (but include projects for CI)
+!common/
+common/*
+!common/temp/
+common/temp/*
+!common/temp/projects/
+
 package-deps.json
+
+# Output of 'npm pack'
+# *.tgz
 
 # Mac files
 .DS_Store
