@@ -18,7 +18,7 @@
   "dependencies": {
     "bulma": "^0.7.4",
     "dayjs": "^1.7.7",
-    "gatsby": "^2.2.11",
+    "gatsby": "^2.3.2",
     "gatsby-image": "^2.0.35",
     "gatsby-plugin-netlify": "^2.0.13",
     "gatsby-plugin-netlify-cms": "^3.0.17",
