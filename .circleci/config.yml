@@ -7,9 +7,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Installing Sharp with --build-from-source because direct download 403s
-          command: SHARP_DIST_BASE_URL=https://s3.amazonaws.com/MYS3NAME/ npm install
-      - run:
           name: Updating...
           command: node common/scripts/install-run-rush.js update --full
       - run:
