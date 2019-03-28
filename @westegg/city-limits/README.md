@@ -1,1 +1,1 @@
-## Westegg Core
+## Westegg City Limits Theme
