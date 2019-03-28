@@ -30,6 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@westegg/city-limits": "0.0.1",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "bulma": "^0.7.4",
@@ -60,6 +61,7 @@
     "webpack-sources": "^1.3.0"
   },
   "devDependencies": {
+    "@westegg/dev": "0.0.1",
     "core-js": "^2.0.0",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.3",

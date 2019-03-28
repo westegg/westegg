@@ -1,12 +1,12 @@
 {
-  "name": "@westegg/core",
+  "name": "@westegg/city-limits",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "Westegg Core Gatsby, Typescript, React Components",
+  "description": "Westegg City Limits Gatsby, Typescript, React Theme Components",
   "author": "Andrew Alexander (adrw)",
-  "main": "lib/core/core.js",
-  "module": "lib/core/core.js",
-  "typings": "lib/core/index.d.ts",
+  "main": "lib/city-limits/city-limits.js",
+  "module": "lib/city-limits/city-limits.js",
+  "typings": "lib/city-limits/index.d.ts",
   "engines": {
     "node": ">=7.8.0",
     "yarn": "YARN NO LONGER USED - use npm instead."

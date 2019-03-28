@@ -252,8 +252,8 @@
    */
   "projects": [
     {
-      "packageName": "@westegg/core",
-      "projectFolder": "@westegg/core",
+      "packageName": "@westegg/city-limits",
+      "projectFolder": "@westegg/city-limits",
       "shouldPublish": false
     },
     {
@@ -265,22 +265,22 @@
       "packageName": "westegg-city-limits",
       "projectFolder": "samples/westegg-city-limits",
       "shouldPublish": false
-    },
-    {
-      "packageName": "cook.adrw.xyz",
-      "projectFolder": "sites/cook.adrw.xyz",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "travel.adrw.xyz",
-      "projectFolder": "sites/travel.adrw.xyz",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "suziealexander.com",
-      "projectFolder": "sites/suziealexander.com",
-      "shouldPublish": false
     }
+    // {
+    //   "packageName": "cook.adrw.xyz",
+    //   "projectFolder": "sites/cook.adrw.xyz",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "travel.adrw.xyz",
+    //   "projectFolder": "sites/travel.adrw.xyz",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "suziealexander.com",
+    //   "projectFolder": "sites/suziealexander.com",
+    //   "shouldPublish": false
+    // }
     // {
     //   /**
     //    * The NPM package name of the project (must match package.json)
