@@ -252,13 +252,18 @@
    */
   "projects": [
     {
-      "packageName": "@westegg/city-limits",
-      "projectFolder": "@westegg/city-limits",
+      "packageName": "@westegg/core",
+      "projectFolder": "@westegg/core",
       "versionPolicyName": "Westegg-Packages"
     },
     {
       "packageName": "@westegg/dev",
       "projectFolder": "@westegg/dev",
+      "versionPolicyName": "Westegg-Packages"
+    },
+    {
+      "packageName": "@westegg/city-limits",
+      "projectFolder": "@westegg/city-limits",
       "versionPolicyName": "Westegg-Packages"
     },
     {
