@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Installing Sharp with --build-from-source because direct download 403s
-          command: npm install --build-from-source sharp
+          command: npm install --build-from-source libvips sharp
       - run:
           name: Updating...
           command: node common/scripts/install-run-rush.js update --full
