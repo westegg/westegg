@@ -4,6 +4,8 @@ jobs:
     working_directory: ~/westegg
     docker:
       - image: circleci/node:10.15
+        environment:
+          SHARP_DIST_BASE_URL: https://s3-us-west-2.amazonaws.com/sharp-distro/
     steps:
       - checkout
       - run:
