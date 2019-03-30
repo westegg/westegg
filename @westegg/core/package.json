@@ -61,7 +61,7 @@
   },
   "devDependencies": {
     "@westegg/dev": "0.0.2-0",
-    "@misk/tslint": "0.1.5-18",
+    "@misk/tslint": "0.1.5-19",
     "@types/history": "^4.7.2",
     "@types/lodash": "^4.14.121",
     "@types/node": "^11.12.0",
