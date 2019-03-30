@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@westegg/city-limits": "0.0.2-0",
-    "@material-ui/core": "^3.9.2",
+    "@material-ui/core": "^3.9.3",
     "@material-ui/icons": "^3.0.2",
     "bulma": "^0.7.4",
     "gatsby": "^2.3.4",
