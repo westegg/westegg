@@ -30,7 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@westegg/city-limits": "0.0.2-0",
+    "@westegg/city-limits": "0.0.2-1",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "bulma": "^0.7.4",
