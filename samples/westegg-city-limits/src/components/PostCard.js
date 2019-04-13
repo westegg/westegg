@@ -19,7 +19,11 @@ const PostCard = ({
         {console.log(props)}
         {frontmatter.image && (
           <div className="PostCard--Image relative">
-            <Image background src={frontmatter.image.childImageSharp.src} alt={frontmatter.sl} />
+            <Image
+              background
+              src={frontmatter.image.childImageSharp.src}
+              alt={fields.slug}
+            />
           </div>
         )}
         <div className="PostCard--Content">
