@@ -31,6 +31,7 @@
   },
   "dependencies": {
     "@westegg/city-limits": "0.0.2-1",
+    "@blueprintjs/core": "^3.15.1",
     "bulma": "^0.7.4",
     "gatsby": "^2.3.4",
     "gatsby-image": "^2.0.35",
