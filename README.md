@@ -7,7 +7,8 @@
 - [![npm](https://img.shields.io/npm/v/@westegg/cli.svg?label=@westegg/cli)](https://www.npmjs.com/package/@westegg/cli) CLI tool for managing Gatsby repos
 - [![npm](https://img.shields.io/npm/v/@westegg/core.svg?label=@westegg/core)](https://www.npmjs.com/package/@westegg/core) Core shared Gatsby + React + Typescript components for use in other Westegg themes and projects
 - [![npm](https://img.shields.io/npm/v/@westegg/dev.svg?label=@westegg/dev)](https://www.npmjs.com/package/@westegg/dev) Shared Gatsby + React + Typescript development environment
-- [![npm](https://img.shields.io/npm/v/@westegg/city-limits.svg?label=@westegg/city-limits)](https://www.npmjs.com/package/@westegg/city-limits) Gatsby + React + Typescript components for use in `Westegg City Limits` theme in Gatsby websites
+- [![npm](https://img.shields.io/npm/v/@westegg/theme-cafe.svg?label=@westegg/theme-cafe)](https://www.npmjs.com/package/@westegg/theme-cafe) Gatsby + React + Typescript components for use in `Westegg Cafe` theme in Gatsby websites
+- [![npm](https://img.shields.io/npm/v/@westegg/theme-blueprint.svg?label=@westegg/theme-blueprint)](https://www.npmjs.com/package/@westegg/theme-blueprint) Gatsby + React + Typescript components for use in `Westegg Blueprint` theme in Gatsby websites
 
 ## Samples
 
