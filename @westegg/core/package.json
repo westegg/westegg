@@ -1,6 +1,6 @@
 {
   "name": "@westegg/core",
-  "version": "0.0.2-0",
+  "version": "0.0.2-1",
   "license": "MIT",
   "description": "Westegg Core Gatsby, Typescript, React Components",
   "author": "Andrew Alexander (adrw)",
@@ -30,8 +30,6 @@
     "test": "echo no tests"
   },
   "dependencies": {
-    "@material-ui/core": "^3.9.2",
-    "@material-ui/icons": "^3.0.2",
     "bulma": "^0.7.4",
     "gatsby": "^2.3.4",
     "gatsby-image": "^2.0.35",
@@ -60,7 +58,7 @@
     "webpack-sources": "^1.3.0"
   },
   "devDependencies": {
-    "@westegg/dev": "0.0.2-0",
+    "@westegg/dev": "0.0.2-1",
     "@misk/tslint": "0.1.5-19",
     "@types/history": "^4.7.2",
     "@types/lodash": "^4.14.121",
