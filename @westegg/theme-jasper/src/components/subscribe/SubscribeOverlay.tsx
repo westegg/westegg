@@ -1,13 +1,13 @@
-import * as React from 'react';
-import styled from '@emotion/styled';
+import * as React from "react"
+import styled from "@emotion/styled"
 
-import { colors } from '../../styles/colors';
-import config from '../../website-config';
-import SubscribeForm from './SubscribeForm';
-import SubscribeLogo from './SubscribeLogo';
+import { colors } from "../../styles/colors"
+import config from "../../website-config"
+import SubscribeForm from "./SubscribeForm"
+import SubscribeLogo from "./SubscribeLogo"
 
 interface SubscribeOverlayProps {
-  open?: boolean;
+  open?: boolean
 }
 
 const SubscribeOverlay = styled.div`
@@ -23,7 +23,8 @@ const SubscribeOverlay = styled.div`
   background: rgba(0, 25, 40, 0.97);
   opacity: ${(props: SubscribeOverlayProps) => (props.open ? 1 : 0)};
   transition: opacity 200ms ease-in;
-  pointer-events: ${(props: SubscribeOverlayProps) => (props.open ? 'auto' : 'none')};
+  pointer-events: ${(props: SubscribeOverlayProps) =>
+    props.open ? "auto" : "none"};
   backdrop-filter: blur(3px);
 
   form {
@@ -78,7 +79,7 @@ const SubscribeOverlay = styled.div`
 
     -webkit-font-smoothing: subpixel-antialiased;
   }
-`;
+`
 
 const SubscribeOverlayClose = styled.a`
   position: absolute;
@@ -89,7 +90,7 @@ const SubscribeOverlayClose = styled.a`
   display: block;
 
   :before {
-    content: '';
+    content: "";
     position: absolute;
     top: 40px;
     right: 25px;
@@ -102,7 +103,7 @@ const SubscribeOverlayClose = styled.a`
   }
 
   :after {
-    content: '';
+    content: "";
     position: absolute;
     top: 40px;
     right: 25px;
@@ -117,7 +118,7 @@ const SubscribeOverlayClose = styled.a`
   :hover {
     cursor: default;
   }
-`;
+`
 
 const SubscribeOverlayContent = styled.div`
   position: relative;
@@ -126,14 +127,14 @@ const SubscribeOverlayContent = styled.div`
   padding: 4vw;
   color: #fff;
   text-align: center;
-`;
+`
 
 const SubscribeOverlayTitle = styled.h1`
   display: inline-block;
   margin: 0 0 10px 0;
   font-size: 6rem;
   line-height: 1.15em;
-`;
+`
 
 const SubscribeOverlayDescription = styled.p`
   margin: 0 auto 50px;
@@ -143,45 +144,45 @@ const SubscribeOverlayDescription = styled.p`
   line-height: 1.3em;
   font-weight: 300;
   opacity: 0.8;
-`;
+`
 
 interface SubscribeState {
-  isOpen: boolean;
+  isOpen: boolean
 }
 
 class SubscribeModal extends React.Component<any, SubscribeState> {
   constructor(props: any) {
-    super(props);
-    this.state = { isOpen: false };
+    super(props)
+    this.state = { isOpen: false }
   }
 
   componentWillUnmount() {
-    this.unsubscribeEsc();
+    this.unsubscribeEsc()
   }
 
   escFunction = (event: KeyboardEvent) => {
-    if (event.key === 'Escape') {
-      this.close();
+    if (event.key === "Escape") {
+      this.close()
     }
-  };
+  }
 
   subscribeEsc() {
-    document.addEventListener('keydown', this.escFunction, false);
+    document.addEventListener("keydown", this.escFunction, false)
   }
 
   unsubscribeEsc() {
-    document.removeEventListener('keydown', this.escFunction, false);
+    document.removeEventListener("keydown", this.escFunction, false)
   }
 
   open = () => {
-    this.setState({ isOpen: true });
-    this.subscribeEsc();
-  };
+    this.setState({ isOpen: true })
+    this.subscribeEsc()
+  }
 
   close = () => {
-    this.setState({ isOpen: false });
-    this.unsubscribeEsc();
-  };
+    this.setState({ isOpen: false })
+    this.unsubscribeEsc()
+  }
 
   render() {
     return (
@@ -189,16 +190,18 @@ class SubscribeModal extends React.Component<any, SubscribeState> {
         <SubscribeOverlayClose onClick={this.close} />
         <SubscribeOverlayContent>
           <SubscribeLogo />
-          <SubscribeOverlayTitle>Subscribe to {config.title}</SubscribeOverlayTitle>
+          <SubscribeOverlayTitle>
+            Subscribe to {config.title}
+          </SubscribeOverlayTitle>
           <SubscribeOverlayDescription>
-            Stay up to date! Get all the latest &amp; greatest posts delivered straight to your
-            inbox
+            Stay up to date! Get all the latest &amp; greatest posts delivered
+            straight to your inbox
           </SubscribeOverlayDescription>
           <SubscribeForm />
         </SubscribeOverlayContent>
       </SubscribeOverlay>
-    );
+    )
   }
 }
 
-export default SubscribeModal;
+export default SubscribeModal

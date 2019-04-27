@@ -1,14 +1,14 @@
-import { graphql } from 'gatsby';
-import * as React from 'react';
-import { css } from '@emotion/core';
-import Helmet from 'react-helmet';
+import { graphql } from "gatsby"
+import * as React from "react"
+import { css } from "@emotion/core"
+import Helmet from "react-helmet"
 
-import Footer from '../components/Footer';
-import SiteNav from '../components/header/SiteNav';
-import PostCard from '../components/PostCard';
-import Wrapper from '../components/Wrapper';
-import IndexLayout from '../layouts';
-import config from '../website-config';
+import Footer from "../components/Footer"
+import SiteNav from "../components/header/SiteNav"
+import PostCard from "../components/PostCard"
+import Wrapper from "../components/Wrapper"
+import IndexLayout from "../layouts"
+import config from "../website-config"
 import {
   inner,
   outer,
@@ -18,9 +18,9 @@ import {
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
-  SiteTitle,
-} from '../styles/shared';
-import { PageContext } from '../templates/post';
+  SiteTitle
+} from "../styles/shared"
+import { PageContext } from "../templates/post"
 
 const HomePosts = css`
   @media (min-width: 795px) {
@@ -62,31 +62,35 @@ const HomePosts = css`
       padding: 0 40px 30px;
     }
   }
-`;
+`
 
 export interface IndexProps {
   data: {
     logo: {
       childImageSharp: {
-        fixed: any;
-      };
-    };
+        fixed: any
+      }
+    }
     header: {
       childImageSharp: {
-        fluid: any;
-      };
-    };
+        fluid: any
+      }
+    }
     allMarkdownRemark: {
       edges: {
-        node: PageContext;
-      }[];
-    };
-  };
+        node: PageContext
+      }[]
+    }
+  }
 }
 
 const IndexPage: React.FunctionComponent<IndexProps> = props => {
-  const width = props.data.header.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
-  const height = String(Number(width) / props.data.header.childImageSharp.fluid.aspectRatio);
+  const width = props.data.header.childImageSharp.fluid.sizes
+    .split(", ")[1]
+    .split("px")[0]
+  const height = String(
+    Number(width) / props.data.header.childImageSharp.fluid.aspectRatio
+  )
   return (
     <IndexLayout css={HomePosts}>
       <Helmet>
@@ -100,21 +104,27 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
         <meta property="og:url" content={config.siteUrl} />
         <meta
           property="og:image"
-          content={`${config.siteUrl}${props.data.header.childImageSharp.fluid.src}`}
+          content={`${config.siteUrl}${
+            props.data.header.childImageSharp.fluid.src
+          }`}
         />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
+        {config.facebook && (
+          <meta property="article:publisher" content={config.facebook} />
+        )}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
         <meta name="twitter:description" content={config.description} />
         <meta name="twitter:url" content={config.siteUrl} />
         <meta
           name="twitter:image"
-          content={`${config.siteUrl}${props.data.header.childImageSharp.fluid.src}`}
+          content={`${config.siteUrl}${
+            props.data.header.childImageSharp.fluid.src
+          }`}
         />
         {config.twitter && (
           <meta
             name="twitter:site"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
+            content={`@${config.twitter.split("https://twitter.com/")[1]}`}
           />
         )}
         <meta property="og:image:width" content={width} />
@@ -124,7 +134,9 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
         <header
           css={[outer, SiteHeader]}
           style={{
-            backgroundImage: `url('${props.data.header.childImageSharp.fluid.src}')`,
+            backgroundImage: `url('${
+              props.data.header.childImageSharp.fluid.src
+            }')`
           }}
         >
           <div css={inner}>
@@ -132,7 +144,7 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
               <SiteTitle>
                 {props.data.logo ? (
                   <img
-                    style={{ maxHeight: '45px' }}
+                    style={{ maxHeight: "45px" }}
                     src={props.data.logo.childImageSharp.fixed.src}
                     alt={config.title}
                   />
@@ -152,10 +164,10 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
                 // filter out drafts in production
                 return (
                   (post.node.frontmatter.draft !== true ||
-                    process.env.NODE_ENV !== 'production') && (
+                    process.env.NODE_ENV !== "production") && (
                     <PostCard key={post.node.fields.slug} post={post.node} />
                   )
-                );
+                )
               })}
             </div>
           </div>
@@ -165,10 +177,10 @@ const IndexPage: React.FunctionComponent<IndexProps> = props => {
         <Footer />
       </Wrapper>
     </IndexLayout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
 
 export const pageQuery = graphql`
   query {
@@ -191,9 +203,9 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: { draft: { ne: true } } },
-      limit: 1000,
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+      limit: 1000
     ) {
       edges {
         node {
@@ -233,4 +245,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

@@ -1,14 +1,14 @@
-import { Link } from 'gatsby';
-import * as _ from 'lodash';
-import * as React from 'react';
-import styled from '@emotion/styled';
+import { Link } from "gatsby"
+import * as _ from "lodash"
+import * as React from "react"
+import styled from "@emotion/styled"
 
-import { colors } from '../styles/colors';
-import { AuthorProfileImage } from '../styles/shared';
+import { colors } from "../styles/colors"
+import { AuthorProfileImage } from "../styles/shared"
 
 const AuthorCardSection = styled.section`
   display: flex;
-`;
+`
 
 const AuthorCardName = styled.h4`
   margin: 8px 0 2px 0;
@@ -23,7 +23,7 @@ const AuthorCardName = styled.h4`
   a:hover {
     text-decoration: none;
   }
-`;
+`
 
 const AuthorCardContent = styled.section`
   p {
@@ -31,10 +31,10 @@ const AuthorCardContent = styled.section`
     color: ${colors.midgrey};
     line-height: 1.3em;
   }
-`;
+`
 
 export interface AuthorCardProps {
-  author: any;
+  author: any
 }
 
 const AuthorCard: React.FunctionComponent<AuthorCardProps> = ({ author }) => {
@@ -42,7 +42,11 @@ const AuthorCard: React.FunctionComponent<AuthorCardProps> = ({ author }) => {
     <AuthorCardSection>
       {/* TODO: default avatar */}
       {/* TODO: author page url */}
-      <img css={AuthorProfileImage} src={author.avatar.children[0].fixed.src} alt={author.id} />
+      <img
+        css={AuthorProfileImage}
+        src={author.avatar.children[0].fixed.src}
+        alt={author.id}
+      />
       <AuthorCardContent>
         <AuthorCardName>
           <Link to={`/author/${_.kebabCase(author.id)}/`}>{author.id}</Link>
@@ -51,12 +55,14 @@ const AuthorCard: React.FunctionComponent<AuthorCardProps> = ({ author }) => {
           <p>{author.bio}</p>
         ) : (
           <p>
-            Read <Link to={`/author/${_.kebabCase(author.id)}/`}>more posts</Link> by this author.
+            Read{" "}
+            <Link to={`/author/${_.kebabCase(author.id)}/`}>more posts</Link> by
+            this author.
           </p>
         )}
       </AuthorCardContent>
     </AuthorCardSection>
-  );
-};
+  )
+}
 
-export default AuthorCard;
+export default AuthorCard
