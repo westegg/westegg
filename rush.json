@@ -264,12 +264,12 @@
     {
       "packageName": "@westegg/theme-blueprint",
       "projectFolder": "@westegg/theme-blueprint",
-      "versionPolicyName": "Westegg-Packages"
+      "shouldPublish": false
     },
     {
       "packageName": "@westegg/theme-cafe",
       "projectFolder": "@westegg/theme-cafe",
-      "versionPolicyName": "Westegg-Packages"
+      "shouldPublish": false
     },
     {
       "packageName": "@westegg/theme-jasper",

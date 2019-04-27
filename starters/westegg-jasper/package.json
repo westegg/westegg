@@ -11,7 +11,7 @@
   "dependencies": {
     "@westegg/theme-jasper": "*",
     "gatsby": "^2.3.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   }
 }

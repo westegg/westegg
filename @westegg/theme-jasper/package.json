@@ -10,6 +10,7 @@
     "dev": "gatsby develop",
     "lint": "eslint src/**/*.tsx src/**/*.ts",
     "lint:fix": "eslint --fix src/**/*.tsx src/**/*.ts",
+    "prepare": "npm run build",
     "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
