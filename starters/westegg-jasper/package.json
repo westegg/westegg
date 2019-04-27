@@ -9,7 +9,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@westegg/theme-jasper": "*",
+    "@westegg/theme-jasper": "^0.0.2-3",
     "gatsby": "^2.3.4",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
