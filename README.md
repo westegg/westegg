@@ -20,4 +20,4 @@ Please submit a PR and add your site if you're using Westegg!
 
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/a63ad086-fc71-4205-9b68-9eb0a29f129c/deploy-status)](https://app.netlify.com/sites/cookadrwxyz/deploys) [cook.adrw.xyz](http://g.adrw.ch/cook.adrw.xyz)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/c6152a21-a3f1-4232-bd3d-11e5a321a8f9/deploy-status)](https://app.netlify.com/sites/traveladrwxyz/deploys) [travel.adrw.xyz](http://g.adrw.ch/travel.adrw.xyz)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/08e4cc15-8174-456d-ab74-7c10b74291f9/deploy-status)](https://app.netlify.com/sites/suziealexandercom/deploys) [suziealexander.com](http://g.adrw.ch/suziealexander.com)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/08e4cc15-8174-456d-ab74-7c10b74291f9/deploy-status)](https://app.netlify.com/sites/suziealexandercom/deploys) [![Greenkeeper badge](https://badges.greenkeeper.io/adrw/westegg.svg)](https://greenkeeper.io/) [suziealexander.com](http://g.adrw.ch/suziealexander.com)
