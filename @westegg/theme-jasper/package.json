@@ -1,18 +1,19 @@
 {
   "name": "@westegg/theme-jasper",
-  "version": "0.0.2-3",
+  "version": "0.0.2-4",
   "description": "@westegg/jasper theme",
   "license": "MIT",
   "author": "Andrew Alexander (adrw)",
-  "main": "src/index.ts",
+  "main": "lib/theme-jasper/theme-jasper.js",
+  "files": [
+    "lib",
+    "gatsby-config.js",
+    "gatsby-node.js"
+  ],
   "scripts": {
-    "build": "gatsby build",
-    "clean": "rimraf public",
-    "dev": "gatsby develop",
+    "build": "webpack",
     "lint": "prettier --write --config package.json \".{/src/**/,/}*.{md,css,sass,less,json,js,jsx,ts,tsx}\"",
-    "prepare": "npm run build",
-    "start": "npm run dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build"
   },
   "peerDependencies": {
     "gatsby": "^2.3.4",
@@ -69,7 +70,26 @@
     "@typescript-eslint/parser": "^1.6.0",
     "babel-plugin-styled-components": "^1.10.0",
     "rimraf": "^2.6.2",
-    "typescript": "^3.2.2"
+    "copy-webpack-plugin": "^5.0.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-webpack-harddisk-plugin": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2",
+    "typescript-plugin-styled-components": "^1.4.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
   },
   "engines": {
     "node": ">=8.0.0"

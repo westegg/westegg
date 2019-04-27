@@ -67,6 +67,6 @@
     "webpack-sources": "^1.3.0"
   },
   "rushDependencies": {
-    "@westegg/dev": "0.0.2-3"
+    "@westegg/dev": "0.0.2-4"
   }
 }

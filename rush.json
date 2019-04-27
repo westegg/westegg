@@ -271,11 +271,11 @@
       "projectFolder": "@westegg/theme-cafe",
       "shouldPublish": false
     },
-    {
-      "packageName": "@westegg/theme-jasper",
-      "projectFolder": "@westegg/theme-jasper",
-      "versionPolicyName": "Westegg-Packages"
-    },
+    // {
+    //   "packageName": "@westegg/theme-jasper",
+    //   "projectFolder": "@westegg/theme-jasper",
+    //   "versionPolicyName": "Westegg-Packages"
+    // },
     {
       "packageName": "westegg-blueprint",
       "projectFolder": "starters/westegg-blueprint",
