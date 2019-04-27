@@ -60,7 +60,7 @@
     "webpack-sources": "^1.3.0"
   },
   "devDependencies": {
-    "@westegg/dev": "0.0.2-2",
+    "@westegg/dev": "0.0.2-1",
     "core-js": "^2.0.0",
     "http-proxy-middleware": "^0.19.1",
     "netlify-lambda": "^1.4.3",
