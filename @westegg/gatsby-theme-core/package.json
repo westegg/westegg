@@ -1,0 +1,90 @@
+{
+  "name": "@westegg/gatsby-theme-core",
+  "version": "0.0.2-6",
+  "description": "Base plugins for a Westegg Gatsby Themes",
+  "main": "index.js",
+  "author": "Andrew Alexander (adrw)",
+  "bugs": {
+    "url": "https://github.com/adrw/westegg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:adrw/westegg.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "themes",
+    "react",
+    "tooling"
+  ],
+  "files": [
+    "gatsby-config.js",
+    "gatsby-node.js",
+    "utils.js",
+    "index.js"
+  ],
+  "scripts": {
+    "build": "echo 'no build'",
+    "test": "jest --passWithNoTests"
+  },
+  "devDependencies": {
+    "@misk/test": "^0.1.5-29",
+    "gatsby": "^2.3.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "dependencies": {
+    "arrify": "^2.0.0",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
+    "gatsby-plugin-compile-es6-packages": "^1.0.6",
+    "gatsby-plugin-emotion": "^4.0.6",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-page-creator": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.0.29",
+    "gatsby-plugin-sitemap": "^2.0.10",
+    "gatsby-plugin-typescript": "^2.0.11",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-remark": "^2.3.12",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "lodash.has": "^4.5.2",
+    "mkdirp": "^0.5.1",
+    "read-pkg-up": "^5.0.0",
+    "semver": "^6.0.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.3.4",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "snapshotSerializers": [
+      "jest-serializer-html"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  }
+}

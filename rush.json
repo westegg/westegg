@@ -251,39 +251,49 @@
    * 3. It's useful to have a centralized inventory of all projects and their important metadata.
    */
   "projects": [
-    {
-      "packageName": "@westegg/core",
-      "projectFolder": "@westegg/core",
-      "versionPolicyName": "Westegg-Packages"
-    },
-    {
-      "packageName": "@westegg/dev",
-      "projectFolder": "@westegg/dev",
-      "versionPolicyName": "Westegg-Packages"
-    },
-    {
-      "packageName": "@westegg/theme-blueprint",
-      "projectFolder": "@westegg/theme-blueprint",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "@westegg/theme-cafe",
-      "projectFolder": "@westegg/theme-cafe",
-      "shouldPublish": false
-    },
     // {
-    //   "packageName": "@westegg/theme-jasper",
-    //   "projectFolder": "@westegg/theme-jasper",
+    //   "packageName": "@westegg/core",
+    //   "projectFolder": "@westegg/core",
+    //   "versionPolicyName": "Westegg-Packages"
+    // },
+    // {
+    //   "packageName": "@westegg/dev",
+    //   "projectFolder": "@westegg/dev",
     //   "versionPolicyName": "Westegg-Packages"
     // },
     {
-      "packageName": "westegg-blueprint",
-      "projectFolder": "starters/westegg-blueprint",
-      "shouldPublish": false
+      "packageName": "@westegg/gatsby-theme-core",
+      "projectFolder": "@westegg/gatsby-theme-core",
+      "versionPolicyName": "Westegg-Packages"
     },
+    // {
+    //   "packageName": "@westegg/theme-blueprint",
+    //   "projectFolder": "@westegg/theme-blueprint",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "@westegg/theme-cafe",
+    //   "projectFolder": "@westegg/theme-cafe",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "@westegg/theme-jasper",
+    //   "projectFolder": "@westegg/theme-jasper",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "westegg-blueprint",
+    //   "projectFolder": "starters/westegg-blueprint",
+    //   "shouldPublish": false
+    // },
+    // {
+    //   "packageName": "westegg-cafe",
+    //   "projectFolder": "starters/westegg-cafe",
+    //   "shouldPublish": false
+    // },
     {
-      "packageName": "westegg-cafe",
-      "projectFolder": "starters/westegg-cafe",
+      "packageName": "westegg-core",
+      "projectFolder": "starters/westegg-core",
       "shouldPublish": false
     }
     // {
