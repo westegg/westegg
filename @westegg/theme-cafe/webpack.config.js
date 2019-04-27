@@ -11,13 +11,13 @@ const StyledComponentsTransformer = createStyledComponentsTransformer()
 module.exports = {
   mode: "production",
   entry: {
-    "city-limits": path.resolve(__dirname, "src/index.ts")
+    "theme-cafe": path.resolve(__dirname, "src/index.ts")
   },
   devtool: "source-map",
   output: {
     path: path.resolve(__dirname, "./lib"),
     filename: "[name].js",
-    library: ["Westegg", "City-Limits"],
+    library: ["Westegg", "Theme-Cafe"],
     libraryTarget: "umd",
     /**
      * library will try to bind to browser `window` variable
