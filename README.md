@@ -1,6 +1,6 @@
 # westegg
 
-[![CircleCI](https://circleci.com/gh/adrw/westegg.svg?style=svg)](https://circleci.com/gh/adrw/westegg) [![Greenkeeper badge](https://badges.greenkeeper.io/adrw/westegg.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/adrw/westegg.svg?style=svg)](https://circleci.com/gh/adrw/westegg)
 
 ## Packages
 
