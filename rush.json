@@ -264,36 +264,31 @@
     {
       "packageName": "@westegg/theme-blueprint",
       "projectFolder": "@westegg/theme-blueprint",
-      "versionPolicyName": "Westegg-Packages"
+      "shouldPublish": false
     },
     {
       "packageName": "@westegg/theme-cafe",
       "projectFolder": "@westegg/theme-cafe",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "@westegg/theme-jasper",
+      "projectFolder": "@westegg/theme-jasper",
       "versionPolicyName": "Westegg-Packages"
     },
     {
       "packageName": "westegg-blueprint",
-      "projectFolder": "samples/westegg-blueprint",
+      "projectFolder": "starters/westegg-blueprint",
       "shouldPublish": false
     },
     {
       "packageName": "westegg-cafe",
-      "projectFolder": "samples/westegg-cafe",
+      "projectFolder": "starters/westegg-cafe",
       "shouldPublish": false
     }
     // {
-    //   "packageName": "cook.adrw.xyz",
-    //   "projectFolder": "sites/cook.adrw.xyz",
-    //   "shouldPublish": false
-    // },
-    // {
-    //   "packageName": "travel.adrw.xyz",
-    //   "projectFolder": "sites/travel.adrw.xyz",
-    //   "shouldPublish": false
-    // },
-    // {
-    //   "packageName": "suziealexander.com",
-    //   "projectFolder": "sites/suziealexander.com",
+    //   "packageName": "westegg-jasper",
+    //   "projectFolder": "starters/westegg-jasper",
     //   "shouldPublish": false
     // }
     // {

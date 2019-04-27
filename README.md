@@ -10,7 +10,7 @@
 - [![npm](https://img.shields.io/npm/v/@westegg/theme-cafe.svg?label=@westegg/theme-cafe)](https://www.npmjs.com/package/@westegg/theme-cafe) Gatsby + React + Typescript components for use in `Westegg Cafe` theme in Gatsby websites
 - [![npm](https://img.shields.io/npm/v/@westegg/theme-blueprint.svg?label=@westegg/theme-blueprint)](https://www.npmjs.com/package/@westegg/theme-blueprint) Gatsby + React + Typescript components for use in `Westegg Blueprint` theme in Gatsby websites
 
-## Samples
+## Starters
 
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggcitylimits/deploys) [westegg-city-limits](https://westeggcitylimits.netlify.com): Full theme showcasing all Westegg has to offer
 
