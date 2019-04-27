@@ -38,7 +38,7 @@
     "webpack-sources": "^1.3.0"
   },
   "rushDependencies": {
-    "@westegg/dev": "0.0.2-2",
-    "@westegg/theme-blueprint": "0.0.2-2"
+    "@westegg/dev": "0.0.2-3",
+    "@westegg/theme-blueprint": "0.0.2-3"
   }
 }
