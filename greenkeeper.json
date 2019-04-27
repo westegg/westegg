@@ -1,0 +1,25 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "@westegg/core/package.json",
+        "@westegg/dev/lib/package.json",
+        "@westegg/dev/package.json",
+        "@westegg/theme-blueprint/package.json",
+        "@westegg/theme-cafe/package.json",
+        "@westegg/theme-jasper/package.json",
+        "common/temp/projects/core/package.json",
+        "common/temp/projects/dev/package.json",
+        "common/temp/projects/theme-blueprint/package.json",
+        "common/temp/projects/theme-cafe/package.json",
+        "common/temp/projects/theme-jasper/package.json",
+        "common/temp/projects/westegg-blueprint/package.json",
+        "common/temp/projects/westegg-cafe/package.json",
+        "common/temp/projects/westegg-jasper/package.json",
+        "starters/westegg-blueprint/package.json",
+        "starters/westegg-cafe/package.json",
+        "starters/westegg-jasper/package.json"
+      ]
+    }
+  }
+}
