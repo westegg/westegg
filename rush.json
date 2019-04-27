@@ -262,13 +262,23 @@
       "versionPolicyName": "Westegg-Packages"
     },
     {
-      "packageName": "@westegg/city-limits",
-      "projectFolder": "@westegg/city-limits",
+      "packageName": "@westegg/theme-blueprint",
+      "projectFolder": "@westegg/theme-blueprint",
       "versionPolicyName": "Westegg-Packages"
     },
     {
-      "packageName": "westegg-city-limits",
-      "projectFolder": "samples/westegg-city-limits",
+      "packageName": "@westegg/theme-cafe",
+      "projectFolder": "@westegg/theme-cafe",
+      "versionPolicyName": "Westegg-Packages"
+    },
+    {
+      "packageName": "westegg-blueprint",
+      "projectFolder": "samples/westegg-blueprint",
+      "shouldPublish": false
+    },
+    {
+      "packageName": "westegg-cafe",
+      "projectFolder": "samples/westegg-cafe",
       "shouldPublish": false
     }
     // {
