@@ -1,1 +1,0 @@
-# westegg-photo-blog

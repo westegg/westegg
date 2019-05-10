@@ -1,7 +1,0 @@
-export * from "./componenets"
-export * from "./content"
-export * from "./layouts"
-export * from "./pages"
-export * from "./styles"
-export * from "./templates"
-export * from "./website-config"
