@@ -1,0 +1,36 @@
+{
+  "name": "westegg-core",
+  "version": "0.0.2-3",
+  "description": "Westegg Core Starter",
+  "main": "gatsby-config.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "lint": "prettier --write --config package.json \".{/src/**/,/}*.{md,css,sass,less,json,js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.0.15",
+    "@mdx-js/react": "^1.0.15",
+    "@mdx-js/tag": "^0.20.3",
+    "@westegg/gatsby-theme-core": "0.0.2-3",
+    "gatsby-mdx": "^0.6.2",
+    "gatsby": "^2.3.4",
+    "prettier": "^1.17.0",
+    "prismjs": "^1.16.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "printWidth": 80,
+    "semi": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "none",
+    "useTabs": false
+  }
+}
