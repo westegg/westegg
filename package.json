@@ -2,6 +2,7 @@
   "private": true,
   "workspaces": [
     "@westegg/*",
+    "docs",
     "starters/*"
   ],
   "scripts": {
