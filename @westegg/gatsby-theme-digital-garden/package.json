@@ -11,5 +11,8 @@
     "gatsby": "^2.2.10",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
+  },
+  "dependencies": {
+    "gatsby-theme-digital-garden": "0.0.31"
   }
 }
