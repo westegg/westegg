@@ -22,7 +22,7 @@ Find the docs for Westegg at [westegg.xyz](http://westegg.xyz/).
 
 Please submit a PR and add your site if you're using Westegg!
 
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/22667c9d-c088-4ae0-b75d-8a99e11d3167/deploy-status)](https://app.netlify.com/sites/andrewfm/deploys) [andrew.fm](http://andrew.fm) [Repo](http://g.adrw.ch/andrew.fm)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/a63ad086-fc71-4205-9b68-9eb0a29f129c/deploy-status)](https://app.netlify.com/sites/cookadrwxyz/deploys) [cook.adrw.xyz](http://cook.adrw.xyz) [Repo](http://g.adrw.ch/cook.adrw.xyz)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/c6152a21-a3f1-4232-bd3d-11e5a321a8f9/deploy-status)](https://app.netlify.com/sites/traveladrwxyz/deploys) [travel.adrw.xyz](http://travel.adrw.xyz) [Repo](http://g.adrw.ch/travel.adrw.xyz)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/08e4cc15-8174-456d-ab74-7c10b74291f9/deploy-status)](https://app.netlify.com/sites/suziealexandercom/deploys) [suziealexander.com](http://suziealexander.com) [Repo](http://g.adrw.ch/suziealexander.com)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/22667c9d-c088-4ae0-b75d-8a99e11d3167/deploy-status)](https://app.netlify.com/sites/andrewfm/deploys) [Repo](http://g.adrw.ch/andrew.fm) [andrew.fm](http://andrew.fm)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/a63ad086-fc71-4205-9b68-9eb0a29f129c/deploy-status)](https://app.netlify.com/sites/cookadrwxyz/deploys) [Repo](http://g.adrw.ch/cook.adrw.xyz) [cook.adrw.xyz](http://cook.adrw.xyz)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/c6152a21-a3f1-4232-bd3d-11e5a321a8f9/deploy-status)](https://app.netlify.com/sites/traveladrwxyz/deploys) [Repo](http://g.adrw.ch/travel.adrw.xyz) [travel.adrw.xyz](http://travel.adrw.xyz)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/08e4cc15-8174-456d-ab74-7c10b74291f9/deploy-status)](https://app.netlify.com/sites/suziealexandercom/deploys) [Repo](http://g.adrw.ch/suziealexander.com) [suziealexander.com](http://suziealexander.com)
