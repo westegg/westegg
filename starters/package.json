@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "westegg-core",
+    "westegg-digital-garden"
+  ],
+  "scripts": {
+    "build": "bash -c \"cd westegg-core && yarn build\" && bash -c \"cd westegg-digital-garden && yarn build\""
+  }
+}

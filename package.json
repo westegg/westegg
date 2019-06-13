@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "workspaces": [
+    "@westegg/*",
+    "starters/*"
+  ],
+  "scripts": {
+    "build": "bash -c \"cd @westegg && yarn build\" && bash -c \"cd starters && yarn build\""
+  }
+}

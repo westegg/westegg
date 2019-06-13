@@ -1,0 +1,16 @@
+{
+  "name": "westegg-digital-garden",
+  "version": "0.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@westegg/gatsby-theme-digital-garden": "0.0.3",
+    "gatsby": "^2.2.10",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  }
+}
