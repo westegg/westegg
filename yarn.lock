@@ -1041,7 +1041,7 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@misk/test@^0.1.5-42":
+"@misk/test@0.1.5-42":
   version "0.1.5-42"
   resolved "https://registry.yarnpkg.com/@misk/test/-/test-0.1.5-42.tgz#78efced6f95f0f330981b68540263e798df298ee"
   integrity sha512-nEXaXB3fL1iElBx0uX26E61z0E4+bz7Up/GSUf07c8HPEnIwTYR/4LhNqpiyEYScL9Dd8T8YX0SRi4nWbQXxbQ==
@@ -5633,7 +5633,7 @@ gatsby-transformer-sharp@^2.1.17:
     semver "^5.6.0"
     sharp "^0.22.1"
 
-gatsby@^2.2.10, gatsby@^2.3.4:
+gatsby@2.9.2, gatsby@^2.2.10, gatsby@^2.3.4:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.9.2.tgz#caab8b601a2e3e2ba47c486b39ea9a1079060cda"
   integrity sha512-lAxfwxBYXO380ZJFN9ygHzjAMw+9GDuRbQer7E6xMbjPB856agnPnbqBuasGAezocsYMRqg3rhaAnIOhnWcOtw==
@@ -10721,7 +10721,7 @@ react-dev-utils@^4.2.1:
     strip-ansi "3.0.1"
     text-table "0.2.0"
 
-react-dom@^16.8.4, react-dom@^16.8.5:
+react-dom@16.8.6, react-dom@^16.8.4, react-dom@^16.8.5:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
   integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
@@ -10802,7 +10802,7 @@ react-testing-library@6.1.2:
     "@babel/runtime" "^7.4.2"
     dom-testing-library "^3.19.0"
 
-react@^16.8.4, react@^16.8.5:
+react@16.8.6, react@^16.8.4, react@^16.8.5:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
