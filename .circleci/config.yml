@@ -7,14 +7,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Updating...
-          command: node common/scripts/install-run-rush.js update --full
-      - run:
-          name: Checking for inconsistent dependency versions
-          command: node common/scripts/install-run-rush.js check
-      - run:
           name: Installing...
-          command: node common/scripts/install-run-rush.js install
+          command: yarn install
       - run:
           name: Building...
-          command: node common/scripts/install-run-rush.js rebuild --verbose -p 1
+          command: yarn build
