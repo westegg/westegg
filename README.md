@@ -1,4 +1,6 @@
-# Westegg: The town where Gatsby Themes and starters call home
+# Westegg
+
+The town where Gatsby Themes and starters call home
 
 [![CircleCI](https://circleci.com/gh/adrw/westegg.svg?style=svg)](https://circleci.com/gh/adrw/westegg)
 
