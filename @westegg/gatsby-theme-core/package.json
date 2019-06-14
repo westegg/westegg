@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "@westegg/gatsby-theme-core",
   "version": "0.0.2-6",
   "description": "Base plugins for a Westegg Gatsby Themes",
