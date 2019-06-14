@@ -1,13 +1,16 @@
 {
   "private": true,
+  "name": "westegg",
+  "scripts": {
+    "build": "bash -c \"cd @westegg && yarn build\" && bash -c \"cd starters && yarn build\"",
+    "publish-ci": "lerna publish -y --canary --preid ci --npm-tag=ci",
+    "publish": "lerna publish"
+  },
   "workspaces": [
     "@westegg/*",
     "docs",
     "starters/*"
   ],
-  "scripts": {
-    "build": "bash -c \"cd @westegg && yarn build\" && bash -c \"cd starters && yarn build\""
-  },
   "prettier": {
     "arrowParens": "avoid",
     "bracketSpacing": true,

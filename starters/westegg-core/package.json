@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "westegg-core",
   "version": "0.0.2-3",
   "description": "Westegg Core Starter",
