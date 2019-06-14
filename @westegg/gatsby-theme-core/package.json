@@ -1,6 +1,7 @@
 {
+  "private": true,
   "name": "@westegg/gatsby-theme-core",
-  "version": "0.0.2-6",
+  "version": "0.0.3",
   "description": "Base plugins for a Westegg Gatsby Themes",
   "main": "index.js",
   "author": "Andrew Alexander (adrw)",
@@ -36,7 +37,6 @@
   },
   "dependencies": {
     "arrify": "^2.0.0",
-    "gatsby-remark-copy-linked-files": "^2.0.12",
     "gatsby-plugin-compile-es6-packages": "^1.0.6",
     "gatsby-plugin-emotion": "^4.0.6",
     "gatsby-plugin-google-analytics": "^2.0.17",
@@ -45,6 +45,7 @@
     "gatsby-plugin-sharp": "^2.0.29",
     "gatsby-plugin-sitemap": "^2.0.10",
     "gatsby-plugin-typescript": "^2.0.11",
+    "gatsby-remark-copy-linked-files": "^2.0.12",
     "gatsby-source-filesystem": "^2.0.27",
     "gatsby-transformer-remark": "^2.3.12",
     "gatsby-transformer-sharp": "^2.1.17",
