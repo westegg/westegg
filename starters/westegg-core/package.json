@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "westegg-core",
   "version": "0.0.2-3",
   "description": "Westegg Core Starter",
@@ -6,8 +7,7 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "lint": "prettier --write --config package.json \".{/src/**/,/}*.{md,css,sass,less,json,js,jsx,ts,tsx}\""
+    "build": "gatsby build"
   },
   "dependencies": {
     "@mdx-js/mdx": "^1.0.15",
@@ -21,16 +21,5 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0"
-  },
-  "prettier": {
-    "arrowParens": "avoid",
-    "bracketSpacing": true,
-    "jsxBracketSameLine": false,
-    "printWidth": 80,
-    "semi": false,
-    "singleQuote": false,
-    "tabWidth": 2,
-    "trailingComma": "none",
-    "useTabs": false
   }
 }
