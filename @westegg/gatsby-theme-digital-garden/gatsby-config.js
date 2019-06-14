@@ -3,18 +3,18 @@ module.exports = options => {
     mdx = true,
     mdxLayouts = {},
     netlifyCms = true,
-    notes = "notes",
+    notes = 'notes',
     siteMetadata = {
-      title: "Westegg Digital Garden",
+      title: 'Westegg Digital Garden',
       header: {
         home: {
-          href: "/",
-          label: "Westegg Digital Garden"
+          href: '/',
+          label: 'Westegg Digital Garden'
         },
         links: [
           {
-            href: "/notes",
-            label: "Themes"
+            href: '/notes',
+            label: 'Themes'
           }
         ]
       }
@@ -24,39 +24,26 @@ module.exports = options => {
   const plugins = [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: "static/img",
-        name: "uploads"
+        path: 'static/img',
+        name: 'uploads'
       }
     },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        path: "src/img",
-        name: "images"
-      }
-    },
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
-    {
-      resolve: "gatsby-transformer-remark",
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-relative-images",
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              name: "uploads"
+              name: 'uploads'
             }
           },
           {
-            resolve: "gatsby-remark-relative-images",
-            options: {
-              name: "assets"
-            }
-          },
-          {
-            resolve: "gatsby-remark-images",
+            resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -65,30 +52,30 @@ module.exports = options => {
             }
           },
           {
-            resolve: "gatsby-remark-copy-linked-files",
+            resolve: 'gatsby-remark-copy-linked-files',
             options: {
-              destinationDir: "static"
+              destinationDir: 'static'
             }
           }
         ]
       }
     },
-    "gatsby-plugin-offline",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-redirects"
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-redirects'
   ]
 
   /**
    * Google Analytics
    */
   const gaBase = {
-    resolve: "gatsby-plugin-google-analytics",
+    resolve: 'gatsby-plugin-google-analytics',
     options: {
       anonymize: true
     }
   }
 
-  if (typeof analytics === "string") {
+  if (typeof analytics === 'string') {
     plugins.push({
       ...gaBase,
       options: {
@@ -99,8 +86,8 @@ module.exports = options => {
   }
 
   if (
-    typeof analytics === "object" &&
-    typeof analytics.trackingId === "string"
+    typeof analytics === 'object' &&
+    typeof analytics.trackingId === 'string'
   ) {
     plugins.push({
       ...gaBase,
@@ -115,15 +102,15 @@ module.exports = options => {
    * Netlify CMS
    */
   if (netlifyCms) {
-    plugins.push("gatsby-plugin-netlify-cms")
-    plugins.push("gatsby-plugin-netlify")
+    plugins.push('gatsby-plugin-netlify-cms')
+    plugins.push('gatsby-plugin-netlify')
   }
 
   return {
     siteMetadata,
     __experimentalThemes: [
       {
-        resolve: "gatsby-theme-digital-garden",
+        resolve: 'gatsby-theme-digital-garden',
         options: {
           mdx,
           mdxLayouts,

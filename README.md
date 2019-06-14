@@ -1,6 +1,6 @@
 ![Westegg: Where Gatsby Themes Live](/docs/static/img/logos/westegg-slogan.png)
 
-[![CircleCI](https://circleci.com/gh/adrw/westegg.svg?style=svg)](https://circleci.com/gh/adrw/westegg)
+[![CircleCI](https://circleci.com/gh/adrwxyz/westegg.svg?style=svg)](https://circleci.com/gh/adrwxyz/westegg)
 
 ## Docs
 
