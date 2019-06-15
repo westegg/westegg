@@ -1,10 +1,10 @@
-import React from "react"
-import { css } from "theme-ui"
-import { Header } from "theme-ui/layout"
+import React from 'react'
+import { css } from 'theme-ui'
+import { Header } from 'theme-ui/layout'
 
-import HeaderLink from "./header-link"
-import { Box } from "./ui"
-import useHeader from "../../use-header"
+import { Box } from './ui'
+import HeaderLink from '../../components/header-link'
+import useHeader from '../../use-header'
 
 export default () => {
   const { home, links } = useHeader()
@@ -13,7 +13,7 @@ export default () => {
     <Header
       css={css({
         p: [3, 4],
-        bg: "background"
+        bg: 'background'
       })}
     >
       <HeaderLink href={home.href} label={home.label} />

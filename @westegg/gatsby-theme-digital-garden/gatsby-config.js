@@ -4,6 +4,10 @@ module.exports = options => {
     mdxLayouts = {},
     netlifyCms = true,
     notes = 'notes',
+    notesPath = '/notes',
+    postsPath = '/blog',
+    projects = 'projects',
+    projectsPath = '/projects',
     siteMetadata = {
       title: 'Westegg Digital Garden',
       header: {
@@ -106,18 +110,45 @@ module.exports = options => {
     plugins.push('gatsby-plugin-netlify')
   }
 
+  /**
+   * Gatsby Themes
+   */
+  const themes = []
+
+  if (notes || notesPath) {
+    themes.push({
+      resolve: 'gatsby-theme-digital-garden',
+      options: {
+        mdx,
+        mdxLayouts,
+        notes,
+        notesPath
+      }
+    })
+  }
+
+  if (postsPath) {
+    themes.push({
+      resolve: 'gatsby-theme-digital-garden-blog',
+      options: {
+        postsPath
+      }
+    })
+  }
+
+  if (projects || projectsPath) {
+    themes.push({
+      resolve: 'gatsby-theme-digital-garden-portfolio',
+      options: {
+        projects,
+        projectsPath
+      }
+    })
+  }
+
   return {
     siteMetadata,
-    __experimentalThemes: [
-      {
-        resolve: 'gatsby-theme-digital-garden',
-        options: {
-          mdx,
-          mdxLayouts,
-          notes
-        }
-      }
-    ],
+    __experimentalThemes: themes,
     plugins
   }
 }
