@@ -16978,6 +16978,25 @@ style-to-object@^0.2.1:
   dependencies:
     css "2.2.4"
 
+styled-system@5.0.10:
+  version "5.0.10"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-5.0.10.tgz#1f80d53069dcfffa6fba9edb2272e66ff04c7f0c"
+  integrity sha512-HW072ayyFV0yTyk2qjD0PL6TLV6w6emM2YjMtuxBjB8eEG+hKjZGBQktcdGOdUbcyTBO/vTXtynRIeGB3KBXaQ==
+  dependencies:
+    "@styled-system/background" "^5.0.5"
+    "@styled-system/border" "^5.0.5"
+    "@styled-system/color" "^5.0.5"
+    "@styled-system/core" "^5.0.5"
+    "@styled-system/flexbox" "^5.0.5"
+    "@styled-system/grid" "^5.0.5"
+    "@styled-system/layout" "^5.0.5"
+    "@styled-system/position" "^5.0.5"
+    "@styled-system/shadow" "^5.0.5"
+    "@styled-system/space" "^5.0.6"
+    "@styled-system/typography" "^5.0.5"
+    "@styled-system/variant" "^5.0.5"
+    object-assign "^4.1.1"
+
 styled-system@5.0.6, styled-system@^5.0.5:
   version "5.0.6"
   resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-5.0.6.tgz#4bb27ba59be4a92e44e78d92eb950a65973bfec3"
