@@ -14,7 +14,7 @@
     "react-dom": "^16.8.5"
   },
   "dependencies": {
-    "@emotion/styled": "10.0.12",
+    "@emotion/styled": "10.0.14",
     "fs-extra": "8.0.1",
     "gatsby": "2.9.2",
     "gatsby-image": "2.1.4",
