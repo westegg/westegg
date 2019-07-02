@@ -7770,10 +7770,10 @@ gatsby-plugin-mdx@1.0.5:
     unist-util-remove "^1.0.1"
     unist-util-visit "^1.4.0"
 
-gatsby-plugin-mdx@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.6.tgz#fcc7d6d7daec3cca7b5506de63f0ca290a43fc9b"
-  integrity sha512-Ft3pP2jpJVaMK4zXFfK7cy8VDZqwBqXs5Y//hWM5rFEaRSgHevl4cYMNb/5pKcYrk+MaxVOGCUUsMiwd0P/bsw==
+gatsby-plugin-mdx@1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.7.tgz#d675532ab482b9ba8014f543e7a541634835988a"
+  integrity sha512-sXubUJhKO8nC4vEe7ME1htlQ4LPtRC7hhZF3fHl26gy5zNuHiCVtHZROoVIaiEY7UECGZzX8CjEblGVNgSmD2A==
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.4.3"
