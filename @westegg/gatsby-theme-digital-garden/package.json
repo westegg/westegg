@@ -30,7 +30,7 @@
     "gatsby-remark-images": "3.0.14",
     "gatsby-remark-relative-images": "0.2.2",
     "gatsby-source-filesystem": "2.0.39",
-    "gatsby-theme-digital-garden": "0.0.31",
+    "gatsby-theme-digital-garden": "0.1.0",
     "gatsby-theme-digital-garden-blog": "0.0.31",
     "gatsby-theme-digital-garden-portfolio": "0.0.31",
     "gatsby-transformer-remark": "2.3.12",
