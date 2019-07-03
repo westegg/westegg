@@ -17739,10 +17739,10 @@ theme-ui@0.1.5:
     react "^16.8.0"
     styled-system "^5.0.5"
 
-theme-ui@0.2.2, theme-ui@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.2.tgz#b211ab0e565b8e74c843bc5c18b30d848ad13b15"
-  integrity sha512-ce29BzEP2pSogQ5XxtEUDXcwdtcb1SdPgJCZdFi7sfglA2vdADY6CdRXxZ6cVrdeVaDQQMtSaIbFghpplZbGMg==
+theme-ui@0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.5.tgz#f1eceb415317f44ab8e52ae7ccba83b8c6d3c359"
+  integrity sha512-hFTOi0nDNB8ZejSg7zKQr2AKAcYv+nbbxE1oU9T/Is56tFvBgFDxc5DXrO82CayOAdAx3LN6iCsFzh/20f5HcQ==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.1"
     "@styled-system/css" "^5.0.5"
@@ -17761,6 +17761,16 @@ theme-ui@^0.0.11:
     lodash.merge "^4.6.1"
     styled-system "^4.1.0"
     typography "^0.16.19"
+
+theme-ui@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.2.tgz#b211ab0e565b8e74c843bc5c18b30d848ad13b15"
+  integrity sha512-ce29BzEP2pSogQ5XxtEUDXcwdtcb1SdPgJCZdFi7sfglA2vdADY6CdRXxZ6cVrdeVaDQQMtSaIbFghpplZbGMg==
+  dependencies:
+    "@emotion/is-prop-valid" "^0.8.1"
+    "@styled-system/css" "^5.0.5"
+    deepmerge "^3.2.0"
+    react "^16.8.0"
 
 throat@^4.0.0:
   version "4.1.0"
