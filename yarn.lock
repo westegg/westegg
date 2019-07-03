@@ -8205,6 +8205,17 @@ gatsby-theme-digital-garden-portfolio@0.0.31:
     gatsby-source-filesystem "^2.0.33"
     mkdirp "^0.5.1"
 
+gatsby-theme-digital-garden-portfolio@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.1.0.tgz#91037c549d91f8f715f082012693d7011e1ca657"
+  integrity sha512-b61eJH3PK4u92rAJzXI6QgeNi2ylJE8ERlzn2E2FJqTzWNNKPURhzhnS5Vb3HQ9BmaePqr3JXAa0VSWR0r6JHw==
+  dependencies:
+    debug "^4.1.1"
+    gatsby-plugin-compile-es6-packages "^1.1.0"
+    gatsby-plugin-page-creator "^2.1.2"
+    gatsby-source-filesystem "^2.1.2"
+    mkdirp "^0.5.1"
+
 gatsby-theme-digital-garden@0.0.31:
   version "0.0.31"
   resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.0.31.tgz#eaa8c85150e6fa1ae4394885bb184c66eeb185bf"
