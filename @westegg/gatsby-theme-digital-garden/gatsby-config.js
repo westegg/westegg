@@ -1,6 +1,6 @@
 module.exports = options => {
   const {
-    mdx = true,
+    mdx = false,
     mdxLayouts = {},
     netlifyCms = true,
     notes = 'notes',
@@ -62,6 +62,14 @@ module.exports = options => {
             }
           }
         ]
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        defaultLayouts: {
+          default: require.resolve('./src/layouts/default-page.js')
+        }
       }
     },
     'gatsby-plugin-offline',
