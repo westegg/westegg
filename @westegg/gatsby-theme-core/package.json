@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "@misk/test": "0.1.7",
-    "gatsby": "2.9.2",
+    "gatsby": "2.13.4",
     "react": "16.8.6",
     "react-dom": "16.8.6"
   },
