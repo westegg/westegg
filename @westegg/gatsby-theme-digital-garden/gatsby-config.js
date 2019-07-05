@@ -113,10 +113,8 @@ module.exports = options => {
   /**
    * Gatsby Themes
    */
-  const themes = []
-
   if (notes || notesPath) {
-    themes.push({
+    plugins.push({
       resolve: 'gatsby-theme-digital-garden',
       options: {
         mdx,
@@ -128,7 +126,7 @@ module.exports = options => {
   }
 
   if (postsPath) {
-    themes.push({
+    plugins.push({
       resolve: 'gatsby-theme-digital-garden-blog',
       options: {
         postsPath
@@ -137,7 +135,7 @@ module.exports = options => {
   }
 
   if (projects || projectsPath) {
-    themes.push({
+    plugins.push({
       resolve: 'gatsby-theme-digital-garden-portfolio',
       options: {
         projects,
@@ -148,7 +146,6 @@ module.exports = options => {
 
   return {
     siteMetadata,
-    __experimentalThemes: themes,
     plugins
   }
 }

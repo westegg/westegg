@@ -23,7 +23,7 @@ Once installed, your `gatsby-config.js` will need to be updated to use the theme
 ```javascript
 // gatsby-config.js
 module.exports = {
-  __experimentalThemes: [
+  plugins: [
     {
       resolve: '@westegg/gatsby-theme-core',
       options: {
