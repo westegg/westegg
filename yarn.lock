@@ -17739,10 +17739,10 @@ theme-ui@0.1.5:
     react "^16.8.0"
     styled-system "^5.0.5"
 
-theme-ui@0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.6.tgz#f3f1990df83a93a9223e70f84665f9111d2080ed"
-  integrity sha512-pjyld9LsZrZcIPuCidEfV6wa07OuhcJptI0s4gQZQNAinHNeCMUYy0fV8N6IN1okb7prHnK04xOS/jSav+o7xw==
+theme-ui@0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/theme-ui/-/theme-ui-0.2.9.tgz#656df0403df4527c9a5f49f822c5f821df316364"
+  integrity sha512-DN/0Febth5ZKgbvBk9KAQDs3blQ4WajzIghgPA4oiuc8D/cEDz4yFOalxfQJj69zn38PGnzhtAC4a1d+mK8Tbw==
   dependencies:
     "@emotion/is-prop-valid" "^0.8.1"
     "@styled-system/css" "^5.0.5"
