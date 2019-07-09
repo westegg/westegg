@@ -8264,10 +8264,10 @@ gatsby-theme-digital-garden@0.0.31:
     react-feather "^1.1.6"
     theme-ui "^0.0.11"
 
-gatsby-theme-digital-garden@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.1.0.tgz#e364cdd42449f1b79313896be82bd8390d40cd95"
-  integrity sha512-mgI7pq2Vp66rH2N8ELvHgRsvdZvsZGSLB9wpTHaEJCBPLl/S0DAMSnD/NVaqzT4V+jA/OUP+uHxED8UASyyOlQ==
+gatsby-theme-digital-garden@0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden/-/gatsby-theme-digital-garden-0.1.1.tgz#4a8e33a59e20c87a99f82c6147f3f80793e8da70"
+  integrity sha512-hCmE2sSBwYv2mu73GZUKCSDnBrXm1uk7w2zmtwRbP0x9rHEDwYfAcOT7ktDqvdQFwofpeseQryHabZzAtItREA==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
