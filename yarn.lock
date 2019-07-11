@@ -2303,10 +2303,10 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@misk/test@0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@misk/test/-/test-0.1.7.tgz#e82f7ea857e53eda1c22499d4ad9a98d1d9c959e"
-  integrity sha512-p/vY3+82nIne5FcOLUX4sJoSJ+HbxuxwivivMkjUCeGp6nzoJlrxjVNBVWcnHKo0j4dFTzFiX64Dx8jl0MMXbQ==
+"@misk/test@0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@misk/test/-/test-0.1.8.tgz#b85ddcfbac360ff38832fa1de6e96065191e7ea0"
+  integrity sha512-9/ZujWr8A6FfCcsvMLvX6NC2QehOR2XzmA7VbBaSgW0E6cz+UWLceJoXNfudC3cpxb9UqWQAihYv5rAAYso2MQ==
   dependencies:
     "@types/jest" "24.0.15"
     "@types/node" "11.13.1"
