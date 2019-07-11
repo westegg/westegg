@@ -7841,10 +7841,10 @@ gatsby-plugin-google-analytics@2.0.21, gatsby-plugin-google-analytics@^2.0.17:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-mdx@1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.5.tgz#5d3319ac506451430e628e9985d225bbb7fadbd5"
-  integrity sha512-zdVe4qXORX1VkbSamr1ohyA4cCtPyGxQn3KQjeEh00YppwP3aJ/wr8XNiVXJGndzj/CMQ7T6OFwqxC6XFNttPg==
+gatsby-plugin-mdx@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.10.tgz#ae0e3afef7fa94ce0e12c31bac701d4ec75b045b"
+  integrity sha512-U9M9zYlghbP0qIJebi/3g2aCWaJnlnBDjpiN2YQmI59RYhFFZBZ+vwv5KPqy3JhIopysHqV9sb9upQcRe/LOzw==
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.4.3"
@@ -7873,10 +7873,10 @@ gatsby-plugin-mdx@1.0.5:
     unist-util-remove "^1.0.1"
     unist-util-visit "^1.4.0"
 
-gatsby-plugin-mdx@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.9.tgz#e9b8feacaded5c5f5c4b78924f99e5bfe260fb08"
-  integrity sha512-TNaKtw0mWXpO/SkNYCvHUhvIMvb5nH46rhljVwyoz1r2avwa/d5wnRilEObniN9XcIPJN6afQh7RIdx5pFRo7A==
+gatsby-plugin-mdx@1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.5.tgz#5d3319ac506451430e628e9985d225bbb7fadbd5"
+  integrity sha512-zdVe4qXORX1VkbSamr1ohyA4cCtPyGxQn3KQjeEh00YppwP3aJ/wr8XNiVXJGndzj/CMQ7T6OFwqxC6XFNttPg==
   dependencies:
     "@babel/core" "^7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "^7.4.3"
