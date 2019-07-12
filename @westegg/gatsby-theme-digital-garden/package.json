@@ -35,7 +35,7 @@
     "gatsby-theme-digital-garden-portfolio": "0.1.0",
     "gatsby-transformer-remark": "2.3.12",
     "gatsby-transformer-sharp": "2.1.21",
-    "netlify-cms": "2.9.5",
+    "netlify-cms": "2.9.6",
     "prettier": "1.18.2",
     "react": "16.8.6",
     "react-dom": "16.8.6",
