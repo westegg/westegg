@@ -40,7 +40,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-helmet": "5.2.1",
-    "styled-system": "5.0.12",
+    "styled-system": "5.0.15",
     "theme-ui": "0.2.14"
   },
   "gitHead": "4f84db3b76fcb6f2d5d61237abde70ba3c078ef3"
