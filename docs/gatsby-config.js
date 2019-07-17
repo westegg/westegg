@@ -1,18 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: "Westegg Docs",
-    header: {
-      home: {
-        href: "/",
-        label: "/img/logos/hw.png"
-      },
-      links: [
-        {
-          href: "/notes/themes",
-          label: "Themes"
-        }
-      ]
-    }
+    title: 'Westegg Docs'
   },
-  __experimentalThemes: ["@westegg/gatsby-theme-digital-garden"]
+  plugins: [
+    {
+      resolve: '@westegg/gatsby-theme-digital-garden',
+      options: {
+        header: {
+          home: {
+            href: '/',
+            label: '/img/logos/hw.png'
+          },
+          links: [
+            {
+              href: '/notes/themes',
+              label: 'Themes'
+            }
+          ]
+        }
+      }
+    }
+  ]
 }

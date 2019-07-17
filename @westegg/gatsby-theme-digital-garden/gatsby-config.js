@@ -1,5 +1,17 @@
 module.exports = options => {
   const {
+    header = {
+      home: {
+        href: '/',
+        label: 'Westegg Digital Garden'
+      },
+      links: [
+        {
+          href: '/notes',
+          label: 'Themes'
+        }
+      ]
+    },
     mdx = true,
     mdxLayouts = {},
     netlifyCms = true,
@@ -9,19 +21,7 @@ module.exports = options => {
     projects = 'projects',
     projectsPath = '/projects',
     siteMetadata = {
-      title: 'Westegg Digital Garden',
-      header: {
-        home: {
-          href: '/',
-          label: 'Westegg Digital Garden'
-        },
-        links: [
-          {
-            href: '/notes',
-            label: 'Themes'
-          }
-        ]
-      }
+      title: 'Westegg Digital Garden'
     }
   } = options
 
@@ -33,6 +33,7 @@ module.exports = options => {
     plugins.push({
       resolve: 'gatsby-theme-digital-garden',
       options: {
+        header,
         mdx,
         mdxLayouts,
         notes,
