@@ -1,70 +1,91 @@
-const semver = require("semver")
-const {
-  hasDependencies,
-  hasDevDependencies,
-  pkg,
-  stripSemverRanges
-} = require("./utils")
+const path = require('path')
 
-const gaBase = {
-  resolve: "gatsby-plugin-google-analytics",
-  options: {
-    anonymize: true
-  }
-}
+module.exports = options => {
+  const {
+    mdx = false,
+    mdxLayouts = {},
+    netlifyCms = true,
+    siteMetadata = {
+      title: 'Westegg Digital Garden'
+    }
+  } = options
 
-module.exports = ({ analytics, sitemap } = {}) => {
   const plugins = [
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
-      resolve: "gatsby-plugin-compile-es6-packages",
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: 'gatsby-source-filesystem',
       options: {
-        modules: ["@westegg/gatsby-theme-core"]
+        path: 'static/img',
+        name: 'uploads'
       }
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-plugin-page-creator`,
       options: {
-        name: "data",
-        path: `src/data`,
-        ignore: ["**/.*"]
+        path: path.resolve(`pages`)
       }
     },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "images",
-        path: `src/images`
-      }
-    },
-    {
-      resolve: "gatsby-plugin-page-creator",
-      options: {
-        path: `src/pages`
-      }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-copy-linked-files",
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              destinationDir: "static"
+              name: 'uploads'
+            }
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048
+            }
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static'
             }
           }
         ]
       }
-    }
+    },
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-redirects'
   ]
 
-  if (typeof sitemap === "undefined" || sitemap === true) {
-    plugins.push("gatsby-plugin-sitemap")
+  /**
+   * Gatsby MDX
+   */
+  if (mdx && Object.keys(mdxLayouts).length > 0) {
+    plugins.push({
+      resolve: 'gatsby-mdx',
+      options: {
+        extensions: [`.md`, `.mdx`],
+        defaultLayouts: {
+          ...mdxLayouts
+        }
+      }
+    })
   }
 
-  if (typeof analytics === "string") {
+  /**
+   * Google Analytics
+   */
+  const gaBase = {
+    resolve: 'gatsby-plugin-google-analytics',
+    options: {
+      anonymize: true
+    }
+  }
+
+  if (typeof analytics === 'string') {
     plugins.push({
       ...gaBase,
       options: {
@@ -75,8 +96,8 @@ module.exports = ({ analytics, sitemap } = {}) => {
   }
 
   if (
-    typeof analytics === "object" &&
-    typeof analytics.trackingId === "string"
+    typeof analytics === 'object' &&
+    typeof analytics.trackingId === 'string'
   ) {
     plugins.push({
       ...gaBase,
@@ -87,21 +108,16 @@ module.exports = ({ analytics, sitemap } = {}) => {
     })
   }
 
-  if (hasDevDependencies("typescript")) {
-    plugins.push("gatsby-plugin-typescript")
-  }
-
-  if (
-    hasDependencies("@emotion/core") &&
-    semver.satisfies(
-      stripSemverRanges(pkg.dependencies["@emotion/core"]),
-      ">= 10.0.0"
-    )
-  ) {
-    plugins.push("gatsby-plugin-emotion")
+  /**
+   * Netlify CMS
+   */
+  if (netlifyCms) {
+    plugins.push('gatsby-plugin-netlify-cms')
+    plugins.push('gatsby-plugin-netlify')
   }
 
   return {
+    siteMetadata,
     plugins
   }
 }
