@@ -1,23 +1,18 @@
-const fs = require("fs");
-const mkdirp = require("mkdirp");
-const path = require("path");
+const fs = require('fs-extra')
+const crypto = require('crypto')
+const path = require('path')
 
-/* Check that the folders used by source-filesystem plugin exist.
+/**
+ * Check that the folders used by source-filesystem plugin exist.
  * If they do not, they will be created.
  */
-
 exports.onPreBootstrap = ({ store, reporter }) => {
-  const { program } = store.getState();
+  const { program } = store.getState()
 
-  const dirs = [
-    path.join(program.directory, "src/data"),
-    path.join(program.directory, "src/images")
-  ];
+  const dirs = [path.join(program.directory, 'static/img')]
 
   dirs.forEach(dir => {
-    if (!fs.existsSync(dir)) {
-      reporter.log(`creating the ${dir} directory`);
-      mkdirp.sync(dir);
-    }
-  });
-};
+    reporter.log(`ensure ${dir} directory present`)
+    fs.ensureDirSync(dir)
+  })
+}

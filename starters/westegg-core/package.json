@@ -1,25 +1,18 @@
 {
   "private": true,
   "name": "westegg-core",
-  "version": "0.0.2-3",
+  "version": "0.0.0",
   "description": "Westegg Core Starter",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby develop",
+    "start": "gatsby develop",
     "build": "gatsby build"
   },
   "dependencies": {
-    "@mdx-js/mdx": "1.1.0",
-    "@mdx-js/react": "1.0.27",
-    "@mdx-js/tag": "0.20.3",
-    "@westegg/gatsby-theme-core": "0.0.2-6",
-    "gatsby-mdx": "0.6.3",
-    "gatsby": "2.9.4",
-    "prettier": "1.18.2",
-    "prismjs": "1.16.0",
+    "@westegg/gatsby-theme-core": "*",
+    "gatsby": "2.13.26",
     "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-helmet": "5.2.1"
+    "react-dom": "16.8.6"
   }
 }

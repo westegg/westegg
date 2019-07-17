@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: 'Westegg Digital Garden'
   },
-  __experimentalThemes: [
+  plugins: [
+    {
+      resolve: '@westegg/gatsby-theme-core'
+    },
     {
       resolve: '@westegg/gatsby-theme-digital-garden',
       options: {
