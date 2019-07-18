@@ -8213,10 +8213,10 @@ gatsby-theme-digital-garden-blog@0.0.31:
     is-present "^1.0.0"
     react-feather "^1.1.6"
 
-gatsby-theme-digital-garden-blog@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-blog/-/gatsby-theme-digital-garden-blog-0.1.2.tgz#3f5008bc9719df7642454999d46bb27ebb00e34b"
-  integrity sha512-sCdMhNNpwdcDaac7Ot2qZhsr4qajFuJssenxhzdTQeeIM6zmZpBofbVwfRFtICTGxdzU6Ry7hxtXNYLLHUYnZQ==
+gatsby-theme-digital-garden-blog@0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-blog/-/gatsby-theme-digital-garden-blog-0.1.3.tgz#333895edd800bd2f849eb1747910620ed2470c38"
+  integrity sha512-fwGfL3XygswQOLE2LursUHfukNLA/fhJO+YJw7nDQwSznaGxlyiZNTXWlOJwWSG56V8ExiFSGmlcy/wXz84PmA==
   dependencies:
     "@mdx-js/mdx" "^1.0.21"
     "@mdx-js/react" "^1.0.21"
