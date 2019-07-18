@@ -30,7 +30,7 @@
     "test": "jest --passWithNoTests"
   },
   "devDependencies": {
-    "@misk/test": "0.1.13",
+    "@misk/test": "0.1.14",
     "gatsby": "2.9.2",
     "react": "16.8.6",
     "react-dom": "16.8.6"
