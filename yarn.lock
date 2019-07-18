@@ -8239,10 +8239,10 @@ gatsby-theme-digital-garden-portfolio@0.0.31:
     gatsby-source-filesystem "^2.0.33"
     mkdirp "^0.5.1"
 
-gatsby-theme-digital-garden-portfolio@0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.1.2.tgz#2363bd8ea2766c58a6e8e6e4399e78fa840657e4"
-  integrity sha512-ALcFvG/eUAwTMz6+q7WdPhafkun7x7ag+YfVAOqVW7m+TOwnCwkDnjEK1wc6zlBD3/ZPp0P+EbTL2aszG/C9Cw==
+gatsby-theme-digital-garden-portfolio@0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.1.3.tgz#0416de851ffdf495f198edc5386d23f230f2a305"
+  integrity sha512-Z8zI6fwuDDdZHBcdTpM6WzGuZClTCV0xxCNg/5b7MGTN7xSIyrLeuElAFdqrVbx2iS84MKRLUz9dJ27BIa+d+A==
   dependencies:
     debug "^4.1.1"
     gatsby-plugin-compile-es6-packages "^2.0.0"
