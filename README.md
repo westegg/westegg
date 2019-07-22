@@ -10,6 +10,7 @@ Find the docs for Westegg at [westegg.xyz](http://westegg.xyz/).
 
 ## Packages
 
+- [![npm](https://img.shields.io/npm/v/@westegg/gatsby-theme-core.svg?label=@westegg/gatsby-theme-core)](https://www.npmjs.com/package/@westegg/gatsby-theme-core) Westegg Core Gatsby Theme
 - [![npm](https://img.shields.io/npm/v/@westegg/gatsby-theme-digital-garden.svg?label=@westegg/gatsby-theme-digital-garden)](https://www.npmjs.com/package/@westegg/gatsby-theme-digital-garden) Westegg Digital Garden Gatsby Theme
 
 ## Starters
