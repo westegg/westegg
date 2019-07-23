@@ -2,9 +2,10 @@
   "private": true,
   "workspaces": [
     "westegg-core",
-    "westegg-digital-garden"
+    "westegg-digital-garden",
+    "westegg-misk"
   ],
   "scripts": {
-    "build": "bash -c \"cd westegg-core && yarn build\" && bash -c \"cd westegg-digital-garden && yarn build\""
+    "build": "bash -c \"cd westegg-core && yarn build\" && bash -c \"cd westegg-digital-garden && yarn build\" && bash -c \"cd westegg-misk && yarn build\""
   }
 }

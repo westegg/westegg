@@ -12,10 +12,15 @@ Find the docs for Westegg at [westegg.xyz](http://westegg.xyz/).
 
 - [![npm](https://img.shields.io/npm/v/@westegg/gatsby-theme-core.svg?label=@westegg/gatsby-theme-core)](https://www.npmjs.com/package/@westegg/gatsby-theme-core) Westegg Core Gatsby Theme
 - [![npm](https://img.shields.io/npm/v/@westegg/gatsby-theme-digital-garden.svg?label=@westegg/gatsby-theme-digital-garden)](https://www.npmjs.com/package/@westegg/gatsby-theme-digital-garden) Westegg Digital Garden Gatsby Theme
+- [![npm](https://img.shields.io/npm/v/@westegg/gatsby-theme-misk.svg?label=@westegg/gatsby-theme-misk)](https://www.npmjs.com/package/@westegg/gatsby-theme-misk) Westegg Misk Gatsby Theme
 
 ## Starters
 
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggdigitalgarden/deploys) [digitalgarden.westegg.xyz](http://digitalgarden.westegg.xyz)
+All starters are tested on build and deployed with the latest versions of included Gatsby Themes.
+
+- [westegg-core](https://github.com/adrwxyz/westegg/tree/master/starters/westegg-core) [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggcore/deploys) [core.westegg.xyz](http://core.westegg.xyz)
+- [westegg-digital-garden](https://github.com/adrwxyz/westegg/tree/master/starters/westegg-digital-garden) [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggdigitalgarden/deploys) [digitalgarden.westegg.xyz](http://digitalgarden.westegg.xyz)
+- [westegg-misk](https://github.com/adrwxyz/westegg/tree/master/starters/westegg-misk) [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggmisk/deploys) [misk.westegg.xyz](http://misk.westegg.xyz)
 
 ## Sites built on Westegg
 

@@ -2,9 +2,10 @@
   "private": true,
   "workspaces": [
     "gatsby-theme-core",
-    "gatsby-theme-digital-garden"
+    "gatsby-theme-digital-garden",
+    "gatsby-theme-misk"
   ],
   "scripts": {
-    "build": "bash -c \"cd gatsby-theme-core && yarn build\" && bash -c \"cd gatsby-theme-digital-garden && yarn build\""
+    "build": "bash -c \"cd gatsby-theme-core && yarn build\" && bash -c \"cd gatsby-theme-digital-garden && yarn build\" && bash -c \"cd gatsby-theme-misk && yarn build\""
   }
 }
