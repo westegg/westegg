@@ -15,7 +15,6 @@ module.exports = options => {
     },
     mdx = true,
     mdxLayouts = {},
-    netlifyCms = true,
     notes = 'notes',
     notesPath = '/notes',
     posts,
