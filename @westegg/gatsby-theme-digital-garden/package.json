@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "gatsby": "2.13.37",
-    "gatsby-theme-digital-garden": "0.1.3",
+    "gatsby-theme-digital-garden": "0.1.5",
     "gatsby-theme-digital-garden-blog": "0.1.3",
     "gatsby-theme-digital-garden-portfolio": "0.1.3"
   },
