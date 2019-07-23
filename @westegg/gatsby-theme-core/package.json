@@ -47,7 +47,7 @@
     "theme-ui": "0.2.16"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.14"
+    "@misk/prettier": "0.1.15"
   },
   "prettier": "@misk/prettier",
   "gitHead": "289c2185e99932b9d41af54f8f9c92dd078da074"

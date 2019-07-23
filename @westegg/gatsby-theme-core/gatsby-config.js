@@ -1,10 +1,10 @@
+const fs = require('fs')
 const path = require('path')
 
 module.exports = options => {
   const {
     mdx = false,
     mdxLayouts = {},
-    netlifyCms = true,
     siteMetadata = {
       title: 'Westegg Digital Garden'
     }
@@ -111,7 +111,7 @@ module.exports = options => {
   /**
    * Netlify CMS
    */
-  if (netlifyCms) {
+  if (fs.existsSync('./static/admin/config.yml')) {
     plugins.push('gatsby-plugin-netlify-cms')
     plugins.push('gatsby-plugin-netlify')
   }

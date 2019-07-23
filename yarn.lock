@@ -2163,10 +2163,10 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@misk/common@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.14.tgz#47e8210b726fdc584d7cfeb8eff3ed45a5863a5f"
-  integrity sha512-P077JTadTAzYC6B71HTXwGaROk8fyQ6bVnilPZjzV1VmZo3MB8KervimG1jZYs++uaC0czb/B1gHi0gaPEJztw==
+"@misk/common@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.15.tgz#2b7af2e39fc3451138074f7b7f7d713f765f2fe4"
+  integrity sha512-6cSfvksngZ+Q+BpWhWkObw4tT8uBO1Eha+CylW34idAb3ejLfDgVyFP1xKfO1dDDGgrakuPWWbrj91EumLctOw==
   dependencies:
     "@blueprintjs/core" "3.16.0"
     "@blueprintjs/datetime" "3.10.0"
@@ -2201,10 +2201,10 @@
     status-code-enum "1.0.0"
     styled-components "4.3.2"
 
-"@misk/core@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.14.tgz#7ae12d82be084d18f30ffe5083b7fba8e3dafdab"
-  integrity sha512-J0iQXOA1ZsgFSHb99klQkPX1bckucCeJyj+TXzFNWl/gkJV8VzIo7j/PljU0YVJ5gG4opl/tM1ItPka+coMtMw==
+"@misk/core@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.15.tgz#f02daebfb6a3af1f4a3ab4ce9f03833db86dc5af"
+  integrity sha512-q3QK7A6RP10p8EV6GJsEKJj+2wDSE31qGm1M8Hxx/oqSbJWVuX9YP4un6WS4mgCOdRGY69vszhcToITAmY/LkA==
   dependencies:
     "@blueprintjs/core" "3.16.0"
     "@blueprintjs/datetime" "3.10.0"
@@ -2214,8 +2214,8 @@
     "@blueprintjs/timezone" "3.4.0"
     "@emotion/core" "10.0.10"
     "@emotion/styled" "10.0.12"
-    "@misk/common" "0.1.14"
-    "@misk/simpleredux" "0.1.14"
+    "@misk/common" "0.1.15"
+    "@misk/simpleredux" "0.1.15"
     "@redux-saga/core" "1.0.3"
     axios "0.19.0"
     connected-react-router "6.4.0"
@@ -2240,17 +2240,17 @@
     skeleton-css "2.0.4"
     status-code-enum "1.0.0"
 
-"@misk/prettier@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.14.tgz#6d5b97301706b4648fbec1911da77270ec86bdc5"
-  integrity sha512-+e1w/bFXZoQqvjLythzs9yi8/Rs7LR+bpMRVJbX25h4aDTHwJ4gD1NrVebFs0g3GHQ5Lp+bQXa1Ps3zEBJHbDA==
+"@misk/prettier@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.15.tgz#a2a08aa5d29015aeceea0a5536a8968c3c0384d5"
+  integrity sha512-+MP0+f9QPUG0sE4903ypyx554262RULy/kjqvrBn6r9eJjECOoGii5zyoZqDzecwStS18aCibk49uGl4zWy1jw==
   dependencies:
     prettier "1.18.2"
 
-"@misk/simpleredux@0.1.14":
-  version "0.1.14"
-  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.14.tgz#c491ebd6687f3b3b8b1cd1383086ab846a538932"
-  integrity sha512-Qq9b57TRm9jrIZ9QEpTY8zOX6XwhO9MQILkEyBsad+0uIS7xhC7gRhmn58aiHwPUuZB7ogqy4+afOx1LLF3pFg==
+"@misk/simpleredux@0.1.15":
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.15.tgz#cddb721c15af9444db23c12822114b1cb8b80b62"
+  integrity sha512-EXC81/6wbRssqqeoqthKaAG8N2H+Mn98+O8FOYDDeCnlVJc++q6i0L73psdolKCk6pqU2HmTsXqP8uGZb4gx1w==
   dependencies:
     "@blueprintjs/core" "3.16.0"
     "@blueprintjs/datetime" "3.10.0"
@@ -2258,7 +2258,7 @@
     "@blueprintjs/select" "3.8.1"
     "@blueprintjs/table" "3.6.0"
     "@blueprintjs/timezone" "3.4.0"
-    "@misk/common" "0.1.14"
+    "@misk/common" "0.1.15"
     "@redux-saga/core" "1.0.3"
     axios "0.19.0"
     connected-react-router "6.4.0"
