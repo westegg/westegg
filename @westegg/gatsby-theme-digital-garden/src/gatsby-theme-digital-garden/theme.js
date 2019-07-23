@@ -8,7 +8,8 @@ export const aStyles = {
   '&:hover': {
     color: 'text',
     paddingBottom: '0px',
-    borderBottom: '2px solid #000 !important'
+    borderBottom: '2px solid #000 !important',
+    textDecoration: 'none'
   }
 }
 

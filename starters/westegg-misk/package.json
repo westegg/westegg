@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "westegg-misk",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@westegg/gatsby-theme-core": "*",
+    "@westegg/gatsby-theme-misk": "*",
+    "gatsby": "2.13.33",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}

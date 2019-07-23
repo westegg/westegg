@@ -1,5 +1,5 @@
 {
-  "name": "@westegg/gatsby-theme-digital-garden",
+  "name": "@westegg/gatsby-theme-misk",
   "description": "",
   "version": "0.0.10",
   "main": "gatsby-config.js",
@@ -14,10 +14,13 @@
     "react-dom": "^16.8.6"
   },
   "dependencies": {
+    "@blueprintjs/core": "3.17.1",
+    "@emotion/core": "10.0.14",
+    "@misk/common": "0.1.14",
+    "@misk/core": "0.1.14",
+    "@westegg/gatsby-theme-digital-garden": "^0.0.10",
     "gatsby": "2.13.33",
-    "gatsby-theme-digital-garden": "0.1.3",
-    "gatsby-theme-digital-garden-blog": "0.1.3",
-    "gatsby-theme-digital-garden-portfolio": "0.1.3"
+    "gatsby-theme-digital-garden": "0.1.3"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.14"
