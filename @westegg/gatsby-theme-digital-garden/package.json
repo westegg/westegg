@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-digital-garden",
   "description": "",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -20,7 +20,7 @@
     "gatsby-theme-digital-garden-portfolio": "0.1.3"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.14"
+    "@misk/prettier": "0.1.15"
   },
   "prettier": "@misk/prettier",
   "gitHead": "289c2185e99932b9d41af54f8f9c92dd078da074"
