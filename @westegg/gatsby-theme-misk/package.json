@@ -26,5 +26,14 @@
     "@misk/prettier": "0.1.15"
   },
   "prettier": "@misk/prettier",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "markdown",
+    "mdx",
+    "misk",
+    "misk-web"
+  ],
   "gitHead": "289c2185e99932b9d41af54f8f9c92dd078da074"
 }
