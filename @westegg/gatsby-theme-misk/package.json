@@ -20,7 +20,7 @@
     "@misk/core": "0.1.15",
     "@westegg/gatsby-theme-digital-garden": "^0.0.14",
     "gatsby": "2.13.42",
-    "gatsby-theme-digital-garden": "0.2.0"
+    "gatsby-theme-digital-garden": "0.2.1"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.15"
