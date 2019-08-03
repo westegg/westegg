@@ -7619,10 +7619,10 @@ gatsby-page-utils@^0.0.5:
     micromatch "^3.1.10"
     slash "^1.0.0"
 
-gatsby-plugin-compile-es6-packages@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-compile-es6-packages/-/gatsby-plugin-compile-es6-packages-2.0.1.tgz#4d730d346e928fac352b2f9d958b4823fd2a6527"
-  integrity sha512-Xco8L4grOpBl0tMz/2z86wVu+muJdKwbih5X4sEWfs6b+R79L1B7FknIifoIUNYjjU5J3T3cIG95doHUuDV8hA==
+gatsby-plugin-compile-es6-packages@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-compile-es6-packages/-/gatsby-plugin-compile-es6-packages-2.1.0.tgz#eb6068d8936fd8b404716e47b821d09bf0656af7"
+  integrity sha512-yrYAAjabHWJr3ARi8xzDm01dbBfyOxEWTwGkL3BMdgL/opfLvTrwLmfium4kSelnLs70DYY3rYDwyHjqyFsnFQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     regex-escape "^3.4.8"
@@ -7962,15 +7962,15 @@ gatsby-theme-digital-garden-blog@0.2.2:
     is-present "^1.0.0"
     react-feather "^2.0.3"
 
-gatsby-theme-digital-garden-portfolio@0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.2.1.tgz#8a33101bfb4ce967eebc77ae1abb8ea050daac40"
-  integrity sha512-Ild8ptbNTeJrN/pBQsbczd4gQntdZ3D1bxVShZ0kBIIZY/EhZ9ZxN+saDtCRvX7gBJMZlf82yAvQcDvpKQqTeA==
+gatsby-theme-digital-garden-portfolio@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.2.2.tgz#beb7860f73bdbc2fcb4e54f36a7bcf4e16e5d19d"
+  integrity sha512-xpi3vHuuaTPYTAM6WFK2tuJ7dW8pCMRz32TaA7bzLaVknBzUj/82b753Yo/nqR2VQkJ1oswf17M5D1YpA84DrA==
   dependencies:
     debug "^4.1.1"
-    gatsby-plugin-compile-es6-packages "^2.0.0"
-    gatsby-plugin-page-creator "^2.1.2"
-    gatsby-source-filesystem "^2.1.2"
+    gatsby-plugin-compile-es6-packages "^2.1.0"
+    gatsby-plugin-page-creator "^2.1.5"
+    gatsby-source-filesystem "^2.1.8"
     mkdirp "^0.5.1"
 
 gatsby-theme-digital-garden@0.2.1:
