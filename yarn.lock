@@ -2555,10 +2555,10 @@
   dependencies:
     "@styled-system/core" "^5.0.18"
 
-"@styled-system/border@^5.0.18":
-  version "5.0.18"
-  resolved "https://registry.yarnpkg.com/@styled-system/border/-/border-5.0.18.tgz#9514f82130511d95fa6228790bb4210b7fa95630"
-  integrity sha512-he4+ERq9yjvCvrDFkAlpHJ5gVTjq3zx02queFMqCbkFvKrsOOFh3lfsJp+zFYRs3qQMadhDL9CNNyLTj/LufrQ==
+"@styled-system/border@^5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@styled-system/border/-/border-5.0.20.tgz#071daf687a9e9e1c168d572fcdc5b0c5be3e46dd"
+  integrity sha512-tfcXB5ZBig1nMOCZCwWtr0gQVxCAe6TWtBQlXeC7dzZJ4uBWA4RROSCJv3gvjG9tvfp+CAARde4rCwKX4pOVYQ==
   dependencies:
     "@styled-system/core" "^5.0.18"
 
@@ -16562,13 +16562,13 @@ styled-components@4.3.2:
     stylis-rule-sheet "^0.0.10"
     supports-color "^5.5.0"
 
-styled-system@5.0.18:
-  version "5.0.18"
-  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-5.0.18.tgz#4cdd15de7fe5ae1ab43c87ed4338c11a6d011514"
-  integrity sha512-hOQu0/rPXktT12rjimQnWcvMm+xWVmTWvKMTMNkM4FQcXdS9NwlGXM5hu4LOWpIFhuqM+S6UDqqhy6IjPF5BlQ==
+styled-system@5.0.20:
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/styled-system/-/styled-system-5.0.20.tgz#569ab9dd7b2b02d940589cbc85453a9d594fcf96"
+  integrity sha512-qQ+nsSQFpOXftrDgTQUB9gndGO3e6MAa/iD5mHk4eruztcIWpfhyXiH4tDT+14NHnUz7rPCAY3tOnnNskFN3Cg==
   dependencies:
     "@styled-system/background" "^5.0.18"
-    "@styled-system/border" "^5.0.18"
+    "@styled-system/border" "^5.0.20"
     "@styled-system/color" "^5.0.18"
     "@styled-system/core" "^5.0.18"
     "@styled-system/flexbox" "^5.0.18"
