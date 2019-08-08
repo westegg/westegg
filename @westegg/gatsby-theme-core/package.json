@@ -40,8 +40,8 @@
     "gatsby-transformer-sharp": "2.2.6",
     "netlify-cms-app": "2.9.7",
     "prismjs": "1.17.1",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
     "react-helmet": "6.0.0-beta",
     "styled-system": "5.0.21",
     "theme-ui": "0.2.31"
