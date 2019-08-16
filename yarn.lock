@@ -7853,10 +7853,10 @@ gatsby-theme-digital-garden-blog@0.2.3:
     is-present "^1.0.0"
     react-feather "^2.0.3"
 
-gatsby-theme-digital-garden-portfolio@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.2.2.tgz#beb7860f73bdbc2fcb4e54f36a7bcf4e16e5d19d"
-  integrity sha512-xpi3vHuuaTPYTAM6WFK2tuJ7dW8pCMRz32TaA7bzLaVknBzUj/82b753Yo/nqR2VQkJ1oswf17M5D1YpA84DrA==
+gatsby-theme-digital-garden-portfolio@0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-digital-garden-portfolio/-/gatsby-theme-digital-garden-portfolio-0.2.3.tgz#68a602a8d35038d653b591b3b21aa041a840a2f1"
+  integrity sha512-Vtsnq3pw1Cq97xpgv/axY0sFrTrJ+Q4/+1IQQA/ZlxklqcpGyvunZH/fFld5xsG4P4dIPSRQUFuD3Y5/XurXZw==
   dependencies:
     debug "^4.1.1"
     gatsby-plugin-compile-es6-packages "^2.1.0"
