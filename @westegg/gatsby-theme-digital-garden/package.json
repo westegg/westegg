@@ -20,7 +20,7 @@
     "gatsby-theme-digital-garden-portfolio": "0.2.3"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.15"
+    "@misk/prettier": "0.1.16"
   },
   "prettier": "@misk/prettier",
   "keywords": [

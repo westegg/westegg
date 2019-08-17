@@ -2258,10 +2258,10 @@
     skeleton-css "2.0.4"
     status-code-enum "1.0.0"
 
-"@misk/prettier@0.1.15":
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.15.tgz#a2a08aa5d29015aeceea0a5536a8968c3c0384d5"
-  integrity sha512-+MP0+f9QPUG0sE4903ypyx554262RULy/kjqvrBn6r9eJjECOoGii5zyoZqDzecwStS18aCibk49uGl4zWy1jw==
+"@misk/prettier@0.1.16":
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.16.tgz#0b07d46cdff918f0fa66b6e12e3417b7f52764bc"
+  integrity sha512-lnB2OP+CGrD6x3aKbPQ5uv5XLsaEOcY/IlKnCWhN4irhn/eHN1Ht1a6xT1R4zQpmA9E0NUiuzJnDqLXEcabU9g==
   dependencies:
     prettier "1.18.2"
 
