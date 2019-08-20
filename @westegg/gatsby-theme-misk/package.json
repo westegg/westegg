@@ -19,7 +19,7 @@
     "@misk/common": "0.1.16",
     "@misk/core": "0.1.16",
     "@westegg/gatsby-theme-digital-garden": "^0.0.16",
-    "gatsby": "2.13.71",
+    "gatsby": "2.13.72",
     "gatsby-theme-digital-garden": "0.2.3"
   },
   "devDependencies": {
