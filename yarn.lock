@@ -763,23 +763,7 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@blueprintjs/core@3.16.0":
-  version "3.16.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.16.0.tgz#7696c5119c5911ed7aeebf2217d89e79c526a8a5"
-  integrity sha512-mhacy/2DhZSu9RolXQ/v6B7izJ618cqYgI9O4BbU8yzTHMwsf4iRdoThEJuA2jDG3dvcQPd6+Ix9KZ6xy9fF8w==
-  dependencies:
-    "@blueprintjs/icons" "^3.8.0"
-    "@types/dom4" "^2.0.1"
-    classnames "^2.2"
-    dom4 "^2.0.1"
-    normalize.css "^8.0.0"
-    popper.js "^1.14.1"
-    react-popper "^1.0.0"
-    react-transition-group "^2.2.1"
-    resize-observer-polyfill "^1.5.0"
-    tslib "^1.9.0"
-
-"@blueprintjs/core@3.18.0", "@blueprintjs/core@^3.15.0", "@blueprintjs/core@^3.16.0", "@blueprintjs/core@^3.18.0":
+"@blueprintjs/core@3.18.0", "@blueprintjs/core@^3.18.0":
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.18.0.tgz#8835ead10460e6535076465865d2ad7600ae1a07"
   integrity sha512-dr3A6uhpAAWmf5muY6PFQp5EgEzinRLZa/TGQMA05q1P2xrOn/LYlsqJWJBUJ3j9tmh1RP8VPeu1HmosQb3J7w==
@@ -795,16 +779,6 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.9.0"
 
-"@blueprintjs/datetime@3.10.0":
-  version "3.10.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/datetime/-/datetime-3.10.0.tgz#ecc26e36330658aa1194eb91be0287fc8f0494f8"
-  integrity sha512-O5TrDD4gtG0aRKXATPameIQKkcHXhZ3Jl94TLM2I97Zcaq3kd9ZR8yoVrE4gN5cx3aJorVsFcbAfA6YIZkiL+Q==
-  dependencies:
-    "@blueprintjs/core" "^3.16.0"
-    classnames "^2.2"
-    react-day-picker "^7.3.0"
-    tslib "^1.9.0"
-
 "@blueprintjs/datetime@3.12.0":
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/datetime/-/datetime-3.12.0.tgz#4c41a59a33d870aa869f41a972e7ec54003b8726"
@@ -815,7 +789,7 @@
     react-day-picker "^7.3.0"
     tslib "~1.9.0"
 
-"@blueprintjs/icons@3.10.0", "@blueprintjs/icons@^3.10.0", "@blueprintjs/icons@^3.8.0":
+"@blueprintjs/icons@3.10.0", "@blueprintjs/icons@^3.10.0":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.10.0.tgz#45cdb3ca62110e74bcf9e741237a6b4e2cf2c3a4"
   integrity sha512-lyAUpkr3qEStPcJpMnxRKuVAPvaRNSce1ySPbkE58zPmD4WBya2gNrWex41xoqRYM0GsiBSwH9CnpY8t6fZKUA==
@@ -823,15 +797,7 @@
     classnames "^2.2"
     tslib "~1.9.0"
 
-"@blueprintjs/icons@3.9.0":
-  version "3.9.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.9.0.tgz#173f70b0d6a573d2a97066c54b4d110ffadeee51"
-  integrity sha512-kq1Bh6PtOF4PcuxcDme8NmnSlkfO0IV89FriZGo6zSA1+OOzSwzvoKqa6S7vJe8xCPPLO5r7lE9AjeOuGeH97g==
-  dependencies:
-    classnames "^2.2"
-    tslib "^1.9.0"
-
-"@blueprintjs/select@3.10.0", "@blueprintjs/select@^3.10.0", "@blueprintjs/select@^3.8.0":
+"@blueprintjs/select@3.10.0", "@blueprintjs/select@^3.10.0":
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.10.0.tgz#e5711a25416e62d236afb8a3062af45b3b4206ef"
   integrity sha512-Akm/L5tndrOUuf05od9IJ0WSQgHdbJ4/i2RRoLLH5ZiI8s1OZiCbKJYDSCbCOTviCdZSuL0qkJsBcYhOI/Czeg==
@@ -839,25 +805,6 @@
     "@blueprintjs/core" "^3.18.0"
     classnames "^2.2"
     tslib "~1.9.0"
-
-"@blueprintjs/select@3.8.1":
-  version "3.8.1"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.8.1.tgz#e3a27746731b9cbaa9179620fdf3f3883a176ab9"
-  integrity sha512-CUWqdikGY04yzEWBFGpHRUfKc2kKP/w9ExXv7hrknuRZDJU8mQwzbPpxMqf/97/2m93vb1nYbjWN+QkSmDgOzQ==
-  dependencies:
-    "@blueprintjs/core" "^3.15.0"
-    classnames "^2.2"
-    tslib "^1.9.0"
-
-"@blueprintjs/table@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.6.0.tgz#78eef2bab1fe216bf1f4bcd73031457c5cf2dde6"
-  integrity sha512-d1ufbmE2y+1XwseGvBCuwK8cUqgNQ5IjCdDbKEurMJBLGqbaaAlEPPgRBaq+bSuA5H+pPBCMPFdqf3skW3x6SQ==
-  dependencies:
-    "@blueprintjs/core" "^3.16.0"
-    classnames "^2.2"
-    prop-types "^15.6.0"
-    tslib "^1.9.0"
 
 "@blueprintjs/table@3.7.0":
   version "3.7.0"
@@ -868,18 +815,6 @@
     classnames "^2.2"
     prop-types "^15.6.0"
     tslib "~1.9.0"
-
-"@blueprintjs/timezone@3.4.0":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/timezone/-/timezone-3.4.0.tgz#4bded4d12ad7a3c8cb09cb50f1f2e7ad3c702677"
-  integrity sha512-lrWaS/5gWj3FwUV4I+lN96vAUNB+GDDi9ArzrN7ZThgc4vEDXWMvVtKBU7d1gTETvftLP8qDwTfx9PNp4Mvstg==
-  dependencies:
-    "@blueprintjs/core" "^3.15.0"
-    "@blueprintjs/select" "^3.8.0"
-    classnames "^2.2"
-    moment "^2.14.1"
-    moment-timezone "^0.5.13"
-    tslib "^1.9.0"
 
 "@blueprintjs/timezone@3.5.0":
   version "3.5.0"
@@ -922,7 +857,7 @@
     find-root "^1.1.0"
     source-map "^0.7.2"
 
-"@emotion/cache@^10.0.15", "@emotion/cache@^10.0.9":
+"@emotion/cache@^10.0.15":
   version "10.0.15"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.15.tgz#b81767b48015aae2689c60373992145c67b8de02"
   integrity sha512-8VthgeKhlGeTXSW1JN7I14AnAaiFPbOrqNqg3dPoGCZ3bnMjkrmRU0zrx0BtBw9esBaPaQgDB9y0tVgAGT2Mrg==
@@ -931,17 +866,6 @@
     "@emotion/stylis" "0.8.4"
     "@emotion/utils" "0.11.2"
     "@emotion/weak-memoize" "0.2.3"
-
-"@emotion/core@10.0.10":
-  version "10.0.10"
-  resolved "https://registry.yarnpkg.com/@emotion/core/-/core-10.0.10.tgz#8d3114e5a2f8b178a7067c603a2937516f180b08"
-  integrity sha512-U1aE2cOWUscjc8ZJ3Cx32udOzLeRoJwGxBH93xQD850oQFpwPKZARzdUtdc9SByUOwzSFYxhDhrpXnV34FJmWg==
-  dependencies:
-    "@emotion/cache" "^10.0.9"
-    "@emotion/css" "^10.0.9"
-    "@emotion/serialize" "^0.11.6"
-    "@emotion/sheet" "0.9.2"
-    "@emotion/utils" "0.11.1"
 
 "@emotion/core@10.0.16", "@emotion/core@^10.0.15", "@emotion/core@^10.0.9":
   version "10.0.16"
@@ -955,7 +879,7 @@
     "@emotion/sheet" "0.9.3"
     "@emotion/utils" "0.11.2"
 
-"@emotion/css@^10.0.14", "@emotion/css@^10.0.9":
+"@emotion/css@^10.0.14":
   version "10.0.14"
   resolved "https://registry.yarnpkg.com/@emotion/css/-/css-10.0.14.tgz#95dacabdd0e22845d1a1b0b5968d9afa34011139"
   integrity sha512-MozgPkBEWvorcdpqHZE5x1D/PLEHUitALQCQYt2wayf4UNhpgQs2tN0UwHYS4FMy5ROBH+0ALyCFVYJ/ywmwlg==
@@ -991,7 +915,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.6.6.tgz#004b98298d04c7ca3b4f50ca2035d4f60d2eed1b"
   integrity sha512-h4t4jFjtm1YV7UirAFuSuFGyLa+NNxjdkq6DpFLANNQY5rHueFZHVY+8Cu1HYVP6DrheB0kv4m5xPjo7eKT7yQ==
 
-"@emotion/serialize@^0.11.6", "@emotion/serialize@^0.11.8", "@emotion/serialize@^0.11.9":
+"@emotion/serialize@^0.11.8", "@emotion/serialize@^0.11.9":
   version "0.11.9"
   resolved "https://registry.yarnpkg.com/@emotion/serialize/-/serialize-0.11.9.tgz#123e0f51d2dee9693fae1057bd7fc27b021d6868"
   integrity sha512-/Cn4V81z3ZyFiDQRw8nhGFaHkxHtmCSSBUit4vgTuLA1BqxfJUYiqSq97tq/vV8z9LfIoqs6a9v6QrUFWZpK7A==
@@ -1012,17 +936,12 @@
     "@emotion/unitless" "^0.6.7"
     "@emotion/utils" "^0.8.2"
 
-"@emotion/sheet@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-0.9.2.tgz#74e5c6b5e489a1ba30ab246ab5eedd96916487c4"
-  integrity sha512-pVBLzIbC/QCHDKJF2E82V2H/W/B004mDFQZiyo/MSR+VC4pV5JLG0TF/zgQDFvP3fZL/5RTPGEmXlYJBMUuJ+A==
-
 "@emotion/sheet@0.9.3":
   version "0.9.3"
   resolved "https://registry.yarnpkg.com/@emotion/sheet/-/sheet-0.9.3.tgz#689f135ecf87d3c650ed0c4f5ddcbe579883564a"
   integrity sha512-c3Q6V7Df7jfwSq5AzQWbXHa5soeE4F5cbqi40xn0CzXxWW9/6Mxq48WJEtqfWzbZtW9odZdnRAkwCQwN12ob4A==
 
-"@emotion/styled-base@^10.0.12", "@emotion/styled-base@^10.0.15":
+"@emotion/styled-base@^10.0.15":
   version "10.0.15"
   resolved "https://registry.yarnpkg.com/@emotion/styled-base/-/styled-base-10.0.15.tgz#481dbfa5496259c8c64923fa24dfc9f456d83218"
   integrity sha512-u1mtdoEip9uf0Wa/CrgLNFiu5pP6annTHyZGGinBisk/dRGyfq3NB7suum8HeMu26xXk7b5/qseDlrsoHq75KQ==
@@ -1031,14 +950,6 @@
     "@emotion/is-prop-valid" "0.8.2"
     "@emotion/serialize" "^0.11.9"
     "@emotion/utils" "0.11.2"
-
-"@emotion/styled@10.0.12":
-  version "10.0.12"
-  resolved "https://registry.yarnpkg.com/@emotion/styled/-/styled-10.0.12.tgz#923531b3baa2ad670f821c6ca724caab26b08aad"
-  integrity sha512-oxvSoLi3AbI5bEfqkFE1hLTC3eMpifwj6klJ4bvzgE6EDqj4w859KQyZR7ekGRAcfGNFyEYhw67bm8FlMBlX7Q==
-  dependencies:
-    "@emotion/styled-base" "^10.0.12"
-    babel-plugin-emotion "^10.0.9"
 
 "@emotion/styled@10.0.15", "@emotion/styled@^10.0.9":
   version "10.0.15"
@@ -1067,11 +978,6 @@
   version "0.6.7"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.6.7.tgz#53e9f1892f725b194d5e6a1684a7b394df592397"
   integrity sha512-Arj1hncvEVqQ2p7Ega08uHLr1JuRYBuO5cIvcA+WWEQ5+VmkOE3ZXzl04NbQxeQpWX78G7u6MqxKuNX3wvYZxg==
-
-"@emotion/utils@0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.11.1.tgz#8529b7412a6eb4b48bdf6e720cc1b8e6e1e17628"
-  integrity sha512-8M3VN0hetwhsJ8dH8VkVy7xo5/1VoBsDOk/T4SJOeXwTO1c4uIqVNx2qyecLFnnUWD5vvUqHQ1gASSeUN6zcTg==
 
 "@emotion/utils@0.11.2":
   version "0.11.2"
@@ -2213,44 +2119,6 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@misk/common@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.16.tgz#f8d508b1ee8b60345d556f2b00b3df05ab23eff5"
-  integrity sha512-6Ss1uB3mVB5ZEViSUTUhajMAy2oqxo+S6G4slcMQpFo+E3VYAawUczxwE9OjYWt944AvwrtDMXdD2/TePmfVHQ==
-  dependencies:
-    "@blueprintjs/core" "3.16.0"
-    "@blueprintjs/datetime" "3.10.0"
-    "@blueprintjs/icons" "3.9.0"
-    "@blueprintjs/select" "3.8.1"
-    "@blueprintjs/table" "3.6.0"
-    "@blueprintjs/timezone" "3.4.0"
-    "@emotion/core" "10.0.10"
-    "@emotion/styled" "10.0.12"
-    "@redux-saga/core" "1.0.3"
-    axios "0.19.0"
-    connected-react-router "6.4.0"
-    dayjs "1.8.14"
-    enum-utils "1.0.0"
-    history "4.9.0"
-    http-method-enum "1.0.0"
-    immutable "4.0.0-rc.12"
-    lodash "4.17.14"
-    re-reselect "3.2.0"
-    react "16.8.6"
-    react-dom "16.8.6"
-    react-helmet "5.2.1"
-    react-hot-loader "4.11.1"
-    react-redux "7.1.0"
-    react-router "5.0.1"
-    react-router-dom "5.0.1"
-    react-transition-group "4.1.1"
-    redux "4.0.1"
-    redux-saga "1.0.5"
-    reselect "4.0.0"
-    skeleton-css "2.0.4"
-    status-code-enum "1.0.0"
-    styled-components "4.3.2"
-
 "@misk/common@0.1.17":
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.17.tgz#6ec47f1908aa6d242612c96c5780f221ba9c3a4b"
@@ -2289,40 +2157,40 @@
     status-code-enum "1.0.0"
     styled-components "4.3.2"
 
-"@misk/core@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.16.tgz#c130750303372ea532ce7ee8454ccc2441c44301"
-  integrity sha512-REvCrUuPWn4aYGI82Y9AsN5MUV0PA4342Nfyz+RqyohRqXWtXFVRdi7VeOX4rnykdqmqe5L5sHBNKV+Ycf6g7Q==
+"@misk/core@0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.17.tgz#722816cc3f78ccee44147e6faa0e7fc4c0554844"
+  integrity sha512-tuXh28IkuLC4MEg4/vmhAYEq/8TCqpsAB6uAMMXW4llmVa56dgmVRg3W4oPTiZY7iROzux3y0cJIH+afVl5xFg==
   dependencies:
-    "@blueprintjs/core" "3.16.0"
-    "@blueprintjs/datetime" "3.10.0"
-    "@blueprintjs/icons" "3.9.0"
-    "@blueprintjs/select" "3.8.1"
-    "@blueprintjs/table" "3.6.0"
-    "@blueprintjs/timezone" "3.4.0"
-    "@emotion/core" "10.0.10"
-    "@emotion/styled" "10.0.12"
-    "@misk/common" "0.1.16"
-    "@misk/simpleredux" "0.1.16"
+    "@blueprintjs/core" "3.18.0"
+    "@blueprintjs/datetime" "3.12.0"
+    "@blueprintjs/icons" "3.10.0"
+    "@blueprintjs/select" "3.10.0"
+    "@blueprintjs/table" "3.7.0"
+    "@blueprintjs/timezone" "3.5.0"
+    "@emotion/core" "10.0.16"
+    "@emotion/styled" "10.0.15"
+    "@misk/common" "0.1.17"
+    "@misk/simpleredux" "0.1.17"
     "@redux-saga/core" "1.0.3"
     axios "0.19.0"
-    connected-react-router "6.4.0"
-    dayjs "1.8.14"
+    connected-react-router "6.5.2"
+    dayjs "1.8.15"
     enum-utils "1.0.0"
     history "4.9.0"
     http-method-enum "1.0.0"
     immutable "4.0.0-rc.12"
-    lodash "4.17.14"
-    re-reselect "3.2.0"
-    react "16.8.6"
-    react-dom "16.8.6"
+    lodash "4.17.15"
+    re-reselect "3.4.0"
+    react "16.9.0"
+    react-dom "16.9.0"
     react-helmet "5.2.1"
-    react-hot-loader "4.11.1"
+    react-hot-loader "4.12.11"
     react-redux "7.1.0"
     react-router "5.0.1"
     react-router-dom "5.0.1"
-    react-transition-group "4.1.1"
-    redux "4.0.1"
+    react-transition-group "4.2.2"
+    redux "4.0.4"
     redux-saga "1.0.5"
     reselect "4.0.0"
     skeleton-css "2.0.4"
@@ -2335,37 +2203,37 @@
   dependencies:
     prettier "1.18.2"
 
-"@misk/simpleredux@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.16.tgz#3bf3bfdf02baa83f315056757a350a6c8095275b"
-  integrity sha512-0Dc2u2ScmzvH/W7tenDuaINiJncVBwfyALnri9VdyPe3PmOhQXwnixZTwiuBCWEMaDMUPDu7n5UkryRmDZcdgw==
+"@misk/simpleredux@0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.17.tgz#4d68da685ff4f26ecc141637752d3eed19bd15f5"
+  integrity sha512-uGyGxQ1vUo33cGsBPs9b18VgzBkPLRZsWgdQm5dMJzc4rJTgrSMwuu474fu5mru/khMxgvwh1slEMBm2icvQOg==
   dependencies:
-    "@blueprintjs/core" "3.16.0"
-    "@blueprintjs/datetime" "3.10.0"
-    "@blueprintjs/icons" "3.9.0"
-    "@blueprintjs/select" "3.8.1"
-    "@blueprintjs/table" "3.6.0"
-    "@blueprintjs/timezone" "3.4.0"
-    "@misk/common" "0.1.16"
+    "@blueprintjs/core" "3.18.0"
+    "@blueprintjs/datetime" "3.12.0"
+    "@blueprintjs/icons" "3.10.0"
+    "@blueprintjs/select" "3.10.0"
+    "@blueprintjs/table" "3.7.0"
+    "@blueprintjs/timezone" "3.5.0"
+    "@misk/common" "0.1.17"
     "@redux-saga/core" "1.0.3"
     axios "0.19.0"
-    connected-react-router "6.4.0"
-    dayjs "1.8.14"
+    connected-react-router "6.5.2"
+    dayjs "1.8.15"
     enum-utils "1.0.0"
     history "4.9.0"
     http-method-enum "1.0.0"
     immutable "4.0.0-rc.12"
-    lodash "4.17.14"
-    re-reselect "3.2.0"
-    react "16.8.6"
-    react-dom "16.8.6"
+    lodash "4.17.15"
+    re-reselect "3.4.0"
+    react "16.9.0"
+    react-dom "16.9.0"
     react-helmet "5.2.1"
-    react-hot-loader "4.11.1"
+    react-hot-loader "4.12.11"
     react-redux "7.1.0"
     react-router "5.0.1"
     react-router-dom "5.0.1"
-    react-transition-group "4.1.1"
-    redux "4.0.1"
+    react-transition-group "4.2.2"
+    redux "4.0.4"
     redux-saga "1.0.5"
     reselect "4.0.0"
     skeleton-css "2.0.4"
@@ -3624,7 +3492,7 @@ babel-plugin-dynamic-import-node@^2.3.0:
   dependencies:
     object.assign "^4.1.0"
 
-babel-plugin-emotion@^10.0.14, babel-plugin-emotion@^10.0.15, babel-plugin-emotion@^10.0.9:
+babel-plugin-emotion@^10.0.14, babel-plugin-emotion@^10.0.15:
   version "10.0.16"
   resolved "https://registry.yarnpkg.com/babel-plugin-emotion/-/babel-plugin-emotion-10.0.16.tgz#cb306798058b102a634ca80e69b012caa345bb09"
   integrity sha512-a01Xrourr/VRpw4KicX9drDwfVGHmw8HmlQk++N4fv0j73EfHKWC1Ah4Vu8s1cTGVvTiwum+UhVpJenV8j03FQ==
@@ -5017,15 +4885,6 @@ connect-history-api-fallback@^1.6.0:
   resolved "https://registry.yarnpkg.com/connect-history-api-fallback/-/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
   integrity sha512-e54B99q/OUoH64zYYRf3HBP5z24G38h5D3qXu23JGRoigpX5Ss4r9ZnDk3g0Z8uQC2x2lPaJ+UlWBc1ZWBWdLg==
 
-connected-react-router@6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/connected-react-router/-/connected-react-router-6.4.0.tgz#c382a9e70fdd1247c09c7ece7854622db4d46234"
-  integrity sha512-RZRLD7qUz9OdmCn0JkW7pOiUsR7v9NtqnYKfqrxXsfO2ozMLR2/MjHaSPpdbMr4VE5TY6MwzAXUSkheN2ldqug==
-  dependencies:
-    immutable "^3.8.1"
-    prop-types "^15.7.2"
-    seamless-immutable "^7.1.3"
-
 connected-react-router@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/connected-react-router/-/connected-react-router-6.5.2.tgz#422af70f86cb276681e20ab4295cf27dd9b6c7e3"
@@ -5671,11 +5530,6 @@ dateformat@^3.0.0:
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
 
-dayjs@1.8.14:
-  version "1.8.14"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.14.tgz#43e4f62830c2c3342c3fcd25934dc9162dbe6f38"
-  integrity sha512-AVhDmRTe541iWirnoeFSSDDGvCT6HWaNQ4z2WmmzXMGZj6ph6ydao2teKq/eUtR43GPJXlYFD+C/SotG1P9wUQ==
-
 dayjs@1.8.15:
   version "1.8.15"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.15.tgz#7121bc04e6a7f2621ed6db566be4a8aaf8c3913e"
@@ -6139,7 +5993,7 @@ dom-walk@^0.1.0:
   resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
   integrity sha1-ZyIm3HTI95mtNTB9+TaroRrNYBg=
 
-dom4@^2.0.1, dom4@^2.1.5:
+dom4@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/dom4/-/dom4-2.1.5.tgz#f98a94eb67b340f0fa5b42b0ee9c38cda035428e"
   integrity sha512-gJbnVGq5zaBUY0lUh0LUEVGYrtN75Ks8ZwpwOYvnVFrKy/qzXK4R/1WuLIFExWj/tBxbRAkTzZUGJHXmqsBNjQ==
@@ -11058,11 +10912,6 @@ lodash.uniq@4.5.0, lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.14:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
-
 lodash@4.17.15, lodash@^4.1.1, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
@@ -11751,14 +11600,14 @@ modify-values@^1.0.0:
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-moment-timezone@^0.5.13, moment-timezone@^0.5.26:
+moment-timezone@^0.5.26:
   version "0.5.26"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.26.tgz#c0267ca09ae84631aa3dc33f65bedbe6e8e0d772"
   integrity sha512-sFP4cgEKTCymBBKgoxZjYzlSovC20Y6J7y3nanDc5RoBIXKlZhoYwBoZGe3flwU6A372AcRwScH8KiwV6zjy1g==
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.14.1, moment@^2.21.0, moment@^2.24.0:
+"moment@>= 2.9.0", moment@^2.21.0, moment@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
@@ -12395,7 +12244,7 @@ normalize-url@^3.0.0, normalize-url@^3.3.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-normalize.css@^8.0.0, normalize.css@^8.0.1:
+normalize.css@^8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
   integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
@@ -13407,7 +13256,7 @@ pnp-webpack-plugin@^1.4.1:
   dependencies:
     ts-pnp "^1.1.2"
 
-popper.js@^1.14.1, popper.js@^1.14.4, popper.js@^1.15.0:
+popper.js@^1.14.4, popper.js@^1.15.0:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
   integrity sha512-w010cY1oCUmI+9KwwlWki+r5jxKfTFDVoadl7MSrIujHU5MJ5OR6HTDj6Xo8aoR/QsA56x8jKjA59qGH4ELtrA==
@@ -14182,11 +14031,6 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-re-reselect@3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/re-reselect/-/re-reselect-3.2.0.tgz#438ac359fbe0c981014fd3e68d2df9014cb00316"
-  integrity sha512-vumSb+b0l0FxDrN7iomn8gDJoVyKkN/OA5ZH1L0uHovuy6F5PUvn9ImpSabuDMsNf3EFKhS8CG5h/BLTAAAcNA==
-
 re-reselect@3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/re-reselect/-/re-reselect-3.4.0.tgz#0f2303f3c84394f57f0cd31fea08a1ca4840a7cd"
@@ -14260,16 +14104,6 @@ react-dnd@^7.3.2:
     invariant "^2.1.0"
     shallowequal "^1.1.0"
 
-react-dom@16.8.6:
-  version "16.8.6"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.6.tgz#71d6303f631e8b0097f56165ef608f051ff6e10f"
-  integrity sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.13.6"
-
 react-dom@16.9.0, react-dom@^16.8.4:
   version "16.9.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.9.0.tgz#5e65527a5e26f22ae3701131bcccaee9fb0d3962"
@@ -14321,21 +14155,6 @@ react-helmet@6.0.0-beta, react-helmet@^6.0.0-beta:
     prop-types "^15.5.4"
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
-
-react-hot-loader@4.11.1:
-  version "4.11.1"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.11.1.tgz#2cabbd0f1c8a44c28837b86d6ce28521e6d9a8ac"
-  integrity sha512-HAC0UedYzM3mD+ZaQHesntFO0yi2ftOV4ZMMRTj43E4GvW5sQqYTPvur+6J7EaH3MDr/RqjDKXyCqKepV8+y7w==
-  dependencies:
-    fast-levenshtein "^2.0.6"
-    global "^4.3.0"
-    hoist-non-react-statics "^3.3.0"
-    loader-utils "^1.1.0"
-    lodash "^4.17.11"
-    prop-types "^15.6.1"
-    react-lifecycles-compat "^3.0.4"
-    shallowequal "^1.0.2"
-    source-map "^0.7.3"
 
 react-hot-loader@4.12.11, react-hot-loader@^4.12.11, react-hot-loader@^4.8.0:
   version "4.12.11"
@@ -14401,7 +14220,7 @@ react-polyglot@^0.4.0:
     hoist-non-react-statics "^2.5.0"
     prop-types "^15.5.8"
 
-react-popper@^1.0.0, react-popper@^1.3.3:
+react-popper@^1.3.3:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/react-popper/-/react-popper-1.3.4.tgz#f0cd3b0d30378e1f663b0d79bcc8614221652ced"
   integrity sha512-9AcQB29V+WrBKk6X7p0eojd1f25/oJajVdMZkywIoAV6Ag7hzE1Mhyeup2Q1QnvFRtGQFQvtqfhlEoDAPfKAVA==
@@ -14601,16 +14420,6 @@ react-topbar-progress-indicator@^2.0.0:
   dependencies:
     topbar "^0.1.3"
 
-react-transition-group@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.1.1.tgz#16efe9ac8c68306f6bef59c7da5a96b4dfd9fb32"
-  integrity sha512-K/N1wqJ2GRP2yj3WBqEUYa0KV5fiaAWpUfU9SpHOHefeKvyrO+VrnMBML21M19QZoVbDZKmuQFHZYoMMi1xuJA==
-  dependencies:
-    "@babel/runtime" "^7.4.5"
-    dom-helpers "^3.4.0"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
-
 react-transition-group@4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.2.2.tgz#8b5252410180c27fd7eebf50b185256b41799b16"
@@ -14650,16 +14459,6 @@ react-waypoint@^8.1.0:
     consolidated-events "^1.1.0 || ^2.0.0"
     prop-types "^15.0.0"
     react-is "^16.6.3"
-
-react@16.8.6:
-  version "16.8.6"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
-  integrity sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.13.6"
 
 react@16.9.0, react@^16.8.0, react@^16.8.4:
   version "16.9.0"
@@ -14874,14 +14673,6 @@ redux-thunk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
   integrity sha512-km6dclyFnmcvxhAcrQV2AkZmPQjzPDjgVlQtR0EQjxZPyJ0BnMf3in1ryuR8A2qU0HldVRfxYXbFSKlI3N7Slw==
-
-redux@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.1.tgz#436cae6cc40fbe4727689d7c8fae44808f1bfef5"
-  integrity sha512-R7bAtSkk7nY6O/OYMVR9RiBI+XghjF9rlbl5806HJbQph0LJVHZrU5oaO4q70eUKiqMRqm4y07KLTlMZ2BlVmg==
-  dependencies:
-    loose-envify "^1.4.0"
-    symbol-observable "^1.2.0"
 
 redux@4.0.4, "redux@>=0.10 <5", redux@^4.0.0, redux@^4.0.1:
   version "4.0.4"
@@ -15316,7 +15107,7 @@ reselect@4.0.0:
   resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
   integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
-resize-observer-polyfill@^1.5.0, resize-observer-polyfill@^1.5.1:
+resize-observer-polyfill@^1.5.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
   integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
@@ -15776,7 +15567,7 @@ shallow-compare@^1.2.2:
   resolved "https://registry.yarnpkg.com/shallow-compare/-/shallow-compare-1.2.2.tgz#fa4794627bf455a47c4f56881d8a6132d581ffdb"
   integrity sha512-LUMFi+RppPlrHzbqmFnINTrazo0lPNwhcgzuAXVVcfy/mqPDrQmHAyz5bvV0gDAuRFrk804V0HpQ6u9sZ0tBeg==
 
-shallowequal@^1.0.1, shallowequal@^1.0.2, shallowequal@^1.1.0:
+shallowequal@^1.0.1, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==

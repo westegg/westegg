@@ -17,7 +17,7 @@
     "@blueprintjs/core": "3.18.0",
     "@emotion/core": "10.0.16",
     "@misk/common": "0.1.17",
-    "@misk/core": "0.1.16",
+    "@misk/core": "0.1.17",
     "@westegg/gatsby-theme-digital-garden": "^0.0.16",
     "gatsby": "2.13.72",
     "gatsby-theme-digital-garden": "0.2.3"
