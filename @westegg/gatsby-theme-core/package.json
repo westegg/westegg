@@ -44,7 +44,7 @@
     "react-dom": "16.9.0",
     "react-helmet": "6.0.0-beta",
     "styled-system": "5.1.1",
-    "theme-ui": "0.2.36"
+    "theme-ui": "0.2.38"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.16"
