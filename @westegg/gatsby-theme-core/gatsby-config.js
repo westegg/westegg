@@ -65,12 +65,29 @@ module.exports = options => {
    */
   if (mdx && Object.keys(mdxLayouts).length > 0) {
     plugins.push({
-      resolve: 'gatsby-mdx',
+      resolve: 'gatsby-plugin-mdx',
       options: {
         extensions: [`.md`, `.mdx`],
         defaultLayouts: {
           ...mdxLayouts
-        }
+        },
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048
+            }
+          }
+        ],
+        rehypePlugins: [
+          require('rehype-autolink-headings'),
+          require('rehype-highlight'),
+          require('rehype-slug'),
+          require('rehype-toc')
+        ]
       }
     })
   }
