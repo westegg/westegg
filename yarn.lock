@@ -2219,10 +2219,10 @@
     skeleton-css "2.0.4"
     status-code-enum "1.0.0"
 
-"@misk/prettier@0.1.16":
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.16.tgz#0b07d46cdff918f0fa66b6e12e3417b7f52764bc"
-  integrity sha512-lnB2OP+CGrD6x3aKbPQ5uv5XLsaEOcY/IlKnCWhN4irhn/eHN1Ht1a6xT1R4zQpmA9E0NUiuzJnDqLXEcabU9g==
+"@misk/prettier@0.1.17":
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.17.tgz#81b4e0457ce3e451b7550c35aee92611c7ad499f"
+  integrity sha512-HO1dY3gIj8MxOZJcIjXt5NB2LajEMz/bSdrm6DKM4tCHk/EkCxPuyYbjiddvfyqscGL/oxNIVfreHbIiE11W4Q==
   dependencies:
     prettier "1.18.2"
 
