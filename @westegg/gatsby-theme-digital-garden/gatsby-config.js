@@ -12,7 +12,8 @@ module.exports = options => {
         }
       ]
     },
-    mdx = true,
+    // TODO: Turn to true once it works to use MDX from @westegg/gatsby-theme-core
+    mdx = false,
     mdxLayouts = {},
     notes = 'notes',
     notesPath = '/notes',
@@ -29,11 +30,20 @@ module.exports = options => {
   /**
    * Gatsby Themes
    */
+  mdx &&
+    plugins.push({
+      resolve: '@westegg/gatsby-theme-core',
+      options: {
+        mdx,
+        mdxLayouts
+      }
+    })
+
   plugins.push({
     resolve: 'gatsby-theme-digital-garden',
     options: {
       header,
-      mdx,
+      mdx: !mdx,
       mdxLayouts,
       notes,
       notesPath
