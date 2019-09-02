@@ -7433,7 +7433,48 @@ gatsby-plugin-google-analytics@2.1.13:
   dependencies:
     "@babel/runtime" "^7.5.5"
 
-gatsby-plugin-mdx@1.0.34, gatsby-plugin-mdx@^1.0.22:
+gatsby-plugin-mdx@1.0.35:
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.35.tgz#74ec184a5f1532f4533b1815c5745d6f49ba203e"
+  integrity sha512-PBA7+LX08DXAVLez0ngVfZvUm65gtzXdfNPuTUknqYhHTBdOcyysCowwMifknGraGrr68xfgyQaTT7XJvvEifg==
+  dependencies:
+    "@babel/core" "^7.5.5"
+    "@babel/generator" "^7.5.5"
+    "@babel/helper-plugin-utils" "^7.0.0"
+    "@babel/plugin-proposal-object-rest-spread" "^7.5.5"
+    "@babel/preset-env" "^7.5.5"
+    "@babel/preset-react" "^7.0.0"
+    "@babel/types" "^7.5.5"
+    camelcase-css "^2.0.1"
+    change-case "^3.1.0"
+    core-js "2"
+    dataloader "^1.4.0"
+    debug "^4.1.1"
+    escape-string-regexp "^1.0.5"
+    eval "^0.1.4"
+    fs-extra "^8.1.0"
+    gray-matter "^4.0.2"
+    json5 "^2.1.0"
+    loader-utils "^1.2.3"
+    lodash "^4.17.15"
+    mdast-util-to-string "^1.0.6"
+    mdast-util-toc "^3.1.0"
+    mime "^2.4.4"
+    p-queue "^5.0.0"
+    pretty-bytes "^5.3.0"
+    remark "^10.0.1"
+    remark-retext "^3.1.3"
+    retext-english "^3.0.3"
+    slash "^3.0.0"
+    static-site-generator-webpack-plugin "^3.4.2"
+    style-to-object "^0.2.3"
+    underscore.string "^3.3.5"
+    unified "^8.3.2"
+    unist-util-map "^1.0.5"
+    unist-util-remove "^1.0.3"
+    unist-util-visit "^1.4.1"
+
+gatsby-plugin-mdx@^1.0.22:
   version "1.0.34"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.0.34.tgz#d89d4ede750e9cb2d4f966c01525b51241044499"
   integrity sha512-W1y7e+aSKBkfF+3XrI34oI/8WmWDIL5vLGoi6S7Q/3/366sve+1r6K9LQG6mWzOylDrcpNoVXHFX2ICW4I6NFg==
@@ -7729,10 +7770,10 @@ gatsby-theme-digital-garden@0.2.3:
     react-helmet "^6.0.0-beta"
     theme-ui "^0.2.26"
 
-gatsby-transformer-remark@2.6.20:
-  version "2.6.20"
-  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.20.tgz#426b4865e90d5c819cd2e25d143c9feb0f757a96"
-  integrity sha512-RxQ64qRd3IECf/l+ze7u5At+xmtW0BTdpv9h8FtFhY7STesVIL63rXxG5IWhD5cCTPvApbxPRVHWTNQ8zTNyeg==
+gatsby-transformer-remark@2.6.21:
+  version "2.6.21"
+  resolved "https://registry.yarnpkg.com/gatsby-transformer-remark/-/gatsby-transformer-remark-2.6.21.tgz#1c40ed468f00b770926bdc1d62c573d3b338e99f"
+  integrity sha512-DNHK4bK8uwMdERrnuxWv3+lQBkzAVJrF0GGqf0iewsnhmm1o3WAN0X06rAVW5gW1njy88RRjYM0D3I3WZRDUaw==
   dependencies:
     "@babel/runtime" "^7.5.5"
     bluebird "^3.5.5"
