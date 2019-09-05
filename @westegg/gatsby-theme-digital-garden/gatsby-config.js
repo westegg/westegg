@@ -14,7 +14,7 @@ module.exports = options => {
     },
     mdx = true,
     mdxLayouts = {
-      default: require('./src/components/layout')
+      default: require('src/components/layout')
     },
     notes = 'notes',
     notesPath = '/notes',
