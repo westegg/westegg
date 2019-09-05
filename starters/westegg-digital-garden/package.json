@@ -9,8 +9,8 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@westegg/gatsby-theme-core": "*",
-    "@westegg/gatsby-theme-digital-garden": "*",
+    "@westegg/gatsby-theme-core": "0.0.18",
+    "@westegg/gatsby-theme-digital-garden": "0.0.18",
     "gatsby": "2.15.6",
     "react": "16.9.0",
     "react-dom": "16.9.0"
