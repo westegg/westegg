@@ -86,7 +86,10 @@ module.exports = options => {
           require('rehype-autolink-headings'),
           require('rehype-highlight'),
           require('rehype-slug'),
-          require('rehype-toc')
+          require({
+            resolve: 'rehype-toc',
+            customizeTOC: tree => console.log(tree)
+          })
         ]
       }
     })
