@@ -14,9 +14,7 @@ module.exports = options => {
     },
     mdx = true,
     mdxLayouts = {
-      default: require.resolve(
-        '@westegg/gatsby-theme-digital-garden/src/components/layout'
-      )
+      default: require.resolve('./src/components/layout')
     },
     notes = 'notes',
     notesPath = '/notes',
