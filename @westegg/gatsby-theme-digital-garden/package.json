@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-digital-garden",
   "description": "",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
