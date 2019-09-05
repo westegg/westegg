@@ -12,8 +12,10 @@ module.exports = options => {
         }
       ]
     },
-    mdx = false,
-    mdxLayouts = {},
+    mdx = true,
+    mdxLayouts = {
+      default: require.resolve('./src/components/layout')
+    },
     notes = 'notes',
     notesPath = '/notes',
     posts,
@@ -29,11 +31,20 @@ module.exports = options => {
   /**
    * Gatsby Themes
    */
+  mdx &&
+    plugins.push({
+      resolve: '@westegg/gatsby-theme-core',
+      options: {
+        mdx,
+        mdxLayouts
+      }
+    })
+
   plugins.push({
     resolve: 'gatsby-theme-digital-garden',
     options: {
       header,
-      mdx,
+      mdx: !mdx,
       mdxLayouts,
       notes,
       notesPath
