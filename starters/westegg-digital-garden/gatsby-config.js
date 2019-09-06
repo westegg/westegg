@@ -6,12 +6,6 @@ module.exports = {
     {
       resolve: '@westegg/gatsby-theme-digital-garden',
       options: {
-        mdx: true,
-        mdxLayouts: {
-          default: require.resolve(
-            '@westegg/gatsby-theme-digital-garden/src/components/layout'
-          )
-        },
         header: {
           home: {
             href: '/',
