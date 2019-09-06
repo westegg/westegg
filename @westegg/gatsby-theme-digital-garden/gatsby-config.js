@@ -12,9 +12,10 @@ module.exports = options => {
         }
       ]
     },
-    // TODO: Turn to true once it works to use MDX from @westegg/gatsby-theme-core
-    mdx = false,
-    mdxLayouts = {},
+    mdx = true,
+    mdxLayouts = {
+      default: require.resolve('./src/components/layout')
+    },
     notes = 'notes',
     notesPath = '/notes',
     posts,

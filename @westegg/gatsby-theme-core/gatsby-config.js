@@ -55,6 +55,8 @@ module.exports = options => {
         ]
       }
     },
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-theme-ui',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-redirects'
@@ -73,6 +75,7 @@ module.exports = options => {
         },
         gatsbyRemarkPlugins: [
           {
+            // TODO this doesn't work. Waiting on https://github.com/gatsbyjs/gatsby/issues/16242
             resolve: 'gatsby-remark-images',
             options: {
               // It's important to specify the maxWidth (in pixels) of
