@@ -55,6 +55,8 @@ module.exports = options => {
         ]
       }
     },
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-theme-ui',
     'gatsby-plugin-offline',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-redirects'
