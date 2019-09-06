@@ -13,8 +13,8 @@ module.exports = options => {
         }
       ]
     },
-    mdx = false,
-    mdxLayouts = {},
+    mdx = true,
+    mdxLayouts,
     notes = 'notes',
     notesPath = '/notes',
     posts,
