@@ -14,7 +14,7 @@ module.exports = options => {
       ]
     },
     mdx = true,
-    mdxLayouts = {},
+    mdxLayouts,
     notes = 'notes',
     notesPath = '/notes',
     posts,
