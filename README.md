@@ -22,11 +22,12 @@ All starters are tested on build and deployed with the latest versions of includ
 - [starters/westegg-digital-garden](https://github.com/adrwxyz/westegg/tree/master/starters/westegg-digital-garden) [![Netlify Status](https://api.netlify.com/api/v1/badges/5f5e6a3d-cda1-421e-ac92-9e1140112f29/deploy-status)](https://app.netlify.com/sites/westeggdigitalgarden/deploys) [digitalgarden.westegg.xyz](http://digitalgarden.westegg.xyz)
 - [starters/westegg-misk](https://github.com/adrwxyz/westegg/tree/master/starters/westegg-misk) [![Netlify Status](https://api.netlify.com/api/v1/badges/11bf516c-696d-4064-b25d-a951e1736879/deploy-status)](https://app.netlify.com/sites/westeggmisk/deploys) [misk.westegg.xyz](http://misk.westegg.xyz)
 
-## Sites built on Westegg
+## Built on Westegg
 
-Please submit a PR and add your site if you're using Westegg!
+Please submit a PR and add your site if you're using a Westegg theme!
 
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/22667c9d-c088-4ae0-b75d-8a99e11d3167/deploy-status)](https://app.netlify.com/sites/andrewfm/deploys) [Repo](http://g.adrw.ch/andrew.fm) [andrew.fm](http://andrew.fm)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/a63ad086-fc71-4205-9b68-9eb0a29f129c/deploy-status)](https://app.netlify.com/sites/cookadrwxyz/deploys) [Repo](http://g.adrw.ch/cook.adrw.xyz) [cook.adrw.xyz](http://cook.adrw.xyz)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/c6152a21-a3f1-4232-bd3d-11e5a321a8f9/deploy-status)](https://app.netlify.com/sites/traveladrwxyz/deploys) [Repo](http://g.adrw.ch/travel.adrw.xyz) [travel.adrw.xyz](http://travel.adrw.xyz)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/08e4cc15-8174-456d-ab74-7c10b74291f9/deploy-status)](https://app.netlify.com/sites/suziealexandercom/deploys) [Repo](http://g.adrw.ch/suziealexander.com) [suziealexander.com](http://suziealexander.com)
+- [Repo](https://github.com/cashapp/misk-web) [cashapp.github.io/misk-web](https://cashapp.github.io/misk-web)
