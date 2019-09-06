@@ -4,17 +4,14 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: '@westegg/gatsby-theme-core',
-      mdx: true,
-      mdxLayouts: {
-        default: require.resolve(
-          '@westegg/gatsby-theme-digital-garden/src/components/layout'
-        )
-      }
-    },
-    {
       resolve: '@westegg/gatsby-theme-digital-garden',
       options: {
+        mdx: true,
+        mdxLayouts: {
+          default: require.resolve(
+            '@westegg/gatsby-theme-digital-garden/src/components/layout'
+          )
+        },
         header: {
           home: {
             href: '/',
