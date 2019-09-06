@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-digital-garden",
   "description": "",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.17",
-    "@westegg/gatsby-theme-core": "^0.0.29",
+    "@westegg/gatsby-theme-core": "^0.0.30",
     "gatsby": "2.15.6",
     "gatsby-theme-digital-garden": "0.2.3",
     "gatsby-theme-digital-garden-blog": "0.2.3",
@@ -25,8 +25,8 @@
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.5.4",
-    "babel-preset-gatsby": "^0.2.1",
-    "@misk/prettier": "0.1.17"
+    "@misk/prettier": "0.1.17",
+    "babel-preset-gatsby": "^0.2.1"
   },
   "resolutions": {
     "@babel/core": "^7.5.4"
