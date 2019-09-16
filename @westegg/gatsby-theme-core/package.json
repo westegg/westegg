@@ -53,7 +53,7 @@
     "theme-ui": "0.2.42"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.17"
+    "@misk/prettier": "0.1.18"
   },
   "prettier": "@misk/prettier",
   "keywords": [
