@@ -33,7 +33,7 @@
     "gatsby-plugin-react-helmet": "3.1.7",
     "gatsby-plugin-redirects": "1.0.0",
     "gatsby-plugin-sharp": "2.2.22",
-    "gatsby-plugin-theme-ui": "0.2.41",
+    "gatsby-plugin-theme-ui": "0.2.43",
     "gatsby-remark-copy-linked-files": "2.1.19",
     "gatsby-remark-images": "3.1.22",
     "gatsby-remark-relative-images": "0.2.3",
