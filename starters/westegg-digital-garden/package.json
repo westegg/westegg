@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@westegg/gatsby-theme-digital-garden": "*",
-    "gatsby": "2.15.24",
+    "gatsby": "2.15.25",
     "react": "16.9.0",
     "react-dom": "16.9.0"
   }
