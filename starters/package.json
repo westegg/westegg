@@ -3,6 +3,7 @@
   "workspaces": [
     "westegg-core",
     "westegg-digital-garden",
+    "westegg-jasper",
     "westegg-misk"
   ],
   "scripts": {

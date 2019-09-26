@@ -69,3 +69,7 @@ package-deps.json
 
 # Mac files
 .DS_Store
+
+# Gatsby
+.cache
+public
