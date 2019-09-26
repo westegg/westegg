@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-core",
   "description": "",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
