@@ -10,20 +10,20 @@
   },
   "dependencies": {
     "@westegg/gatsby-theme-jasper": "*",
-    "gatsby": "^2.13.39",
-    "gatsby-image": "^2.2.6",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-offline": "^2.2.4",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "gatsby-plugin-sharp": "^2.2.9",
-    "gatsby-source-filesystem": "^2.1.6",
-    "gatsby-transformer-sharp": "^2.2.4",
-    "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "gatsby": "2.15.28",
+    "gatsby-image": "2.2.23",
+    "gatsby-plugin-manifest": "2.2.20",
+    "gatsby-plugin-offline": "2.2.10",
+    "gatsby-plugin-react-helmet": "3.1.10",
+    "gatsby-plugin-sharp": "2.2.27",
+    "gatsby-source-filesystem": "2.1.28",
+    "gatsby-transformer-sharp": "2.2.19",
+    "prop-types": "15.7.2",
+    "react": "16.10.1",
+    "react-dom": "16.10.1",
+    "react-helmet": "5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "1.18.2"
   }
 }
