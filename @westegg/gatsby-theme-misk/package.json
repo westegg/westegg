@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-misk",
   "description": "",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
     "@emotion/core": "10.0.17",
     "@misk/common": "0.1.20",
     "@misk/core": "0.1.20",
-    "@westegg/gatsby-theme-digital-garden": "^0.0.38",
+    "@westegg/gatsby-theme-digital-garden": "^0.0.39",
     "gatsby": "2.15.28",
     "gatsby-theme-digital-garden": "0.2.3"
   },

@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-jasper",
   "description": "",
-  "version": "0.0.38",
+  "version": "0.0.39",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,7 @@
     "react-dom": "^16.9.0"
   },
   "dependencies": {
-    "@westegg/gatsby-theme-core": "^0.0.38",
+    "@westegg/gatsby-theme-core": "^0.0.39",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-theme-casper": "^0.1.1"
   },
