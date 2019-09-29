@@ -2,7 +2,7 @@
   "name": "@westegg/gatsby-theme-jasper",
   "description": "Gatsby Caspter theme, but more Mountains",
   "version": "0.0.39",
-  "main": "gatsby-config.js",
+  "main": "dist",
   "license": "MIT",
   "scripts": {
     "build": "npm run lint && tsc",
