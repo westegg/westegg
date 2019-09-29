@@ -4,7 +4,7 @@
 
 This Gatsby Theme lives in [Westegg](https://westegg.xyz/).
 
-![Westegg](https://github.com/westegg/westegg/blob/master/docs/static/img/logos/westegg-slogan.png)
+![Westegg](https://github.com/westegg/westegg/raw/master/docs/static/img/logos/westegg-slogan.png)
 
 Try out the [demo](http://core.westegg.xyz)
 
