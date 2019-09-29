@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-misk",
   "description": "",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
     "@emotion/core": "10.0.17",
     "@misk/common": "0.1.20",
     "@misk/core": "0.1.20",
-    "@westegg/gatsby-theme-digital-garden": "^0.0.37",
+    "@westegg/gatsby-theme-digital-garden": "^0.0.38",
     "gatsby": "2.15.28",
     "gatsby-theme-digital-garden": "0.2.3"
   },
@@ -35,5 +35,5 @@
     "misk",
     "misk-web"
   ],
-  "gitHead": "52666ddf91d0c25136f3033f9a97e2f0f0697979"
+  "gitHead": "223e6515f8831c2948812bfda24e66656fc02452"
 }

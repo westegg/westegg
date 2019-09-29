@@ -1,8 +1,8 @@
 module.exports = {
-  plugins: ['gatsby-theme-casper'],
+  plugins: ['@westegg/gatsby-theme-jasper'],
   siteMetadata: {
-    title: 'Ghost',
-    description: 'The professional publishing platform',
+    title: 'Jasper',
+    description: 'The newest mountain in Westegg',
     coverImage: 'img/blog-cover.jpg',
     logo: 'content/avatars/ghost.png',
     lang: 'en',
