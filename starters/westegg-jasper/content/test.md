@@ -11,7 +11,7 @@ tags:
 
 hello
 
-```kt
+```kotlin
 
 fun yo() = when {
   "wat" -> "sup",

@@ -1,11 +1,11 @@
 {
   "name": "@westegg/gatsby-theme-jasper",
-  "description": "",
+  "description": "Gatsby Caspter theme, but more Mountains",
   "version": "0.0.39",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
-    "build": "npm run lint && echo 'no build'",
+    "build": "npm run lint && tsc",
     "lint": "prettier --write --config package.json \".{/notes/**/,/pages/**/,/posts/**/,/projects/**/,/src/**/,/}*.{md,mdx,css,sass,less,json,js,jsx,ts,tsx}\""
   },
   "peerDependencies": {
@@ -16,7 +16,8 @@
   "dependencies": {
     "@westegg/gatsby-theme-core": "^0.0.39",
     "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-theme-casper": "^0.1.1"
+    "gatsby-theme-casper": "^0.1.1",
+    "typescript": "3.5.3"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.20"

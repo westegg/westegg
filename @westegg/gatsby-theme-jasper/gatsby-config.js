@@ -13,7 +13,7 @@ module.exports = options => {
       ]
     },
     siteMetadata = {
-      title: 'Jasper',
+      title: 'Westegg Jasper',
       description: 'The mountainous publishing platform',
       coverImage: 'img/blog-cover.jpg',
       logo: 'img/ghost-logo.png',
@@ -28,6 +28,8 @@ module.exports = options => {
       mailchimpEmailFieldName: 'MERGE0',
       googleSiteVerification: 'GoogleCode',
       footer: 'is based on National Parks of Canada',
+      footerLink: 'https://westegg.xyz',
+      footerShowRss: false,
       postsPerPage: 6
     }
   } = options
