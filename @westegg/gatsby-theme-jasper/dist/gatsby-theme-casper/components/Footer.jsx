@@ -87,11 +87,14 @@ const Footer = () => {
           facebook
           twitter
           footer
+          footerLink
+          footerShowRss
         }
       }
     }
   `)
   const config = data.site.siteMetadata
+  console.log(config)
   return (
     <footer css={[shared_1.outer, SiteFooter]}>
       <div css={[shared_1.inner, SiteFooterContent]}>
@@ -105,7 +108,6 @@ const Footer = () => {
           )}
         </section>
         <SiteFooterNav>
-          <gatsby_1.Link to="/">Latest Posts</gatsby_1.Link>
           {config.facebook && (
             <a href={config.facebook} target="_blank" rel="noopener noreferrer">
               Facebook
@@ -117,11 +119,7 @@ const Footer = () => {
             </a>
           )}
 
-          <a href="https://ghost.org" target="_blank" rel="noopener noreferrer">
-            Ghost
-          </a>
-
-          <a href="/rss.xml">RSS</a>
+          {config.footerShowRss && <a href="/rss.xml">RSS</a>}
         </SiteFooterNav>
       </div>
     </footer>

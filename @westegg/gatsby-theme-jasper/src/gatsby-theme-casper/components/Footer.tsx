@@ -95,6 +95,8 @@ const Footer: React.FC = () => {
   `)
   const config = data.site.siteMetadata
 
+  console.log(config)
+
   return (
     <footer css={[outer, SiteFooter]}>
       <div css={[inner, SiteFooterContent]}>
