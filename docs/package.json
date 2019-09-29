@@ -6,8 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
-    "build": "gatsby build",
-    "deploy": "npm run-script external && gatsby build",
+    "build": "npm run-script external && gatsby build",
     "external": "./refresh-external.sh"
   },
   "dependencies": {

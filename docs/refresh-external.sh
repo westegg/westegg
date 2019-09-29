@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 W=$(cd .. && pwd)
 THEMES=$W/docs/themes
