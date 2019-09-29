@@ -3,9 +3,10 @@
   "workspaces": [
     "westegg-core",
     "westegg-digital-garden",
+    "westegg-jasper",
     "westegg-misk"
   ],
   "scripts": {
-    "build": "bash -c \"cd westegg-core && yarn build\" && bash -c \"cd westegg-digital-garden && yarn build\" && bash -c \"cd westegg-misk && yarn build\""
+    "build": "echo \"westegg-core\" && bash -c \"cd westegg-core && yarn build\" && echo \"westegg-digital-garden\" && bash -c \"cd westegg-digital-garden && yarn build\" && echo \"westegg-jasper\" && bash -c \"cd westegg-jasper && yarn build\" && echo \"westegg-misk\" && bash -c \"cd westegg-misk && yarn build\""
   }
 }

@@ -3,6 +3,7 @@
   "workspaces": [
     "gatsby-theme-core",
     "gatsby-theme-digital-garden",
+    "gatsby-theme-jasper",
     "gatsby-theme-misk"
   ],
   "scripts": {

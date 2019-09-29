@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-core",
   "description": "",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "main": "gatsby-config.js",
   "license": "MIT",
   "scripts": {
@@ -64,5 +64,5 @@
     "mdx",
     "digital-garden"
   ],
-  "gitHead": "52666ddf91d0c25136f3033f9a97e2f0f0697979"
+  "gitHead": "223e6515f8831c2948812bfda24e66656fc02452"
 }
