@@ -10,7 +10,7 @@
     "noUnusedParameters": true,
     "removeComments": false,
     "preserveConstEnums": true,
-    "outDir": "dist",
+    "outDir": "dist/components",
     "listEmittedFiles": true
   },
   "include": ["./src/**/*"]
