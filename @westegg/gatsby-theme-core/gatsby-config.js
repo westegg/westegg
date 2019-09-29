@@ -6,7 +6,7 @@ module.exports = options => {
     mdx = false,
     mdxLayouts = {},
     siteMetadata = {
-      title: 'Westegg Digital Garden'
+      title: 'Westegg Core'
     }
   } = options
 
