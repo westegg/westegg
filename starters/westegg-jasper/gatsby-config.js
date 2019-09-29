@@ -1,12 +1,12 @@
 module.exports = {
   plugins: ['@westegg/gatsby-theme-jasper'],
   siteMetadata: {
-    title: 'Jasper',
-    description: 'The newest mountain in Westegg',
+    title: 'Westegg Jasper',
+    description: 'The mountainous publishing platform',
     coverImage: 'img/blog-cover.jpg',
-    logo: 'content/avatars/ghost.png',
+    logo: 'img/ghost-logo.png',
     lang: 'en',
-    siteUrl: 'https://gatsby-casper.netlify.com',
+    siteUrl: 'https://westegg.xyz',
     facebook: 'https://www.facebook.com/ghost',
     twitter: 'https://twitter.com/tryghost',
     showSubscribe: true,
@@ -15,7 +15,8 @@ module.exports = {
     mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
     mailchimpEmailFieldName: 'MERGE0',
     googleSiteVerification: 'GoogleCode',
-    footer: 'is based on Gatsby Casper',
+    footer: 'lives in Westegg',
+    footerLink: 'https://westegg.xyz/',
     postsPerPage: 6
   }
 }

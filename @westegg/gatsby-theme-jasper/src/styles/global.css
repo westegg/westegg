@@ -23,7 +23,7 @@
 }
 
 * {
-  font-family: cash-market, 'Helvetica Neue', helvetica, sans-serif;
+  font-family: cash-market, 'Helvetica Neue', helvetica, sans-serif !important;
 }
 
 h1,
