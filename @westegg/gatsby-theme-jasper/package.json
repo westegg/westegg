@@ -3,6 +3,7 @@
   "description": "Gatsby Caspter theme, but more Mountains",
   "version": "0.0.43",
   "main": "dist",
+  "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
   "scripts": {
     "build": "npm run lint && tsc",

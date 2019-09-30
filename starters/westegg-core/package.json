@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "description": "Westegg Core Starter",
   "main": "gatsby-config.js",
+  "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",

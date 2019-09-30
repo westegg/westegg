@@ -3,6 +3,7 @@
   "name": "westegg-misk",
   "version": "0.0.0",
   "main": "index.js",
+  "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
   "scripts": {
     "start": "gatsby develop",
