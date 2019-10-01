@@ -1,8 +1,9 @@
 {
   "name": "@westegg/gatsby-theme-digital-garden",
   "description": "",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "main": "gatsby-config.js",
+  "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
   "scripts": {
     "build": "npm run lint && echo 'no build'",
@@ -15,7 +16,7 @@
   },
   "dependencies": {
     "@emotion/core": "10.0.17",
-    "@westegg/gatsby-theme-core": "^0.0.42",
+    "@westegg/gatsby-theme-core": "^0.0.43",
     "gatsby-theme-digital-garden": "0.2.3",
     "gatsby-theme-digital-garden-blog": "0.2.3",
     "gatsby-theme-digital-garden-portfolio": "0.2.3",

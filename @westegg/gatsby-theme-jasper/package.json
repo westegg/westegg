@@ -1,8 +1,9 @@
 {
   "name": "@westegg/gatsby-theme-jasper",
   "description": "Gatsby Caspter theme, but more Mountains",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "main": "dist",
+  "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
   "scripts": {
     "build": "npm run lint && tsc",
@@ -14,7 +15,7 @@
     "react-dom": "^16.9.0"
   },
   "dependencies": {
-    "@westegg/gatsby-theme-core": "^0.0.42",
+    "@westegg/gatsby-theme-core": "^0.0.43",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-theme-casper": "^0.1.1",
     "typescript": "3.6.3"
