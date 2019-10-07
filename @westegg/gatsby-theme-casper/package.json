@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-casper",
   "description": "Casper for gatsby",
-  "version": "0.0.45",
+  "version": "0.0.46",
   "main": "dist",
   "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
