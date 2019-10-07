@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "@westegg/gatsby-theme-core": "^0.0.43",
+    "@westegg/gatsby-theme-casper": "*",
     "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-theme-casper": "^0.1.1",
     "typescript": "3.6.3"
   },
   "devDependencies": {

@@ -8,6 +8,6 @@
     "gatsby-theme-misk"
   ],
   "scripts": {
-    "build": "bash -c \"cd gatsby-theme-core && yarn build\" && bash -c \"cd gatsby-theme-digital-garden && yarn build\" && bash -c \"cd gatsby-theme-misk && yarn build\""
+    "build": "bash -c \"cd gatsby-theme-casper && yarn build\" && bash -c \"cd gatsby-theme-core && yarn build\" && bash -c \"cd gatsby-theme-digital-garden && yarn build\" && bash -c \"cd gatsby-theme-jasper && yarn build\" && bash -c \"cd gatsby-theme-misk && yarn build\""
   }
 }
