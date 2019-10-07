@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-core",
   "description": "",
-  "version": "0.0.44",
+  "version": "0.0.45",
   "main": "gatsby-config.js",
   "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
