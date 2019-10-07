@@ -1,7 +1,7 @@
 {
   "name": "@westegg/gatsby-theme-casper",
   "description": "Casper for gatsby",
-  "version": "0.1.2",
+  "version": "0.0.44",
   "main": "dist",
   "author": "Westegg Authors (https://github.com/westegg/westegg/graphs/contributors)",
   "license": "MIT",
@@ -79,5 +79,6 @@
     "gatsby-theme",
     "gatsby-plugin"
   ],
-  "repository": "scttcper/gatsby-theme-casper"
+  "repository": "scttcper/gatsby-theme-casper",
+  "gitHead": "a3bda4be3e861b09ae50f70426dcbdd3cdb0ee44"
 }
