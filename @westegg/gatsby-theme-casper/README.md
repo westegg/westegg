@@ -1,6 +1,4 @@
-# @westegg/gatsby-theme-casper
-
-> A fork of [scttcper/gatsby-theme-casper](https://www.npmjs.com/package/gatsby-theme-casper)
+# Gatsby Theme Casper
 
 Demo: https://gatsby-casper-theme.netlify.com/
 
@@ -51,8 +49,8 @@ This is a Gatsby theme that, when installed, creates a static blog. A port of [C
         mailchimpEmailFieldName: 'MERGE0',
         googleSiteVerification: 'GoogleCode',
         footer: 'is based on Gatsby Casper',
-        postsPerPage: 6
-      }
+        postsPerPage: 6,
+      },
     }
     ```
 

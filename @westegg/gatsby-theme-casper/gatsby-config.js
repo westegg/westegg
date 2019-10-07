@@ -33,10 +33,10 @@ module.exports = {
     mailchimpEmailFieldName: '', // 'MERGE0',
     googleSiteVerification: '', // 'GoogleCode',
     footer: 'is based on Gatsby Casper',
-    postsPerPage: 6
+    postsPerPage: 6,
   },
   mapping: {
-    'MarkdownRemark.frontmatter.author': 'AuthorYaml'
+    'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
     'gatsby-plugin-sharp',
@@ -44,8 +44,8 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
-        path: path.join(process.cwd(), 'content')
-      }
+        path: path.join(process.cwd(), 'content'),
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -54,8 +54,8 @@ module.exports = {
           {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
-              wrapperStyle: 'margin-bottom: 1rem'
-            }
+              wrapperStyle: 'margin-bottom: 1rem',
+            },
           },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
@@ -65,18 +65,18 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 1170,
-              quality: 90
-            }
-          }
-        ]
-      }
+              quality: 90,
+            },
+          },
+        ],
+      },
     },
     'gatsby-transformer-json',
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://gatsby-casper.netlify.com'
-      }
+        siteUrl: 'https://gatsby-casper.netlify.com',
+      },
     },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
@@ -87,11 +87,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
-        postCssPlugins: [
-          require('postcss-color-function'),
-          require('cssnano')()
-        ]
-      }
-    }
-  ]
+        postCssPlugins: [require('postcss-color-function'), require('cssnano')()],
+      },
+    },
+  ],
 }

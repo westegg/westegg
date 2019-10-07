@@ -20,7 +20,7 @@ import {
   SiteHeaderContent,
   SiteTitle,
   SiteMain,
-  SocialLink
+  SocialLink,
 } from '../styles/shared'
 import { PageContext } from './post'
 import Facebook from '../components/icons/facebook'
@@ -127,14 +127,8 @@ const Author: React.FC<AuthorTemplateProps> = props => {
   const config = props.data.site.siteMetadata
 
   const edges = props.data.allMarkdownRemark.edges.filter(edge => {
-    const isDraft =
-      edge.node.frontmatter.draft !== true ||
-      process.env.NODE_ENV === 'development'
-    return (
-      isDraft &&
-      edge.node.frontmatter.author &&
-      edge.node.frontmatter.author.id === author.id
-    )
+    const isDraft = edge.node.frontmatter.draft !== true || process.env.NODE_ENV === 'development'
+    return isDraft && edge.node.frontmatter.author && edge.node.frontmatter.author.id === author.id
   })
   const totalCount = edges.length
 
@@ -149,24 +143,12 @@ const Author: React.FC<AuthorTemplateProps> = props => {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="profile" />
         <meta property="og:title" content={`${author.id} - ${config.title}`} />
-        <meta
-          property="og:url"
-          content={config.siteUrl + props.pathContext.slug}
-        />
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/ghost"
-        />
-        <meta
-          property="article:author"
-          content="https://www.facebook.com/ghost"
-        />
+        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
+        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
+        <meta property="article:author" content="https://www.facebook.com/ghost" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
-        <meta
-          name="twitter:url"
-          content={config.siteUrl + props.pathContext.slug}
-        />
+        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
         {config.twitter && (
           <meta
             name="twitter:site"
@@ -188,7 +170,7 @@ const Author: React.FC<AuthorTemplateProps> = props => {
             // eslint-disable-next-line @typescript-eslint/camelcase
             backgroundImage: author.profile_image
               ? `url(${author.profile_image.childImageSharp.fluid.src})`
-              : ''
+              : '',
           }}
         >
           <div css={inner}>

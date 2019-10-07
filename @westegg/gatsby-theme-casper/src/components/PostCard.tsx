@@ -19,13 +19,11 @@ const PostCardStyles = css`
   background: #fff center center;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px,
-    rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
   transition: all 0.5s ease;
 
   :hover {
-    box-shadow: rgba(39, 44, 49, 0.07) 8px 28px 50px,
-      rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: rgba(39, 44, 49, 0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
   }
@@ -152,8 +150,7 @@ const AuthorNameTooltip = styled.div`
   white-space: nowrap;
   background: ${colors.darkgrey};
   border-radius: 3px;
-  box-shadow: rgba(39, 44, 49, 0.08) 0 12px 26px,
-    rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  box-shadow: rgba(39, 44, 49, 0.08) 0 12px 26px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
   opacity: 0;
   transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
   transform: translateY(6px);
@@ -206,11 +203,7 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
       css={PostCardStyles}
     >
       {post.frontmatter.image && (
-        <Link
-          className="post-card-image-link"
-          css={PostCardImageLink}
-          to={post.fields.slug}
-        >
+        <Link className="post-card-image-link" css={PostCardImageLink} to={post.fields.slug}>
           <PostCardImage className="post-card-image">
             {post.frontmatter.image &&
               post.frontmatter.image.childImageSharp &&
@@ -225,15 +218,9 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
         </Link>
       )}
       <PostCardContent className="post-card-content">
-        <Link
-          className="post-card-content-link"
-          css={PostCardContentLink}
-          to={post.fields.slug}
-        >
+        <Link className="post-card-content-link" css={PostCardContentLink} to={post.fields.slug}>
           <header className="post-card-header">
-            {post.frontmatter.tags && (
-              <PostCardTags>{post.frontmatter.tags[0]}</PostCardTags>
-            )}
+            {post.frontmatter.tags && <PostCardTags>{post.frontmatter.tags[0]}</PostCardTags>}
             <PostCardTitle>{post.frontmatter.title}</PostCardTitle>
           </header>
           <PostCardExcerpt>
@@ -246,10 +233,7 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
               <AuthorNameTooltip className="author-name-tooltip">
                 {post.frontmatter.author.id}
               </AuthorNameTooltip>
-              <Link
-                css={StaticAvatar}
-                to={`/author/${_.kebabCase(post.frontmatter.author.id)}/`}
-              >
+              <Link css={StaticAvatar} to={`/author/${_.kebabCase(post.frontmatter.author.id)}/`}>
                 <AuthorProfileImage
                   src={post.frontmatter.author.avatar.children[0].fixed.src}
                   alt={post.frontmatter.author.id}

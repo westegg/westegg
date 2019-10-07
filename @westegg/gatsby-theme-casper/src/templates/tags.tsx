@@ -16,7 +16,7 @@ import {
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
-  SiteTitle
+  SiteTitle,
 } from '../styles/shared'
 import { PageContext } from './post'
 
@@ -65,7 +65,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
   const tag = props.pageContext.tag ? props.pageContext.tag : ''
   const { edges, totalCount } = props.data.allMarkdownRemark
   const tagData = props.data.allTagYaml.edges.find(
-    n => n.node.id.toLowerCase() === tag.toLowerCase()
+    n => n.node.id.toLowerCase() === tag.toLowerCase(),
   )
 
   return (
@@ -82,19 +82,11 @@ const Tags: React.FC<TagTemplateProps> = props => {
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={`${tag} - ${config.title}`} />
-        <meta
-          property="og:url"
-          content={config.siteUrl + props.pathContext.slug}
-        />
-        {config.facebook && (
-          <meta property="article:publisher" content={config.facebook} />
-        )}
+        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
+        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={`${tag} - ${config.title}`} />
-        <meta
-          name="twitter:url"
-          content={config.siteUrl + props.pathContext.slug}
-        />
+        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
         {config.twitter && (
           <meta
             name="twitter:site"
@@ -110,7 +102,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
             backgroundImage:
               tagData && tagData.node.image
                 ? `url('${tagData.node.image.childImageSharp.fluid.src}')`
-                : ''
+                : '',
           }}
         >
           <div css={inner}>

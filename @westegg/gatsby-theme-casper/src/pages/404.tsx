@@ -100,10 +100,7 @@ export default NotFoundPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(
-      limit: 3
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
+    allMarkdownRemark(limit: 3, sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           timeToRead

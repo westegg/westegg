@@ -22,8 +22,7 @@ const ReadNextCardStyles = styled.article<ReadNextCardStylesProps>`
   background: ${colors.darkgrey} center center;
   background-size: cover;
   border-radius: 5px;
-  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px,
-    rgba(39, 44, 49, 0.03) 1px 3px 8px;
+  box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
   background-image: url(${props => props.coverImage});
 
   :before {
@@ -34,11 +33,7 @@ const ReadNextCardStyles = styled.article<ReadNextCardStylesProps>`
     bottom: 0;
     left: 0;
     display: block;
-    background: linear-gradient(
-      135deg,
-      rgba(0, 40, 60, 0.8) 0%,
-      rgba(0, 20, 40, 0.7) 100%
-    );
+    background: linear-gradient(135deg, rgba(0, 40, 60, 0.8) 0%, rgba(0, 20, 40, 0.7) 100%);
     border-radius: 5px;
     backdrop-filter: blur(2px);
   }
@@ -207,9 +202,7 @@ const ReadNextCard: React.FC<ReadNextProps> = props => {
               &mdash; {site.siteMetadata.title} &mdash;
             </ReadNextCardHeaderSitetitle>
             <ReadNextCardHeaderTitle>
-              <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>
-                {props.tags[0]}
-              </Link>
+              <Link to={`/tags/${_.kebabCase(props.tags[0])}/`}>{props.tags[0]}</Link>
             </ReadNextCardHeaderTitle>
           </ReadNextCardHeader>
           <ReadNextDivider>
@@ -220,9 +213,7 @@ const ReadNextCard: React.FC<ReadNextProps> = props => {
               {props.relatedPosts.edges.map(n => {
                 return (
                   <li key={n.node.frontmatter.title}>
-                    <Link to={n.node.fields.slug}>
-                      {n.node.frontmatter.title}
-                    </Link>
+                    <Link to={n.node.fields.slug}>{n.node.frontmatter.title}</Link>
                   </li>
                 )
               })}

@@ -9,5 +9,5 @@ export const colors = {
   lightgrey: '#c5d2d9',
   whitegrey: '#e5eff5',
   pink: '#fa3a57',
-  brown: '#a3821a'
+  brown: '#a3821a',
 }

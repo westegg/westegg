@@ -73,3 +73,6 @@ package-deps.json
 # Gatsby
 .cache
 public
+
+# Compiled dist
+dist

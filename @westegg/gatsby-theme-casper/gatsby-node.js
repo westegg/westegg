@@ -25,20 +25,20 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: 'slug',
-        value: slug || ''
+        value: slug || '',
       })
 
       // Used to determine a page layout.
       createNodeField({
         node,
         name: 'layout',
-        value: layout || ''
+        value: layout || '',
       })
 
       createNodeField({
         node,
         name: 'primaryTag',
-        value: primaryTag || ''
+        value: primaryTag || '',
       })
       break
     }
@@ -108,8 +108,6 @@ exports.createPages = async ({ graphql, actions }) => {
       }
       site {
         siteMetadata {
-          coverImage
-          logo
           postsPerPage
         }
       }
@@ -128,10 +126,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const postsPerPage = result.data.site.siteMetadata.postsPerPage || 6
   const numPages = Math.ceil(posts.length / postsPerPage)
 
-  // Pass in coverImage and logo to index query
-  const coverImage = result.data.site.siteMetadata.coverImage
-  const logo = result.data.site.siteMetadata.logo
-
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? '/' : `/${i + 1}`,
@@ -139,11 +133,9 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,
-        coverImage,
-        logo,
         numPages,
-        currentPage: i + 1
-      }
+        currentPage: i + 1,
+      },
     })
   })
 
@@ -163,17 +155,14 @@ exports.createPages = async ({ graphql, actions }) => {
       // template.
       //
       // Note that the template has to exist first, or else the build will fail.
-      component: path.join(
-        __dirname,
-        `./src/templates/${layout || 'post'}.tsx`
-      ),
+      component: path.join(__dirname, `./src/templates/${layout || 'post'}.tsx`),
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug,
         prev,
         next,
-        primaryTag: node.frontmatter.tags ? node.frontmatter.tags[0] : ''
-      }
+        primaryTag: node.frontmatter.tags ? node.frontmatter.tags[0] : '',
+      },
     })
   })
 
@@ -183,16 +172,16 @@ exports.createPages = async ({ graphql, actions }) => {
     _.flatten(
       result.data.allMarkdownRemark.edges.map(edge => {
         return _.castArray(_.get(edge, 'node.frontmatter.tags', []))
-      })
-    )
+      }),
+    ),
   )
   tags.forEach(tag => {
     createPage({
       path: `/tags/${_.kebabCase(tag)}/`,
       component: tagTemplate,
       context: {
-        tag
-      }
+        tag,
+      },
     })
   })
 
@@ -203,8 +192,8 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `/author/${_.kebabCase(edge.node.id)}/`,
       component: authorTemplate,
       context: {
-        author: edge.node.id
-      }
+        author: edge.node.id,
+      },
     })
   })
 }
@@ -213,7 +202,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
   // adds sourcemaps for tsx in dev mode
   if (stage === 'develop' || stage === 'develop-html') {
     actions.setWebpackConfig({
-      devtool: 'eval-source-map'
+      devtool: 'eval-source-map',
     })
   }
 }

@@ -19,7 +19,7 @@ import {
   SiteHeader,
   SiteHeaderContent,
   SiteMain,
-  SiteTitle
+  SiteTitle,
 } from '../styles/shared'
 import { PageContext } from './post'
 
@@ -101,12 +101,8 @@ export interface IndexProps {
 }
 
 const IndexPage: React.FC<IndexProps> = props => {
-  const width = props.data.header.childImageSharp.fluid.sizes
-    .split(', ')[1]
-    .split('px')[0]
-  const height = String(
-    Number(width) / props.data.header.childImageSharp.fluid.aspectRatio
-  )
+  const width = props.data.header.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0]
+  const height = String(Number(width) / props.data.header.childImageSharp.fluid.aspectRatio)
   const config = props.data.site.siteMetadata
 
   return (
@@ -124,14 +120,9 @@ const IndexPage: React.FC<IndexProps> = props => {
           property="og:image"
           content={`${config.siteUrl}${props.data.header.childImageSharp.fluid.src}`}
         />
-        {config.facebook && (
-          <meta property="article:publisher" content={config.facebook} />
-        )}
+        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={config.googleSiteVerification}
-          />
+          <meta name="google-site-verification" content={config.googleSiteVerification} />
         )}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={config.title} />
@@ -154,7 +145,7 @@ const IndexPage: React.FC<IndexProps> = props => {
         <header
           css={[outer, SiteHeader]}
           style={{
-            backgroundImage: `url('${props.data.header.childImageSharp.fluid.src}')`
+            backgroundImage: `url('${props.data.header.childImageSharp.fluid.src}')`,
           }}
         >
           <div css={inner}>
@@ -204,27 +195,22 @@ const IndexPage: React.FC<IndexProps> = props => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query blogPageQuery(
-    $skip: Int!
-    $limit: Int!
-    $headerPath: String!
-    $logoPath: String!
-  ) {
-    header: file(relativePath: { eq: $headerPath }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fluid(maxWidth: 2000) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    logo: file(relativePath: { eq: $logoPath }) {
+  query blogPageQuery($skip: Int!, $limit: Int!) {
+    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
         fixed {
           ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fluid(maxWidth: 2000) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
@@ -274,8 +260,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        description
         lang
+        description
         siteUrl
         facebook
         twitter

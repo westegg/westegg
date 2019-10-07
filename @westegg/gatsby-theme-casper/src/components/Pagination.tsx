@@ -17,8 +17,7 @@ const navCss = css`
   }
 
   a {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-      Ubuntu, Cantarell;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
     background: #fff;
     color: black;
     float: left;
@@ -27,8 +26,7 @@ const navCss = css`
     transition: background-color 0.3s;
     border: 1px solid #ddd;
     margin: 0 4px;
-    box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px,
-      rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39, 44, 49, 0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
     border-radius: 6px;
     margin-bottom: 5px;
     min-width: 50px;
@@ -49,10 +47,7 @@ const navCss = css`
   }
 `
 
-const Pagination: React.FunctionComponent<PaginationProps> = ({
-  currentPage,
-  numPages
-}) => {
+const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, numPages }) => {
   const isFirst = currentPage === 1
   const isLast = currentPage === numPages
   const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString()
