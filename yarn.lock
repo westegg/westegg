@@ -8446,10 +8446,10 @@ gatsby-cli@^2.7.19:
     ink "^2.4.0"
     ink-spinner "^3.0.1"
 
-gatsby-cli@^2.8.4:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.4.tgz#e4ff3042ab66a23b5611a47f6fe623a800e2ff50"
-  integrity sha512-mJpDKJ7LrQ4qO7a57KWqD1EsrdfpQ1s4zin09HxPI8YrjzpnNm0WShFsp/iNSpxBcRidCbi3SYU919YzhtEMXA==
+gatsby-cli@^2.8.5:
+  version "2.8.5"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.8.5.tgz#5c11a455c73cca949fab6b0a7ca46cd8c10ee3d7"
+  integrity sha512-kkbVnCxSrqJDMq/H3FaqG4ptJSt+8etMTfrHDWy/Ju0GbhSmuW66jB/JVlOzsAY0BjHpGik4+bT/OmRmmbKmIQ==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/runtime" "^7.6.3"
@@ -9506,10 +9506,10 @@ gatsby@2.13.39:
     xstate "^4.3.2"
     yaml-loader "^0.5.0"
 
-gatsby@2.17.1:
-  version "2.17.1"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.17.1.tgz#c10a28ae4292ccd007b4313de391bee405e66043"
-  integrity sha512-XeQZ9f4aDKMPLY3s5NXiCNOfPHhdKSY5/4CjZQHON9vFCHmretQdps+f2ykqEKGEKQ0B+cmvTkPHflrqPhZk8w==
+gatsby@2.17.3:
+  version "2.17.3"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.17.3.tgz#481d2729cf97a0d10c756e39587793ce59b0e14a"
+  integrity sha512-gUITOfi3DvxbZQ1z8+/Nn8SJatYb7bgV6hweiwxiI9YcMGnc1xE+UpbrqAdBYbTfnl2Yo66PprII2zoLtYMLUw==
   dependencies:
     "@babel/code-frame" "^7.5.5"
     "@babel/core" "^7.6.4"
@@ -9571,7 +9571,7 @@ gatsby@2.17.1:
     flat "^4.1.0"
     fs-exists-cached "1.0.0"
     fs-extra "^8.1.0"
-    gatsby-cli "^2.8.4"
+    gatsby-cli "^2.8.5"
     gatsby-core-utils "^1.0.15"
     gatsby-graphiql-explorer "^0.2.25"
     gatsby-link "^2.2.22"
