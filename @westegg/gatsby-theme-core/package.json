@@ -47,7 +47,7 @@
     "rehype-slug": "^2.0.3",
     "rehype-toc": "^2.2.1",
     "styled-system": "5.1.2",
-    "theme-ui": "0.2.44"
+    "theme-ui": "0.2.46"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.18"
