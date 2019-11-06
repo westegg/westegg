@@ -108,6 +108,8 @@ exports.createPages = async ({ graphql, actions }) => {
       }
       site {
         siteMetadata {
+          coverImage
+          logo
           postsPerPage
         }
       }
@@ -126,6 +128,10 @@ exports.createPages = async ({ graphql, actions }) => {
   const postsPerPage = result.data.site.siteMetadata.postsPerPage || 6
   const numPages = Math.ceil(posts.length / postsPerPage)
 
+  // Pass in coverImage and logo to index query
+  const coverImage = result.data.site.siteMetadata.coverImage
+  const logo = result.data.site.siteMetadata.logo
+
   Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
       path: i === 0 ? '/' : `/${i + 1}`,
@@ -133,6 +139,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         limit: postsPerPage,
         skip: i * postsPerPage,
+        coverImagePath: coverImage,
+        logoPath: logo,
         numPages,
         currentPage: i + 1,
       },

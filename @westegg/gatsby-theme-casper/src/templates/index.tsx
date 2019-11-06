@@ -195,22 +195,22 @@ const IndexPage: React.FC<IndexProps> = props => {
 export default IndexPage
 
 export const pageQuery = graphql`
-  query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    header: file(relativePath: { eq: "img/blog-cover.jpg" }) {
+  query blogPageQuery($skip: Int!, $limit: Int!, $coverImagePath: String!, $logoPath: String!) {
+    header: file(relativePath: { eq: $coverImagePath }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
         fluid(maxWidth: 2000) {
           ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    logo: file(relativePath: { eq: $logoPath }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed {
+          ...GatsbyImageSharpFixed
         }
       }
     }
@@ -260,8 +260,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        lang
         description
+        lang
         siteUrl
         facebook
         twitter

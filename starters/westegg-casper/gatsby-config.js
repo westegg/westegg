@@ -6,7 +6,7 @@ module.exports = {
         siteMetadata: {
           title: 'Westegg Casper',
           description: 'The mountainous publishing platform',
-          coverImage: 'img/blog-cover.jpg',
+          coverImage: 'img/ca-blog-cover.jpg',
           logo: 'avatars/ghost.png',
           lang: 'en',
           siteUrl: 'https://westegg.xyz',
