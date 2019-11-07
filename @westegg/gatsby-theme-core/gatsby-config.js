@@ -5,6 +5,7 @@ module.exports = options => {
   const {
     mdx = false,
     mdxLayouts = {},
+    mdxShowToc = true,
     siteMetadata = {
       title: 'Westegg Core'
     }
@@ -88,9 +89,8 @@ module.exports = options => {
         rehypePlugins: [
           require('rehype-autolink-headings'),
           require('rehype-highlight'),
-          require('rehype-slug'),
-          require('rehype-toc')
-        ]
+          require('rehype-slug')
+        ].concat((mdxShowToc && [require('rehype-toc')]) || [])
       }
     })
   }
