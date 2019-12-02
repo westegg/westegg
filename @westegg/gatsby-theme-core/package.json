@@ -46,7 +46,7 @@
     "rehype-highlight": "^3.0.0",
     "rehype-slug": "^2.0.3",
     "rehype-toc": "^2.2.1",
-    "styled-system": "5.1.2",
+    "styled-system": "5.1.4",
     "theme-ui": "0.2.49"
   },
   "devDependencies": {
