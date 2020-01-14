@@ -1618,7 +1618,7 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.9.0"
 
-"@blueprintjs/core@3.22.3":
+"@blueprintjs/core@3.22.3", "@blueprintjs/core@^3.20.0":
   version "3.22.3"
   resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.22.3.tgz#57dc2c072a17db0e52cc5679d8bbc016082b27e7"
   integrity sha512-IaxkvJyF+4VCvAjMvyHtJ4qUiQNwgPu4zIxLRo1cBsu30gHjYzwe+xDdssBR7yRnXARguM6bkI523w+yJOerCA==
@@ -1653,6 +1653,14 @@
     classnames "^2.2"
     tslib "~1.9.0"
 
+"@blueprintjs/icons@3.13.0":
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.13.0.tgz#bff93a9ea5ced03afd2b3a65ddf4bb90bda485e4"
+  integrity sha512-fvXGsAJ66SSjeHv3OeXjLEdKdPJ3wVztjhJQCAd51uebhj3FJ16EDDvO7BqBw5FyVkLkU11KAxSoCFZt7TC9GA==
+  dependencies:
+    classnames "^2.2"
+    tslib "~1.9.0"
+
 "@blueprintjs/icons@^3.12.0":
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.12.0.tgz#cea6a6434d9d469e26d87b055e6b6aa5768135b3"
@@ -1670,12 +1678,32 @@
     classnames "^2.2"
     tslib "~1.9.0"
 
+"@blueprintjs/select@3.11.2":
+  version "3.11.2"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/select/-/select-3.11.2.tgz#3324db0de44a9f386b957aac1ba3ec774b3eb1e7"
+  integrity sha512-fU0Km6QI/ayWhzYeu9N1gTj0+L0XUO4KB3u2LfJXgj648UGY8F4HX2ETdJ+XPdtsu6TesrIL7ghMQhtLcvafBg==
+  dependencies:
+    "@blueprintjs/core" "^3.20.0"
+    classnames "^2.2"
+    tslib "~1.9.0"
+
 "@blueprintjs/table@3.8.1":
   version "3.8.1"
   resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.8.1.tgz#90a68d8acb8aec3af29aee6e7ce117c1aa05dd67"
   integrity sha512-sf1XdGsVsBhrfTm7bHQMV25HMQuYrZ/23hv6GczgU9SnQNyXDQWXcGetUwzieEVWjlCEb5e/S9ve3AMYeB3zTw==
   dependencies:
     "@blueprintjs/core" "^3.19.1"
+    classnames "^2.2"
+    prop-types "^15.6.0"
+    react-lifecycles-compat "^3.0.4"
+    tslib "~1.9.0"
+
+"@blueprintjs/table@3.8.2":
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.8.2.tgz#0b21985720158e5279d598cdd61d052dc7c21bc7"
+  integrity sha512-resevLlvQVrFh/o3pvhh7UPi5N8dzBLV2YOWbsJ5t7AfdENHyeEkRaS5lXs36FXEV+8upoVT/rfDINNAINaPmQ==
+  dependencies:
+    "@blueprintjs/core" "^3.20.0"
     classnames "^2.2"
     prop-types "^15.6.0"
     react-lifecycles-compat "^3.0.4"
@@ -1691,6 +1719,18 @@
     classnames "^2.2"
     moment "^2.24.0"
     moment-timezone "^0.5.26"
+    tslib "~1.9.0"
+
+"@blueprintjs/timezone@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/timezone/-/timezone-3.6.1.tgz#b617ee3d049e23113540fcc2bf7fab000546e3a9"
+  integrity sha512-emCKUP9iEYFOxEMMcm1aQFaePs7mbeiRlH1NOnG3kwZnPxZYK6zUtpe/tP6dyWhBNxjFaDjFJ+f8JbyYGPtktQ==
+  dependencies:
+    "@blueprintjs/core" "^3.19.0"
+    "@blueprintjs/select" "^3.11.0"
+    classnames "^2.2"
+    moment "^2.24.0"
+    moment-timezone "^0.5.27"
     tslib "~1.9.0"
 
 "@emotion/babel-plugin-jsx-pragmatic@^0.1.4":
@@ -3189,6 +3229,44 @@
     status-code-enum "1.0.0"
     styled-components "4.4.1"
 
+"@misk/common@0.1.24":
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.24.tgz#afe1cad2e0fee52a893e6fe3b059bf97aa272ba5"
+  integrity sha512-6xOM0pbMqt+H4pHYEadPIV4ZmAk9OtKnmOD7Dpjm+Xv/wWrewN6weE17TCYdToan22ZfZSItRY6pJuSjkCac0w==
+  dependencies:
+    "@blueprintjs/core" "3.19.1"
+    "@blueprintjs/datetime" "3.13.0"
+    "@blueprintjs/icons" "3.13.0"
+    "@blueprintjs/select" "3.11.2"
+    "@blueprintjs/table" "3.8.2"
+    "@blueprintjs/timezone" "3.6.1"
+    "@emotion/core" "10.0.22"
+    "@emotion/styled" "10.0.23"
+    "@redux-saga/core" "1.1.3"
+    axios "0.19.1"
+    connected-react-router "6.6.1"
+    dayjs "1.8.19"
+    enum-utils "1.0.0"
+    history "4.10.1"
+    http-method-enum "1.0.0"
+    immutable "4.0.0-rc.12"
+    lodash "4.17.15"
+    re-reselect "3.4.0"
+    react "16.12.0"
+    react-dom "16.12.0"
+    react-helmet "5.2.1"
+    react-hot-loader "4.12.18"
+    react-redux "7.1.3"
+    react-router "5.1.2"
+    react-router-dom "5.1.2"
+    react-transition-group "4.3.0"
+    redux "4.0.5"
+    redux-saga "1.1.3"
+    reselect "4.0.0"
+    skeleton-css "2.0.4"
+    status-code-enum "1.0.0"
+    styled-components "4.4.1"
+
 "@misk/core@0.1.23":
   version "0.1.23"
   resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.23.tgz#231b20265fca345fbf653aa9dc4b1d4c77cb0bd8"
@@ -3410,7 +3488,7 @@
     redux "^4.0.4"
     typescript-tuple "^2.2.1"
 
-"@redux-saga/core@^1.1.1":
+"@redux-saga/core@1.1.3", "@redux-saga/core@^1.1.1", "@redux-saga/core@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@redux-saga/core/-/core-1.1.3.tgz#3085097b57a4ea8db5528d58673f20ce0950f6a4"
   integrity sha512-8tInBftak8TPzE6X13ABmEtRJGjtK17w7VUs7qV17S8hCO5S3+aUTWZ/DBsBJPdE8Z5jOPwYALyvofgq1Ws+kg==
@@ -4735,6 +4813,13 @@ axios@0.19.0, axios@^0.19.0:
   dependencies:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
+
+axios@0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
+  integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
+  dependencies:
+    follow-redirects "1.5.10"
 
 axobject-query@^2.0.2:
   version "2.0.2"
@@ -6573,6 +6658,15 @@ connected-react-router@6.5.2:
     prop-types "^15.7.2"
     seamless-immutable "^7.1.3"
 
+connected-react-router@6.6.1:
+  version "6.6.1"
+  resolved "https://registry.yarnpkg.com/connected-react-router/-/connected-react-router-6.6.1.tgz#f6b7717abf959393fab6756c8d43af1a57d622da"
+  integrity sha512-a/SE3HgpZABCxr083bfAMpgZwUzlv1RkmOV71+D4I77edoR/peg7uJMHOgqWnXXqGD7lo3Y2ZgUlXtMhcv8FeA==
+  dependencies:
+    immutable "^3.8.1"
+    prop-types "^15.7.2"
+    seamless-immutable "^7.1.3"
+
 console-browserify@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/console-browserify/-/console-browserify-1.2.0.tgz#67063cef57ceb6cf4993a2ab3a55840ae8c49336"
@@ -7301,6 +7395,11 @@ dayjs@1.8.16:
   version "1.8.16"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.16.tgz#2a3771de537255191b947957af2fd90012e71e64"
   integrity sha512-XPmqzWz/EJiaRHjBqSJ2s6hE/BUoCIHKgdS2QPtTQtKcS9E4/Qn0WomoH1lXanWCzri+g7zPcuNV4aTZ8PMORQ==
+
+dayjs@1.8.19:
+  version "1.8.19"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.19.tgz#5117dc390d8f8e586d53891dbff3fa308f51abfe"
+  integrity sha512-7kqOoj3oQSmqbvtvGFLU5iYqies+SqUiEGNT0UtUPPxcPYgY1BrkXR0Cq2R9HYSimBXN+xHkEN4Hi399W+Ovlg==
 
 debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -14523,7 +14622,7 @@ modify-values@^1.0.0:
   resolved "https://registry.yarnpkg.com/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
   integrity sha512-xV2bxeN6F7oYjZWTe/YPAy6MN2M+sL4u/Rlm2AHCIVGfo2p1yGmBHQ6vHehl4bRTZBdHu3TSkWdYgkwpYzAGSw==
 
-moment-timezone@^0.5.26:
+moment-timezone@^0.5.26, moment-timezone@^0.5.27:
   version "0.5.27"
   resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.27.tgz#73adec8139b6fe30452e78f210f27b1f346b8877"
   integrity sha512-EIKQs7h5sAsjhPCqN6ggx6cEbs94GK050254TIJySD1bzoM5JTYDwAU1IoVOeTOL6Gm27kYJ51/uuvq1kIlrbw==
@@ -17315,7 +17414,7 @@ react-hot-loader@4.12.15:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-hot-loader@^4.12.18:
+react-hot-loader@4.12.18, react-hot-loader@^4.12.18:
   version "4.12.18"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.18.tgz#a9029e34af2690d76208f9a35189d73c2dfea6a7"
   integrity sha512-qYD0Qi9lIbg9jLyfmodfqvAQqCBsoPKxAhca8Nxvy2/2pO5Q9r2kM28jN0bbbSnhwK8dJ7FjsfVtXKOxMW+bqw==
@@ -17452,6 +17551,18 @@ react-redux@7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.1.1.tgz#ce6eee1b734a7a76e0788b3309bf78ff6b34fa0a"
   integrity sha512-QsW0vcmVVdNQzEkrgzh2W3Ksvr8cqpAv5FhEk7tNEft+5pp7rXxAudTz3VOPawRkLIepItpkEIyLcN/VVXzjTg==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    hoist-non-react-statics "^3.3.0"
+    invariant "^2.2.4"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^16.9.0"
+
+react-redux@7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.1.3.tgz#717a3d7bbe3a1b2d535c94885ce04cdc5a33fc79"
+  integrity sha512-uI1wca+ECG9RoVkWQFF4jDMqmaw0/qnvaSvOoL/GA4dNxf6LoV8sUAcNDvE5NWKs4hFpn0t6wswNQnY3f7HT3w==
   dependencies:
     "@babel/runtime" "^7.5.5"
     hoist-non-react-statics "^3.3.0"
@@ -17893,6 +18004,13 @@ redux-saga@1.1.1:
   dependencies:
     "@redux-saga/core" "^1.1.1"
 
+redux-saga@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/redux-saga/-/redux-saga-1.1.3.tgz#9f3e6aebd3c994bbc0f6901a625f9a42b51d1112"
+  integrity sha512-RkSn/z0mwaSa5/xH/hQLo8gNf4tlvT18qXDNvedihLcfzh+jMchDgaariQoehCpgRltEm4zHKJyINEz6aqswTw==
+  dependencies:
+    "@redux-saga/core" "^1.1.3"
+
 redux-thunk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.3.0.tgz#51c2c19a185ed5187aaa9a2d08b666d0d6467622"
@@ -17902,6 +18020,14 @@ redux@4.0.4, redux@^4.0.0, redux@^4.0.1, redux@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
   integrity sha512-vKv4WdiJxOWKxK0yRoaK3Y4pxxB0ilzVx6dszU2W8wLxlb2yikRph4iV/ymtdJ6ZxpBLFbyrxklnT5yBbQSl3Q==
+  dependencies:
+    loose-envify "^1.4.0"
+    symbol-observable "^1.2.0"
+
+redux@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
+  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   dependencies:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
