@@ -17,7 +17,7 @@
     "@westegg/gatsby-theme-core": "^0.0.48",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-theme-casper": "^0.1.1",
-    "typescript": "3.7.4"
+    "typescript": "3.7.5"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.20"
