@@ -19,7 +19,7 @@
     "gatsby-theme-digital-garden": "0.2.3",
     "gatsby-theme-digital-garden-blog": "0.2.3",
     "gatsby-theme-digital-garden-portfolio": "0.2.3",
-    "theme-ui": "0.2.52"
+    "theme-ui": "0.3.0"
   },
   "devDependencies": {
     "@misk/prettier": "0.1.18"
