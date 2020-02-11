@@ -1840,17 +1840,6 @@
     classnames "^2.2"
     tslib "~1.9.0"
 
-"@blueprintjs/table@3.8.2":
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.8.2.tgz#0b21985720158e5279d598cdd61d052dc7c21bc7"
-  integrity sha512-resevLlvQVrFh/o3pvhh7UPi5N8dzBLV2YOWbsJ5t7AfdENHyeEkRaS5lXs36FXEV+8upoVT/rfDINNAINaPmQ==
-  dependencies:
-    "@blueprintjs/core" "^3.20.0"
-    classnames "^2.2"
-    prop-types "^15.6.0"
-    react-lifecycles-compat "^3.0.4"
-    tslib "~1.9.0"
-
 "@blueprintjs/table@3.8.3":
   version "3.8.3"
   resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.8.3.tgz#b46308ff154b74c92b8f4e0815b9a257dcb5eb92"
@@ -3337,44 +3326,6 @@
   resolved "https://registry.yarnpkg.com/@mikaelkristiansson/domready/-/domready-1.0.9.tgz#b2b85d8ac7bb2797e577050b61aeaf1b26fbd906"
   integrity sha512-FOAjeRHULSWXd6JMuCDwf3zPbe11kP971+Bufrj9M8rQ33ZMtThgKd6IJgzj6tr/+1Rq3czzLI1LAa9x0IC92w==
 
-"@misk/common@0.1.24":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.24.tgz#afe1cad2e0fee52a893e6fe3b059bf97aa272ba5"
-  integrity sha512-6xOM0pbMqt+H4pHYEadPIV4ZmAk9OtKnmOD7Dpjm+Xv/wWrewN6weE17TCYdToan22ZfZSItRY6pJuSjkCac0w==
-  dependencies:
-    "@blueprintjs/core" "3.19.1"
-    "@blueprintjs/datetime" "3.13.0"
-    "@blueprintjs/icons" "3.13.0"
-    "@blueprintjs/select" "3.11.2"
-    "@blueprintjs/table" "3.8.2"
-    "@blueprintjs/timezone" "3.6.1"
-    "@emotion/core" "10.0.22"
-    "@emotion/styled" "10.0.23"
-    "@redux-saga/core" "1.1.3"
-    axios "0.19.1"
-    connected-react-router "6.6.1"
-    dayjs "1.8.19"
-    enum-utils "1.0.0"
-    history "4.10.1"
-    http-method-enum "1.0.0"
-    immutable "4.0.0-rc.12"
-    lodash "4.17.15"
-    re-reselect "3.4.0"
-    react "16.12.0"
-    react-dom "16.12.0"
-    react-helmet "5.2.1"
-    react-hot-loader "4.12.18"
-    react-redux "7.1.3"
-    react-router "5.1.2"
-    react-router-dom "5.1.2"
-    react-transition-group "4.3.0"
-    redux "4.0.5"
-    redux-saga "1.1.3"
-    reselect "4.0.0"
-    skeleton-css "2.0.4"
-    status-code-enum "1.0.0"
-    styled-components "4.4.1"
-
 "@misk/common@0.1.25":
   version "0.1.25"
   resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.25.tgz#d764ac7b177771b885b1349977f68254ac2491f3"
@@ -3413,25 +3364,25 @@
     status-code-enum "1.0.0"
     styled-components "4.4.1"
 
-"@misk/core@0.1.24":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.24.tgz#bb83df710ba7e44fa2607656771ee376feb8e68b"
-  integrity sha512-jBaevILtOPJRtMiokn2fUB+E+Q2Uldl/wFZtqHiCHwE3ObYu7lM7AQKxcjP/ChVc7LjVx7/V9X2LM0jVUqoUnw==
+"@misk/core@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@misk/core/-/core-0.1.25.tgz#b46bd8a1588d5c81cb55dc1d5b8957b3ec7624b0"
+  integrity sha512-U/VFQEmM+n8aJa6jXZFqhPw59mmKDg6EQXQvqPBi0eSGyPKdk55a4g/cxQ59d0dgN+GwXZb/lrDpdbtkaFJOJw==
   dependencies:
     "@blueprintjs/core" "3.19.1"
     "@blueprintjs/datetime" "3.13.0"
     "@blueprintjs/icons" "3.13.0"
     "@blueprintjs/select" "3.11.2"
-    "@blueprintjs/table" "3.8.2"
+    "@blueprintjs/table" "3.8.3"
     "@blueprintjs/timezone" "3.6.1"
     "@emotion/core" "10.0.22"
     "@emotion/styled" "10.0.23"
-    "@misk/common" "0.1.24"
-    "@misk/simpleredux" "0.1.24"
+    "@misk/common" "0.1.25"
+    "@misk/simpleredux" "0.1.25"
     "@redux-saga/core" "1.1.3"
-    axios "0.19.1"
+    axios "0.19.2"
     connected-react-router "6.6.1"
-    dayjs "1.8.19"
+    dayjs "1.8.20"
     enum-utils "1.0.0"
     history "4.10.1"
     http-method-enum "1.0.0"
@@ -3441,7 +3392,7 @@
     react "16.12.0"
     react-dom "16.12.0"
     react-helmet "5.2.1"
-    react-hot-loader "4.12.18"
+    react-hot-loader "4.12.19"
     react-redux "7.1.3"
     react-router "5.1.2"
     react-router-dom "5.1.2"
@@ -3466,22 +3417,22 @@
   dependencies:
     prettier "1.18.2"
 
-"@misk/simpleredux@0.1.24":
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.24.tgz#1be1a183c58adc418737dc3c83f168f876936fb2"
-  integrity sha512-Ho3JyS6Lm2irWQmoYm0GxbSCau64ArDvrueozDwOuSS6bFY72Ij52b9O4A8g1CbQU15kRyR1kSkW8zSWEn29Xg==
+"@misk/simpleredux@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@misk/simpleredux/-/simpleredux-0.1.25.tgz#89f32d09d8fc23a95c4200078398ea2f8939761e"
+  integrity sha512-lcGIJYipjPiR/HaLgn+WUXD69Ul/9gpsglxWbdrTpVTeC1WFH5VYnycvk96tmho1KYVXSafDpNDDpbpoZgUY9A==
   dependencies:
     "@blueprintjs/core" "3.19.1"
     "@blueprintjs/datetime" "3.13.0"
     "@blueprintjs/icons" "3.13.0"
     "@blueprintjs/select" "3.11.2"
-    "@blueprintjs/table" "3.8.2"
+    "@blueprintjs/table" "3.8.3"
     "@blueprintjs/timezone" "3.6.1"
-    "@misk/common" "0.1.24"
+    "@misk/common" "0.1.25"
     "@redux-saga/core" "1.1.3"
-    axios "0.19.1"
+    axios "0.19.2"
     connected-react-router "6.6.1"
-    dayjs "1.8.19"
+    dayjs "1.8.20"
     enum-utils "1.0.0"
     history "4.10.1"
     http-method-enum "1.0.0"
@@ -3491,7 +3442,7 @@
     react "16.12.0"
     react-dom "16.12.0"
     react-helmet "5.2.1"
-    react-hot-loader "4.12.18"
+    react-hot-loader "4.12.19"
     react-redux "7.1.3"
     react-router "5.1.2"
     react-router-dom "5.1.2"
@@ -5001,13 +4952,6 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
-
-axios@0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
-  integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
-  dependencies:
-    follow-redirects "1.5.10"
 
 axios@0.19.2:
   version "0.19.2"
@@ -7584,11 +7528,6 @@ dateformat@^3.0.0:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
   integrity sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==
-
-dayjs@1.8.19:
-  version "1.8.19"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.19.tgz#5117dc390d8f8e586d53891dbff3fa308f51abfe"
-  integrity sha512-7kqOoj3oQSmqbvtvGFLU5iYqies+SqUiEGNT0UtUPPxcPYgY1BrkXR0Cq2R9HYSimBXN+xHkEN4Hi399W+Ovlg==
 
 dayjs@1.8.20:
   version "1.8.20"
@@ -17621,10 +17560,10 @@ react-helmet@^6.0.0-beta:
     react-fast-compare "^2.0.2"
     react-side-effect "^1.1.0"
 
-react-hot-loader@4.12.18, react-hot-loader@^4.12.18:
-  version "4.12.18"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.18.tgz#a9029e34af2690d76208f9a35189d73c2dfea6a7"
-  integrity sha512-qYD0Qi9lIbg9jLyfmodfqvAQqCBsoPKxAhca8Nxvy2/2pO5Q9r2kM28jN0bbbSnhwK8dJ7FjsfVtXKOxMW+bqw==
+react-hot-loader@4.12.19:
+  version "4.12.19"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.19.tgz#99a1c763352828f404fa51cd887c5e16bb5b74d1"
+  integrity sha512-p8AnA4QE2GtrvkdmqnKrEiijtVlqdTIDCHZOwItkI9kW51bt5XnQ/4Anz8giiWf9kqBpEQwsmnChDCAFBRyR/Q==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
@@ -17635,10 +17574,10 @@ react-hot-loader@4.12.18, react-hot-loader@^4.12.18:
     shallowequal "^1.1.0"
     source-map "^0.7.3"
 
-react-hot-loader@4.12.19:
-  version "4.12.19"
-  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.19.tgz#99a1c763352828f404fa51cd887c5e16bb5b74d1"
-  integrity sha512-p8AnA4QE2GtrvkdmqnKrEiijtVlqdTIDCHZOwItkI9kW51bt5XnQ/4Anz8giiWf9kqBpEQwsmnChDCAFBRyR/Q==
+react-hot-loader@^4.12.18:
+  version "4.12.18"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.18.tgz#a9029e34af2690d76208f9a35189d73c2dfea6a7"
+  integrity sha512-qYD0Qi9lIbg9jLyfmodfqvAQqCBsoPKxAhca8Nxvy2/2pO5Q9r2kM28jN0bbbSnhwK8dJ7FjsfVtXKOxMW+bqw==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
