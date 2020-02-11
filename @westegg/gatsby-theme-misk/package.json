@@ -16,7 +16,7 @@
   "dependencies": {
     "@blueprintjs/core": "3.23.1",
     "@emotion/core": "10.0.27",
-    "@misk/common": "0.1.24",
+    "@misk/common": "0.1.25",
     "@misk/core": "0.1.24",
     "@westegg/gatsby-theme-digital-garden": "^0.0.48",
     "gatsby": "2.19.5",

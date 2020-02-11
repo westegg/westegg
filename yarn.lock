@@ -1754,7 +1754,7 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.9.0"
 
-"@blueprintjs/core@3.23.1":
+"@blueprintjs/core@3.23.1", "@blueprintjs/core@^3.23.1":
   version "3.23.1"
   resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.23.1.tgz#346bd5430494cc2965fa9cac7366dc94c9dcf918"
   integrity sha512-Lh+uCYAf2a54L739/NntMKUHkMoCintbs/NidX1j950KL0GW0J95niFqmN2B3oV/uJdXsPjZKj6VyOBlI+tUIA==
@@ -1846,6 +1846,17 @@
   integrity sha512-resevLlvQVrFh/o3pvhh7UPi5N8dzBLV2YOWbsJ5t7AfdENHyeEkRaS5lXs36FXEV+8upoVT/rfDINNAINaPmQ==
   dependencies:
     "@blueprintjs/core" "^3.20.0"
+    classnames "^2.2"
+    prop-types "^15.6.0"
+    react-lifecycles-compat "^3.0.4"
+    tslib "~1.9.0"
+
+"@blueprintjs/table@3.8.3":
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/table/-/table-3.8.3.tgz#b46308ff154b74c92b8f4e0815b9a257dcb5eb92"
+  integrity sha512-ppyXy/8USvTe+HHl6VGJk+GqJalwzutTJNAiZMgpTJh8UglH8/245IpDpIlAYlyNW98RhMtloB+5UuBWHpxmhA==
+  dependencies:
+    "@blueprintjs/core" "^3.23.1"
     classnames "^2.2"
     prop-types "^15.6.0"
     react-lifecycles-compat "^3.0.4"
@@ -3353,6 +3364,44 @@
     react-dom "16.12.0"
     react-helmet "5.2.1"
     react-hot-loader "4.12.18"
+    react-redux "7.1.3"
+    react-router "5.1.2"
+    react-router-dom "5.1.2"
+    react-transition-group "4.3.0"
+    redux "4.0.5"
+    redux-saga "1.1.3"
+    reselect "4.0.0"
+    skeleton-css "2.0.4"
+    status-code-enum "1.0.0"
+    styled-components "4.4.1"
+
+"@misk/common@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@misk/common/-/common-0.1.25.tgz#d764ac7b177771b885b1349977f68254ac2491f3"
+  integrity sha512-/1aKIY+m4lacSNfs/7y/bPktOg+F7Rn5pnCBdQF2gFAwGbeE+ErQgbpUX9+rK0174CJMzYMYQGwPXcjiHlFV4Q==
+  dependencies:
+    "@blueprintjs/core" "3.19.1"
+    "@blueprintjs/datetime" "3.13.0"
+    "@blueprintjs/icons" "3.13.0"
+    "@blueprintjs/select" "3.11.2"
+    "@blueprintjs/table" "3.8.3"
+    "@blueprintjs/timezone" "3.6.1"
+    "@emotion/core" "10.0.22"
+    "@emotion/styled" "10.0.23"
+    "@redux-saga/core" "1.1.3"
+    axios "0.19.2"
+    connected-react-router "6.6.1"
+    dayjs "1.8.20"
+    enum-utils "1.0.0"
+    history "4.10.1"
+    http-method-enum "1.0.0"
+    immutable "4.0.0-rc.12"
+    lodash "4.17.15"
+    re-reselect "3.4.0"
+    react "16.12.0"
+    react-dom "16.12.0"
+    react-helmet "5.2.1"
+    react-hot-loader "4.12.19"
     react-redux "7.1.3"
     react-router "5.1.2"
     react-router-dom "5.1.2"
@@ -4957,6 +5006,13 @@ axios@0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
   integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
+  dependencies:
+    follow-redirects "1.5.10"
+
+axios@0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
 
@@ -7533,6 +7589,11 @@ dayjs@1.8.19:
   version "1.8.19"
   resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.19.tgz#5117dc390d8f8e586d53891dbff3fa308f51abfe"
   integrity sha512-7kqOoj3oQSmqbvtvGFLU5iYqies+SqUiEGNT0UtUPPxcPYgY1BrkXR0Cq2R9HYSimBXN+xHkEN4Hi399W+Ovlg==
+
+dayjs@1.8.20:
+  version "1.8.20"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.8.20.tgz#724a5cb6ad1f6fc066b0bd9a800dedcc7886f19e"
+  integrity sha512-mH0MCDxw6UCGJYxVN78h8ugWycZAO8thkj3bW6vApL5tS0hQplIDdAQcmbvl7n35H0AKdCJQaArTrIQw2xt4Qg==
 
 debug@2, debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8, debug@^2.6.9:
   version "2.6.9"
@@ -17564,6 +17625,20 @@ react-hot-loader@4.12.18, react-hot-loader@^4.12.18:
   version "4.12.18"
   resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.18.tgz#a9029e34af2690d76208f9a35189d73c2dfea6a7"
   integrity sha512-qYD0Qi9lIbg9jLyfmodfqvAQqCBsoPKxAhca8Nxvy2/2pO5Q9r2kM28jN0bbbSnhwK8dJ7FjsfVtXKOxMW+bqw==
+  dependencies:
+    fast-levenshtein "^2.0.6"
+    global "^4.3.0"
+    hoist-non-react-statics "^3.3.0"
+    loader-utils "^1.1.0"
+    prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.1.0"
+    source-map "^0.7.3"
+
+react-hot-loader@4.12.19:
+  version "4.12.19"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.19.tgz#99a1c763352828f404fa51cd887c5e16bb5b74d1"
+  integrity sha512-p8AnA4QE2GtrvkdmqnKrEiijtVlqdTIDCHZOwItkI9kW51bt5XnQ/4Anz8giiWf9kqBpEQwsmnChDCAFBRyR/Q==
   dependencies:
     fast-levenshtein "^2.0.6"
     global "^4.3.0"
