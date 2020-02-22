@@ -39,7 +39,7 @@
     "gatsby-source-filesystem": "2.1.48",
     "gatsby-transformer-remark": "2.6.53",
     "gatsby-transformer-sharp": "2.3.14",
-    "netlify-cms-app": "2.11.21",
+    "netlify-cms-app": "2.11.22",
     "prismjs": "1.19.0",
     "react-helmet": "6.0.0-beta.2",
     "rehype-autolink-headings": "^2.0.5",
