@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@westegg/gatsby-theme-jasper": "*",
-    "gatsby": "2.19.23",
+    "gatsby": "2.19.24",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   },
