@@ -50,7 +50,7 @@
     "theme-ui": "0.3.1"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.18"
+    "@misk/prettier": "0.1.25"
   },
   "prettier": "@misk/prettier",
   "keywords": [
