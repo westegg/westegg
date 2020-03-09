@@ -3443,19 +3443,12 @@
     skeleton-css "2.0.4"
     status-code-enum "1.0.0"
 
-"@misk/prettier@0.1.18":
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.18.tgz#d52b8aa807c89775dc642a203fa200c9826f4bff"
-  integrity sha512-NtjdA93dBHCMq4tSIMKdJbgf0Xcetr7Pl0LUOhMBjlY/lVVH9TEDwJJW5U0MKfgYPhf8mMGqvqGsFADDqcVc6Q==
+"@misk/prettier@0.1.25":
+  version "0.1.25"
+  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.25.tgz#3dbb9039834d4ec18f40b9796c3af16cd3bb422d"
+  integrity sha512-OfHyuanBXln7RtSTxB8xkNEtdNPwA8AO1ex5Nqsq1aIDFkgIDhCTJHC5OdsTkiM5fDN0/tkTtjUi4VeBbxMNjQ==
   dependencies:
-    prettier "1.18.2"
-
-"@misk/prettier@0.1.20":
-  version "0.1.20"
-  resolved "https://registry.yarnpkg.com/@misk/prettier/-/prettier-0.1.20.tgz#e3ea8d03ddec16d4143722fbc011c84c4d9d16e6"
-  integrity sha512-RaAdbX2piCMlFoY71TjxJoI4rO1jifcHLwqMYprhOvxANvHBq02NRtSaBjGVukAZAUNMTkvVWyRRrZM6z7k1Ug==
-  dependencies:
-    prettier "1.18.2"
+    prettier "1.19.1"
 
 "@misk/simpleredux@0.1.25":
   version "0.1.25"
@@ -17213,10 +17206,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-prettier@1.18.2:
-  version "1.18.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz#6823e7c5900017b4bd3acf46fe9ac4b4d7bda9ea"
-  integrity sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw==
+prettier@1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
 
 pretty-bytes@^4.0.2:
   version "4.0.2"

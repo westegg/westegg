@@ -20,7 +20,7 @@
     "typescript": "3.8.3"
   },
   "devDependencies": {
-    "@misk/prettier": "0.1.20"
+    "@misk/prettier": "0.1.25"
   },
   "prettier": "@misk/prettier",
   "keywords": [
