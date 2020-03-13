@@ -12,7 +12,7 @@
   "dependencies": {
     "@westegg/gatsby-theme-core": "0.0.48",
     "@westegg/gatsby-theme-digital-garden": "0.0.48",
-    "gatsby": "2.19.41",
+    "gatsby": "2.19.43",
     "react": "16.13.0",
     "react-dom": "16.13.0"
   }
