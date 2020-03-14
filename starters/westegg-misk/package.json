@@ -13,5 +13,6 @@
     "gatsby": "2.19.43",
     "react": "16.13.0",
     "react-dom": "16.13.0"
-  }
+  },
+  "starter-name": "gatsby-starter-westegg-misk"
 }

@@ -11,7 +11,7 @@ action "master" {
 action "johno/actions-push-subdirectories@master" {
   uses = "johno/actions-push-subdirectories@master"
   needs = ["master"]
-  args = "starters westegg"
+  args = "starters westegg starter-name"
   secrets = ["API_TOKEN_GITHUB"]
 }
 

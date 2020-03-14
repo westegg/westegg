@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "@misk/prettier": "0.1.25"
-  }
+  },
+  "starter-name": "gatsby-starter-westegg-jasper"
 }
