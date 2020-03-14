@@ -16,6 +16,7 @@ module.exports = options => {
     mdxLayouts = {
       default: require.resolve("./src/components/layout")
     },
+    mdxShowToc = true,
     notes = "notes",
     notesPath = "/notes",
     posts,
@@ -36,7 +37,8 @@ module.exports = options => {
       resolve: "@westegg/gatsby-theme-core",
       options: {
         mdx,
-        mdxLayouts
+        mdxLayouts,
+        mdxShowToc
       }
     })
 
