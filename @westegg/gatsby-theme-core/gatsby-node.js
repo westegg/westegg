@@ -1,5 +1,5 @@
-const fs = require('fs-extra')
-const path = require('path')
+const fs = require("fs-extra")
+const path = require("path")
 
 /**
  * Check that the folders used by source-filesystem plugin exist.
@@ -9,8 +9,8 @@ exports.onPreBootstrap = ({ store, reporter }) => {
   const { program } = store.getState()
 
   const dirs = [
-    path.join(program.directory, 'pages'),
-    path.join(program.directory, 'static/img')
+    path.join(program.directory, "pages"),
+    path.join(program.directory, "static/img")
   ]
 
   dirs.forEach(dir => {

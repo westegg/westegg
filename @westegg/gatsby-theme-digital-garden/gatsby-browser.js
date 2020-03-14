@@ -1,1 +1,1 @@
-import './src/styles/highlight.js.css'
+import "./src/styles/highlight.js.css"

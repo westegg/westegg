@@ -2,27 +2,27 @@ module.exports = options => {
   const {
     header = {
       home: {
-        href: '/',
-        label: 'Westegg Misk'
+        href: "/",
+        label: "Westegg Misk"
       },
       links: [
         {
-          href: '/notes',
-          label: 'Themes',
-          category: 'Primary'
+          href: "/notes",
+          label: "Themes",
+          category: "Primary"
         }
       ]
     },
     mdx = true,
     mdxLayouts,
-    notes = 'notes',
-    notesPath = '/notes',
+    notes = "notes",
+    notesPath = "/notes",
     posts,
     postsPath,
     projects,
     projectsPath,
     siteMetadata = {
-      title: 'Westegg Misk'
+      title: "Westegg Misk"
     }
   } = options
 
@@ -32,7 +32,7 @@ module.exports = options => {
    * Gatsby Themes
    */
   plugins.push({
-    resolve: '@westegg/gatsby-theme-digital-garden',
+    resolve: "@westegg/gatsby-theme-digital-garden",
     options: {
       header,
       mdx,

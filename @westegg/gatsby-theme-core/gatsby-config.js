@@ -1,23 +1,24 @@
-const fs = require('fs')
-const path = require('path')
+const fs = require("fs")
+const path = require("path")
 
 module.exports = options => {
   const {
     mdx = false,
     mdxLayouts = {},
     mdxShowToc = true,
+    matomoConfig = {},
     siteMetadata = {
-      title: 'Westegg Core'
+      title: "Westegg Core"
     }
   } = options
 
   const plugins = [
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: 'gatsby-source-filesystem',
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: 'static/img',
-        name: 'uploads'
+        path: "static/img",
+        name: "uploads"
       }
     },
     {
@@ -26,20 +27,20 @@ module.exports = options => {
         path: path.resolve(`pages`)
       }
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
+            resolve: "gatsby-remark-relative-images",
             options: {
-              name: 'uploads'
+              name: "uploads"
             }
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -48,19 +49,19 @@ module.exports = options => {
             }
           },
           {
-            resolve: 'gatsby-remark-copy-linked-files',
+            resolve: "gatsby-remark-copy-linked-files",
             options: {
-              destinationDir: 'static'
+              destinationDir: "static"
             }
           }
         ]
       }
     },
-    'gatsby-plugin-emotion',
-    'gatsby-plugin-theme-ui',
-    'gatsby-plugin-offline',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-redirects'
+    "gatsby-plugin-emotion",
+    "gatsby-plugin-theme-ui",
+    "gatsby-plugin-offline",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-redirects"
   ]
 
   /**
@@ -68,7 +69,7 @@ module.exports = options => {
    */
   if (mdx && Object.keys(mdxLayouts).length > 0) {
     plugins.push({
-      resolve: 'gatsby-plugin-mdx',
+      resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [`.md`, `.mdx`],
         defaultLayouts: {
@@ -77,7 +78,7 @@ module.exports = options => {
         gatsbyRemarkPlugins: [
           {
             // TODO this doesn't work. Waiting on https://github.com/gatsbyjs/gatsby/issues/16242
-            resolve: 'gatsby-remark-images',
+            resolve: "gatsby-remark-images",
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
@@ -87,43 +88,32 @@ module.exports = options => {
           }
         ],
         rehypePlugins: [
-          require('rehype-autolink-headings'),
-          require('rehype-highlight'),
-          require('rehype-slug')
-        ].concat((mdxShowToc && [require('rehype-toc')]) || [])
+          require("rehype-autolink-headings"),
+          require("rehype-highlight"),
+          require("rehype-slug")
+        ].concat((mdxShowToc && [require("rehype-toc")]) || [])
       }
     })
   }
 
   /**
-   * Google Analytics
+   * Matomo Analytics
    */
-  const gaBase = {
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      anonymize: true
-    }
-  }
-
-  if (typeof analytics === 'string') {
+  if (Object.keys(matomoConfig).length > 0) {
     plugins.push({
-      ...gaBase,
+      resolve: "gatsby-plugin-matomo",
       options: {
-        ...gaBase.options,
-        trackingId: analytics
-      }
-    })
-  }
-
-  if (
-    typeof analytics === 'object' &&
-    typeof analytics.trackingId === 'string'
-  ) {
-    plugins.push({
-      ...gaBase,
-      options: {
-        ...gaBase.options,
-        ...analytics
+        ...matomoConfig
+        // siteId: "YOUR_SITE_ID",
+        // matomoUrl: "https://YOUR_MATOMO_URL.COM",
+        // siteUrl: "https://YOUR_LIVE_SITE_URL.COM",
+        // // All the optional settings
+        // exclude: ["/offline-plugin-app-shell-fallback/"],
+        // requireConsent: false,
+        // disableCookies: false,
+        // cookieDomain: "*.example.org",
+        // localScript: "/piwik.js",
+        // dev: false
       }
     })
   }
@@ -131,9 +121,9 @@ module.exports = options => {
   /**
    * Netlify CMS
    */
-  if (fs.existsSync('./static/admin/config.yml')) {
-    plugins.push('gatsby-plugin-netlify-cms')
-    plugins.push('gatsby-plugin-netlify')
+  if (fs.existsSync("./static/admin/config.yml")) {
+    plugins.push("gatsby-plugin-netlify-cms")
+    plugins.push("gatsby-plugin-netlify")
   }
 
   return {

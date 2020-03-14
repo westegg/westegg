@@ -2,28 +2,28 @@ module.exports = options => {
   const {
     header = {
       home: {
-        href: '/',
-        label: 'Westegg Digital Garden'
+        href: "/",
+        label: "Westegg Digital Garden"
       },
       links: [
         {
-          href: '/notes',
-          label: 'Themes'
+          href: "/notes",
+          label: "Themes"
         }
       ]
     },
     mdx = true,
     mdxLayouts = {
-      default: require.resolve('./src/components/layout')
+      default: require.resolve("./src/components/layout")
     },
-    notes = 'notes',
-    notesPath = '/notes',
+    notes = "notes",
+    notesPath = "/notes",
     posts,
     postsPath,
     projects,
     projectsPath,
     siteMetadata = {
-      title: 'Westegg Digital Garden'
+      title: "Westegg Digital Garden"
     }
   } = options
 
@@ -33,7 +33,7 @@ module.exports = options => {
    */
   mdx &&
     plugins.push({
-      resolve: '@westegg/gatsby-theme-core',
+      resolve: "@westegg/gatsby-theme-core",
       options: {
         mdx,
         mdxLayouts
@@ -41,7 +41,7 @@ module.exports = options => {
     })
 
   plugins.push({
-    resolve: 'gatsby-theme-digital-garden',
+    resolve: "gatsby-theme-digital-garden",
     options: {
       header,
       mdx: !mdx,
@@ -51,9 +51,9 @@ module.exports = options => {
     }
   })
 
-  if (typeof posts === 'string' || typeof postsPath === 'string') {
+  if (typeof posts === "string" || typeof postsPath === "string") {
     plugins.push({
-      resolve: 'gatsby-theme-digital-garden-blog',
+      resolve: "gatsby-theme-digital-garden-blog",
       options: {
         posts,
         postsPath
@@ -61,9 +61,9 @@ module.exports = options => {
     })
   }
 
-  if (typeof projects === 'string' || typeof projectsPath === 'string') {
+  if (typeof projects === "string" || typeof projectsPath === "string") {
     plugins.push({
-      resolve: 'gatsby-theme-digital-garden-portfolio',
+      resolve: "gatsby-theme-digital-garden-portfolio",
       options: {
         projects,
         projectsPath

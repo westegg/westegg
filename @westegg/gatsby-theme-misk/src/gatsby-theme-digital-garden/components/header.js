@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { css, jsx } from '@emotion/core'
-import { Navbar } from '@misk/core'
-import { Link } from 'gatsby'
-import React from 'react'
+import { css, jsx } from "@emotion/core"
+import { Navbar } from "@misk/core"
+import { Link } from "gatsby"
+import React from "react"
 
 const asTabLinks = links =>
   links.map(({ category, href, label }) => ({
@@ -16,7 +16,7 @@ export default props => {
   const { home, links } = props
   const tabLinks = asTabLinks(links)
 
-  if (typeof window !== 'undefined') {
+  if (typeof window !== "undefined") {
     return (
       <Navbar
         css={css(`
