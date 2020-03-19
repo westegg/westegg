@@ -11,8 +11,8 @@
   "dependencies": {
     "@westegg/gatsby-theme-digital-garden": "*",
     "gatsby": "2.19.43",
-    "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "starter-name": "gatsby-starter-westegg-digital-garden"
 }
