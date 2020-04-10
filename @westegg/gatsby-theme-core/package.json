@@ -41,7 +41,7 @@
     "gatsby-transformer-sharp": "2.3.18",
     "netlify-cms-app": "2.11.29",
     "prismjs": "1.19.0",
-    "react-helmet": "6.0.0-beta.2",
+    "react-helmet": "6.0.0",
     "rehype-autolink-headings": "^2.0.5",
     "rehype-highlight": "^3.0.0",
     "rehype-slug": "^2.0.3",
