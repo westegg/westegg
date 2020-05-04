@@ -14,7 +14,7 @@
     "react-dom": "^16.9.0"
   },
   "dependencies": {
-    "@blueprintjs/core": "3.24.0",
+    "@blueprintjs/core": "3.26.1",
     "@emotion/core": "10.0.28",
     "@misk/common": "0.1.25",
     "@misk/core": "0.1.25",
